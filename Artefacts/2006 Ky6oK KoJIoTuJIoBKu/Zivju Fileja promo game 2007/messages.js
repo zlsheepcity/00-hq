@@ -1,0 +1,23 @@
+var message = new Array;
+message['maxRangeShoot'] = "С такого расстояния решается бить только лишь Бобёр из команды имантских бобров. ";
+message['goal!'] = "ГОЛ! ";
+message['firstHalfTimeEnd'] = "Конец первого периода. Команды как бы поменялись воротами и отдохнули. ";
+message['secondHalfTimeEnd'] = "Прозвучал финальный свисток. ";
+message['marshalPressing'] = "Чёрт! У вас отобрали мяч. ";
+message['marshalGoalback'] = "Противник разыграл мяч и ринулся в атаку. ";
+message['marshalCounter'] = "Воспользовавшись ситуацией противник начал контратаку. ";
+
+var report = new Array;
+report['startGame01'] = "1 болельщик не испугался жуткого мороза и пришёл на Arena-Basseins посмотреть футбол. Команда Fileja вышла на игру в количестве (гениальное решение тренера!) пяти полевых игроков. Играют: Камурис Тяхкавори - Супер Розе - Тот-самый Каменский, Мощный Деспот - Попеску Попеску, Красавчик Донской.<br /><br />";
+report['startGame02'] = "Тактическое построение команды Marshal 5-3-2. Играют:  Iglodi - Andrade, Zubov, Shakhrin, Dalderis, Uttergard - Sintra, Domenig, Back - Erpenbach, Diez.<br /><br />На этот матч команда Marshal выбрала тактику контратак. ";
+report['five-x-five01'] = 'На 1 минуте <span class="htplayer">Amadeo Raul Andrade</span> получил в темечко и был унесён с поля на носилках. На замену никто не вышел, ибо страшно. На 1 минуте <span class="htplayer">Konstantin Back</span> неудачно подскользнулся вывихнув копчик. ';
+report['five-x-five02'] = 'На 1 минуте игроки команды Marshal <span class="htplayer">Viljams Dalderis</span> и <span class="htplayer">Helder Sintra</span> начали рвать судью на части, успели получить по красной карточке и после разорвали судью на части. ';
+report['five-x-five03'] = 'На 1 минуте  <span class="htplayer">Jose Diez</span> из команды Marshal засцал. ';
+report['five-x-five04'] = "Ситуация на поле начала меняться, поскольку команды играют пять на пять, и вместо судьи на поле вышел вечно живой Рубен Гонсалес.<br /><br />";
+report['shootOnGoalFalse'] = ' ударил по воротам, но <span class="htplayer">' + MNames['0'] + '</span> выбрал правильную позицию. ';
+report['marshalCounterFalse'] = 'Игроки команды Marshal бросились в опасную контратаку, но защита хозяев сработала успешно. ';
+report['shootOnGoalTrue'] = ' обманул вратаря и пробил в дальний угол. Гол! ';
+report['scoreUpdate01'] = ' счёт становится <nobr>';
+report['scoreUpdate02'] = ' - 0</nobr> в пользу хозяев. ';
+report['afterGoalStart'] = '<span class="htplayer">' + MNames['2'] + '</span> начал атаку своей команды, но из-за безалаберности мяч был потерян. ';
+report['afterPressing'] = ' не сумел воспользоваться отобранным мячём и ударил выше ворот. ';

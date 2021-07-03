@@ -1,0 +1,74 @@
+<html>
+
+<head> 
+	<title>ZF-M</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+
+	<script type="text/javascript" src="settings.js"></script>
+	<script type="text/javascript" src="functions.js"></script>
+	<script type="text/javascript" src="interface.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+
+	<style type="text/css">
+		@import "game.css";
+	</style>	
+
+	<script type="text/javascript">
+		//
+		function action_movePlayers(){
+			face_clearField();
+			game_movePlayers();
+			face_drawTeam('1');
+			face_drawTeam('2');
+			face_drawBall();
+		}
+	</script>
+</head>
+<body onload="set_initVariables(); game_restartPlayers(); face_drawTeam('1'); face_drawTeam('2');">
+
+	<table id="Layout" style="width: 100%;">
+		<tr>
+			<td style="width:250px; vertical-align:top;">
+
+				<div style="width:250px;">
+					Время игры: <span id="Game_Timer">1</span>
+				</div>
+				<div>
+					Счёт на табло: <span id="Score_Z">0</span>:<span id="Score_M">0</span>
+				</div>
+			
+				<table class="gamefield" cellspacing="0" cellpadding="0" border="0">
+					<script type="text/javascript">document.write(face_drawGazon())</script>
+				</table>
+
+			
+
+				<br />
+				<input type="button" name="" value="Move" onclick="action_movePlayers();" /><br />
+				<div style="text-align: center; width: 200px;">
+					<input class="action_button" type="button" name="" value="Up" onclick="action_move('up');" /><br />
+					<input class="action_button" type="button" name="" value="Left" onclick="action_move('left');" /><input class="action_button" type="button" name="" value="Down" onclick="action_move('down');" /><input class="action_button" type="button" name="" value="Right" onclick="action_move('right');" />
+					<br /><br />
+					<input class="action_button" type="button" name="" value="Shoot" onclick="action_shoot();" />
+				</div>
+
+				<div id="Game_Rules">
+					Вы защищаете цвета славного клуба «Рыбное Филе». Но подлый и хитрый Стиг Хагер мешает вам выйти из группы в Кубке Колотиловки (Мамин Сибиряк).<br /><br />
+					Управляйте игроком с мячём или бейте по воротам с выгодной позиции. Голы лучше всего забиваются из штрафной. Пасы только короткие. Игроки без мяча и соперник хаотично бегают по полю. Но избегайте встреч с игроком соперника на одной клетке. Если у вас отберут мяч (а его отберут всегда) — маршалы получат шанс на контратаку.<br /><br />
+					Тестовая версия 0.9<br />
+					08.02.2007
+				</div>
+
+			</td>
+			<td style="width:100%; vertical-align:top;">
+				<div id="Report_Design">
+					<div id="Game_Report_TXT"></div>
+					<div id="Report_Backup_TXT" style="display: none;"></div>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+
+</body>
+</html>

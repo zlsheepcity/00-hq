@@ -1,0 +1,170 @@
+html, body { 
+margin:0; 
+padding:0;
+}
+
+body { 
+background:#FFF;
+color:#000;
+
+font-size:82%; /* Base: 13px */
+font-family:'Microsoft Sans Serif', tahoma, arial, sans-serif;
+}
+
+
+/* HTML ELEMENTS ------------------------------------ */
+
+* { margin:0; }
+
+h2 {
+	font-size:1.5em;
+	font-weight:normal;
+}
+
+a, a:link {
+color:#00F;
+text-decoration:underline;
+}
+
+p {
+padding:0 0 1.5em 0;
+}
+
+table {
+border:0px;
+border-collapse:collapse; /* border-collapse:separate; */
+}
+table td {
+padding:0px;
+}
+
+input {
+vertical-align:middle;
+}
+
+hr { display:none; }
+
+ul { padding-left:1.5em; }
+
+
+/* SPECIAL ELEMENTS ------------------------------------ */
+
+.textsmall  { font-size:0.9em; }
+.textsmall2 { font-size:0.85em; }
+.textsmall3 { font-size:0.79em; }
+.textbig    { font-size:1.1em; }
+.textbig2   { font-size:1.15em; }
+
+.textblack { color:#000; }
+.textgray  { color:#7C7C7C; }
+.textred   { color:#F00; }
+
+.taghidden { display:none; }
+
+/* TABLES */
+
+.Games_View {
+border:#369 8px solid;
+border-top-width:4px;
+padding:0px;
+float:left;
+clear:left;
+margin:0 0 1em 0;
+background:url('../duel.jpg') 50% 0 no-repeat #FFF;
+}
+.Games_View  h3 {
+margin:0 0 8px 0;
+font-size:1em;
+font-weight:bold;
+background:#369;
+padding:2px;
+color:#FFF;
+border-bottom:1px #99C solid;
+white-space:nowrap;
+}
+.Games_View table.games td, .Games_View table.games th {
+border:0;
+}
+.Games_View p {
+font-size:12px;
+text-align:center;
+color:#666;
+padding-bottom:10px;
+width:100%;
+}
+
+table.games { 
+margin-bottom:1em; 
+border: 0px;
+border-collapse: collapse;
+}
+table.games th {
+text-align:left;
+font-size:12px;
+font-weight:bold;
+border-bottom:#CCC 2px solid;
+padding:2px;
+}
+table.games td {
+font-size:11px;
+border-bottom:#CCC 1px solid;
+padding:4px 2px;
+}
+table.games td.link {
+font-size:10px;
+width:75px;
+}
+table.games td.team { width:150px; }
+table.games td.home { text-align:right; }
+table.games td.guest { text-align:left; }
+table.games td.winner { font-weight:bold; }
+table.games td.result {
+width:50px;
+text-align:center;
+}
+
+
+.Groups_Table {
+background:#FF0; 
+width:400px;
+margin-bottom:1.5em;
+/* 
+padding:0 2em 1em 2em; 
+border:#CCC 8px solid; 
+border-left:0;border-right:0;
+ */
+}
+.Groups_Table h2 { background:#FFF; }
+.Groups_Table p { background:#FFF; padding:0; font-size:11px; color:#999; }
+.Groups_Table table { 
+margin: 0 4px 1.5em 4px; 
+border: 0px;
+border-collapse: collapse;
+}
+.Groups_Table table th { 
+font-size:11px;
+font-weight:bold;
+padding:2px;
+text-align:center;
+border-bottom:#DD0 1px solid;
+}
+.Groups_Table table td { 
+border-bottom:#DD0 1px solid;
+font-size:11px;
+padding:2px;
+width:20px;
+text-align:center;
+white-space:nowrap;
+}
+
+.Groups_Table table th.team { text-align:left; }
+.Groups_Table table td.team { 
+width:150px; 
+text-align:left;
+white-space:nowrap;
+}
+.Groups_Table table th.pts { background:#DD0; }
+.Groups_Table table td.pts { background:#DD0; width:30px; }
+.Groups_Table table th.gromila { text-align:right; width:75px; }
+.Groups_Table table td.gromila { text-align:right; width:75px; }
+

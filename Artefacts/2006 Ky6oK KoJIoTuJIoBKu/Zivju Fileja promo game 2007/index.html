@@ -1,0 +1,441 @@
+<html>
+
+<head> 
+	<title>Title</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+	<script type="text/javascript" src="./game.js"></script>
+
+	<script type="text/javascript">
+		
+		function action_newTurn(plustime){
+			tmpTime = GameTimer;
+			face_timer(plustime);
+			face_score();
+			if((GameTimer >= 46) && ( tmpTime < 46)) {
+				// END OF FIRST PERIOD
+				//text_reportUpdate();
+				alert(message['firstHalfTimeEnd']);
+				text_report('<br /><br />Первый тайм закончился со счётом <nobr>' + ScoreZ + ' - 0</nobr>. Подавляющим преимуществом владела команда Zivju Fileja.<br /><br />');
+				GameTimer = 46;
+				face_timer(0);
+				action_restart();
+			}
+			if((GameTimer >= 91)&&(MatchEnded==0)) {
+				// END OF SECOND PERIOD
+				MatchEnded = 1;
+				if(ScoreZ==0) {
+					text_report('На последних секундах игроки Fileja провели отчаяный штурм ворот противника. ');
+					text_report('После прекрасной подачи выполненной игроком <span class="htplayer">' + ZNames['2'] + '</span> с фланга, ');
+					text_report('гол на ' + GameTimer + ' минуте забил вратарь(!) хозяев <span class="htplayer">' + ZNames['0'] + '</span>. ');
+					ScoreZ++;
+					ZScorers['0']++;
+					ZScorersTime['0'] = GameTimer;
+					text_report('<nobr>' + ScoreZ + report['scoreUpdate02']);
+					}
+				alert(message['secondHalfTimeEnd']);
+				text_report('<br /><br />При счёте <nobr>' + ScoreZ + ' - 0</nobr> прозвучал финальный свисток. Огромным преимуществом владела команда Zivju Fileja. ');
+				text_report('Самым благозвучным игроком в команде Fileja был <span class="htplayer">Михай Попеску</span>.<br />');
+				text_report('Голы в матче забили:<br />');
+				for(t = 0 ; t <= teamSize ; t++ ) {
+					if(ZScorers[t] > 0) { 
+						text_report('- ' + ZNames[t] + ' (' + ZScorersTime[t] + ')<br />');
+					}
+				}
+
+
+				text_report('Матч закончился... но ведь на самом деле можно играть дальше!!!<br /><br />');
+			}
+		}
+		
+		function action_movePlayers(){
+			face_clearField();
+			game_movePlayers();
+			face_drawPlayers();
+			face_drawBall();
+		}
+
+		function action_testBattle(){
+			oponent = get_mplayer(ball_x,ball_y);
+			if(oponent>0) {
+				text_reportUpdate();
+				action_enemy('pressing');
+				action_restart();
+				action_newTurn(TimeDelay['pressing']);
+				return true;
+				}
+			return false;
+		}
+
+		function action_move(_dir){
+			if(game_testMove(_dir)) {
+				pas = game_doMove(_dir);
+				face_clearBall();
+				face_drawBall();
+				/*if(pas==0){
+					face_clearZteam();
+					face_drawPlayers();
+				}*/
+
+				action_movePlayers();
+				if(action_testBattle()==false) action_newTurn(1);
+			}
+		}
+
+		function action_restart() {
+			face_clearField()
+			game_resetPlayers();
+			face_drawPlayers()
+			game_resetBall();
+			face_drawBall();			
+		}
+
+		function action_enemy(type) {
+			if(type=='pressing') {
+				alert(message['marshalPressing']);
+				player = get_mplayer(ball_x,ball_y);
+				range = get_shootRange('m', ball_x, ball_y);
+				switch(range) {
+				case 1:
+					text_report('<span class="htplayer">' + MNames[player] + '</span>' + report['afterPressingShort']);
+					break
+				case 2:
+					text_report('На ' + GameTimer + ' минуте ');
+					text_report('<span class="htplayer">' + MNames[player] + '</span>' + report['afterPressing']);
+					break
+				case 3:
+					text_report('<span class="htplayer">' + MNames[player] + '</span>' + report['afterPressingLong']);
+					break
+				default:
+					text_report(GameTimer + ' минутa: ');
+					text_report('<span class="htplayer">' + MNames[player] + '</span>' + report['afterPressingVeryLong01']);
+					player02 = (player==teamSize?0:player);
+					player02++;
+					text_report('<span class="htplayer">' + MNames[player02] + '</span>' + report['afterPressingVeryLong02']);
+				}
+		
+			}
+			if(type=='goalback') {
+				//alert(message['marshalGoalback']);
+				text_report(report['afterGoalStart']);
+			}
+			if(type=='counter') {
+				//alert(message['marshalCounter']);
+				text_report(report['marshalCounterFalse']);
+			}
+		}
+		
+		function action_goal(power) {
+			alert(message['goal!']);
+			ScoreZ++;
+			player = get_zplayer(ball_x,ball_y);
+			text_report(report['scoreUpdate00'] + GameTimer + report['scoreUpdate01'] + ScoreZ + report['scoreUpdate02']);
+			range = get_shootRange('z', ball_x, ball_y);
+			switch(range) {
+			case 1:
+				// РАССТРЕЛ ВПЛОТНУЮ
+				if(power<=5) {
+					// СЛОЖНЫЙ ГОЛ ВПЛОТНУЮ
+					text_report(report['goalvUporEle01'] + '<span class="htplayer">' + ZNames[player] + '</span>' + report['goalvUporEle02']);	
+					text_report('<span class="htplayer">' + ZNames[player] + '</span>' + report['goalvUporEle03']);	
+					text_report('<span class="htplayer">' + MNames['0'] + '</span>' + report['goalvUporEle04']);	
+					text_report('<span class="htplayer">' + ZNames[player] + '</span>' + report['goalvUporEle05']);	
+				} else if(power>60) {
+					// БЕЗОГОВОРОЧНЫЙ ГОЛ
+					text_report('<span class="htplayer">' + ZNames[player] + '</span>' + report['goalvUporStupid']);
+				} else {
+					// ОБЫЧНЫЙ ГОЛ ВПЛОТНУЮ
+					text_report('<span class="htplayer">' + ZNames[player] + '</span>' + report['goalvUpor']);	
+				}
+			  break 
+			case 4:
+				// БОЛЬШОЕ РАССТОЯНИЕ
+				text_report(report['goalLongSize01'] + '<span class="htplayer">' + ZNames[player] + '</span>' + report['goalLongSize02']);
+				break
+			case 5:
+				// ОХРЕНЕННОЕ РАССТОЯНИЕ
+				text_report(report['goalOtherside01'] + '<span class="htplayer">' + ZNames[player] + '</span>' + report['goalOtherside02']);	
+				break
+			default:
+  				// ОБЫЧНЫЙ ГОЛ
+				text_report('<span class="htplayer">' + ZNames[player] + '</span>' + report['shootOnGoalTrue']);
+			}
+			
+			ZScorers[player]++;
+			ZScorersTime[player] += (ZScorersTime[player]?', ':'') + GameTimer;
+			if(ZScorers[player]==3) text_report('Это уже третий гол на счету <span class="htplayer">' + ZNames[player] + '</span>. Хеттрик! ');
+			
+			action_enemy('goalback');
+			action_restart();
+			action_newTurn(TimeDelay['goalback']);
+		}
+		
+		function action_shoot(){
+			text_reportUpdate();
+			range = get_shootRange('z', ball_x, ball_y);
+			if(range==5) alert(message['maxRangeShoot']);
+
+			// CALCULATE VALUE
+			value = 90 - ((range-1) * 30);
+			if(value<5) value=5;
+
+			goal = game_testGoal(value);
+			if(goal>=0) action_goal(goal); else {
+				alert(message['mimo']);
+				player = get_zplayer(ball_x,ball_y);
+				range = get_shootRange('z', ball_x, ball_y);
+				switch(range) {
+				case 5:
+				case 4:
+					text_report('<span class="htplayer">' + ZNames[player] + '</span>' + report['shootFalseLong']);
+					break
+				case 1:
+					if(goal < 40) text_report('На ' + GameTimer + ' минуте <span class="htplayer">' + ZNames[player] + '</span>' + report['shootFalseShort']);
+					else text_report('На ' + GameTimer + ' минуте <span class="htplayer">' + ZNames[player] + '</span>' + report['shootFalseShortGreat']);
+					break
+				case 2: 
+					text_report(GameTimer + ' минута: <span class="htplayer">' + ZNames[player] + '</span>' + report['shootOnGoalFalse']);
+					break;
+				default:
+					text_report(GameTimer + ' минута: <span class="htplayer">' + ZNames[player] + '</span>' + report['shootFalseNotLong']);
+				}
+				
+
+				action_enemy('counter');
+				action_restart();
+				action_newTurn(TimeDelay['counter']);
+			}
+		}
+
+		function action_gameBegin() {
+			GameTimer = 1;
+			ScoreZ = 0;
+			ScoreM = 0;
+			action_restart();
+			action_newTurn(0);
+			for(t=1;t<=teamSize;t++) { 
+				ZScorers[t] = 0;
+				ZScorersTime[t] = '';
+			}
+
+			text_report(report['startGame01']);
+			text_report(report['startGame02']);
+			text_report(report['five-x-five01']);
+			text_report(report['five-x-five02']);
+			text_report(report['five-x-five03']);
+			text_report(report['five-x-five04']);
+			text_reportUpdate();
+		}
+
+	</script>
+
+	<style type="text/css">
+		body { 
+		margin: 4px;
+		padding: 0;
+		background: #FFF;
+		color: #000;
+		}
+		
+		table.gamefield {
+		background: url('field.gif') 0 0 no-repeat #9E9;
+		border: 2px #666 solid;
+		}
+		table.gamefield td.field {
+		width:50px;
+		height:50px;
+		text-align: center;
+		vertical-align: center;
+		/*border: 1px #666 solid;*/
+		}
+		table.gamefield td.field div {
+		width: 100%;
+		height: 100%;
+		}
+		div.zplayer { background: url('zf1.gif') 0% 100% no-repeat; }
+		div.mplayer { background: url('mr1.gif') 100% 0% no-repeat; }
+		div.zball { background: url('ball.gif') 30% 100% no-repeat; }
+		div.mball { background: url('ball.gif') 35px 30px no-repeat; }
+
+		span.htplayer { color:#267F30; text-decoration: underline; }
+		span.lastReport { color: #F00; font-weight: bold; }
+
+		#Report_Design {
+			font-size: 10px;
+			font-family: verdana, arial, sans-serif;
+		}
+
+		#Game_Rules {
+			margin-top: 12px;
+			border-top: #999 4px solid;
+			padding-top: 4px;
+			font-size: 11px;
+			font-family: verdana, arial, sans-serif;
+		}
+
+		input.action_button {
+			border: 1px #666 solid;
+			width: 50px;
+			margin: 0 2px 4px 2px;
+			font-size: 11px;
+			background: #EEE;
+			color: #600;
+		}
+	</style>	
+
+</head>
+<body onload="action_gameBegin();">
+
+	<script type="text/javascript">
+		var fieldSizeX = 4;
+		var fieldSizeY = 5;
+		var fieldBorder = 4;
+		var teamSize = 5;
+
+		var z_players_x = new Array;
+		var z_players_y = new Array;
+		var m_players_x = new Array;
+		var m_players_y = new Array;
+		var z_fieldslot = new Array;
+		var m_fieldslot = new Array;
+		z_fieldslot['00'] = 1;
+		m_fieldslot['00'] = 1;
+		var ball_x = 1;
+		var ball_y = 1;	
+
+		var TimeDelay = new Array;
+		TimeDelay['pressing'] = 2;
+		TimeDelay['counter'] = 3;
+		TimeDelay['goalback'] = 4;
+
+		var GameTimer = 1;
+		var ScoreZ = 0;
+		var ScoreM = 0;
+		var MatchEnded = 0;
+
+		var gmMovingX = new Array;
+		var gmMovingY = new Array;
+		gmMovingY['up'] = -1; gmMovingX['up'] = 0;
+		gmMovingY['down'] = +1; gmMovingX['down'] = 0;
+		gmMovingY['left'] = 0; gmMovingX['left'] = -1;
+		gmMovingY['right'] = 0; gmMovingX['right'] = +1;
+
+		var ZScorers = new Array;
+		var ZScorersTime = new Array;
+		var ZNames = new Array;
+		var MNames = new Array;
+
+		MNames['0'] = "Norbert Iglodi";
+		MNames['1'] = "Vladimir Shakhrin";
+		MNames['2'] = "Mattias Uttergard";
+		MNames['3'] = "Roland Domenig";
+		MNames['4'] = "Leonty Zubov";
+		MNames['5'] = "Oliver Erpenbach";
+
+		ZNames['0'] = "Мика Тяхкавори";
+		ZNames['1'] = "Яник Розе";
+		ZNames['2'] = "Денис Каменский";
+		ZNames['3'] = "Давид Деспот";
+		ZNames['4'] = "Михай Попеску";
+		ZNames['5'] = "Александр Донской";
+
+
+var message = new Array;
+message['maxRangeShoot'] = "С такого расстояния решается бить только лишь Бобёр из команды имантских бобров. ";
+message['goal!'] = "ГОЛ! ";
+message['mimo'] = 'Промазал...';
+message['firstHalfTimeEnd'] = "Конец первого периода. Команды как бы поменялись воротами и отдохнули. ";
+message['secondHalfTimeEnd'] = "Прозвучал финальный свисток. ";
+message['marshalPressing'] = "Чёрт! У вас отобрали мяч. ";
+message['marshalGoalback'] = "Противник разыграл мяч и ринулся в атаку. ";
+message['marshalCounter'] = "Воспользовавшись ситуацией противник начал контратаку. ";
+
+var report = new Array;
+report['startGame01'] = "1 болельщик не испугался жуткого мороза и пришёл на Arena-Basseins посмотреть футбол. Команда Fileja вышла на игру в количестве (гениальное решение тренера!) пяти полевых игроков. Играют: Камурис Тяхкавори - Супер Розе - Тот-самый Каменский, Мощный Деспот - Попеску Попеску, Красавчик Донской.<br /><br />";
+report['startGame02'] = "Тактическое построение команды Marshal 5-3-2. Играют:  Iglodi - Andrade, Zubov, Shakhrin, Dalderis, Uttergard - Sintra, Domenig, Back - Erpenbach, Diez.<br /><br />На этот матч команда Marshal выбрала тактику контратак. ";
+report['five-x-five01'] = 'На 1 минуте <span class="htplayer">Amadeo Raul Andrade</span> получил в темечко и был унесён с поля на носилках. На замену никто не вышел, ибо страшно. На 1 минуте <span class="htplayer">Konstantin Back</span> неудачно подскользнулся вывихнув копчик. ';
+report['five-x-five02'] = 'На 1 минуте игроки команды Marshal <span class="htplayer">Viljams Dalderis</span> и <span class="htplayer">Helder Sintra</span> начали рвать судью на части, успели получить по красной карточке и после разорвали судью на части. ';
+report['five-x-five03'] = 'На 1 минуте  <span class="htplayer">Jose Diez</span> из команды Marshal засцал. ';
+report['five-x-five04'] = "Ситуация на поле начала меняться, поскольку команды играют пять на пять, и вместо судьи на поле вышел вечно живой Рубен Гонсалес.<br /><br />";
+report['marshalCounterFalse'] = 'Игроки команды Marshal бросились в опасную контратаку, но защита хозяев сработала успешно. ';
+report['shootOnGoalTrue'] = ' обманул вратаря и пробил в дальний угол. ';
+report['goalvUpor'] = ', оказавшись наедине с вратарём соперника, ловко воспользовался ситуацией и отправил мяч в сетку ворот. ';
+report['goalvUporEle01'] = 'После удара ';
+report['goalvUporEle02'] = ' вратарь гостей парировал мяч, но ';
+report['goalvUporEle03'] = ' сам оказался на добивание, и ';
+report['goalvUporEle04'] = ' вновь показал отличную реакцию, но когда ';
+report['goalvUporEle05'] = ' в третий раз коснулся мяча, тому уже некуда было лететь, кроме как в сетку ворот. ';
+report['goalvUporStupid'] = ' оставил далеко позади себя и защитников, и вратаря гостей. Ничто не мешало ему, выпендриваясь перед болельщиками, забить мяч ягодицами. ';
+report['goalOtherside01'] = 'Ветер, фортуна, боги и взятки помогли игроку Fileja ';
+report['goalOtherside02'] = ' записать на свой счёт этот абсурдный мяч отправленный с другого конца поля. ';
+report['goalLongSize01'] = 'Голкипер гостей <span class="htplayer">' + MNames['0'] + '</span> по неопытности совершил грубейшую ошибку. ';
+report['goalLongSize02'] = ' не постеснялся воспользоваться случаем и забил гол с большого расстояния. ';
+
+report['shootOnGoalFalse'] = ' ударил по воротам, но <span class="htplayer">' + MNames['0'] + '</span> выбрал правильную позицию. ';
+report['shootFalseNotLong'] = ' не слишком опасно пробил по воротам и вратарь гостей ликвидировал угрозу. ';
+report['shootFalseLong'] = ' скорей обозначил возможность удара, чем реально угрожал воротам соперника. ';
+report['shootFalseShort'] = ' умудрился промахнуться по мячу из выгоднейшей позиции. ';
+report['shootFalseShortGreat'] = ' опасно пробил по воротам, но <span class="htplayer">' + MNames['0'] + '</span> в великолепном прыжке спас свою команду. ';
+
+
+report['scoreUpdate00'] = 'На ';
+report['scoreUpdate01'] = ' минуте счёт становится <nobr>';
+report['scoreUpdate02'] = ' - 0</nobr> в пользу хозяев. ';
+report['afterGoalStart'] = '<span class="htplayer">' + MNames['2'] + '</span> начал атаку своей команды, но из-за безалаберности мяч был потерян. ';
+
+report['afterPressingShort'] = ' не сумел воспользоваться отобранным мячём и ударил выше ворот. ';			
+report['afterPressing'] = ' мог открыть счёт своей команды, но <span class="htplayer">' + ZNames['0'] + '</span> сохранил девственность своих ворот. '
+report['afterPressingLong'] = ' выполнил опасный навес в штрафную хозяев, но никто из парнёров им не воспользовался. ';
+report['afterPressingVeryLong01'] = ' завладел мячём без нарушения правил и отдал отличный пас на ход. Но ';
+report['afterPressingVeryLong02'] = ' не смог дотянуться до мяча. ';
+
+		 
+	</script>
+
+	<!-- <script type="text/javascript" src="messages.js"></script> -->
+
+<table id="Layout" style="width: 100%;">
+<tr>
+	<td style="width:250px; vertical-align:top;">
+
+	<div style="width:250px;">Время: <b><span id="Game_Timer">1</span></b> мин</div>
+	<div>Счёт: <b><span id="Score_Z">0</span>:<span id="Score_M">0</span></b></div>
+	
+	<table class="gamefield" cellspacing="0" cellpadding="0" border="0">
+		
+		<script type="text/javascript">
+			face_drawGazon();
+		</script>
+
+	</table>
+
+	
+
+	<!-- <input type="button" name="" value="Move" onclick="action_movePlayers();" /> -->
+	<br />
+	<div style="text-align: center; width: 200px;">
+	<input class="action_button" type="button" name="" value="Up" onclick="action_move('up');" /><br />
+	<input class="action_button" type="button" name="" value="Left" onclick="action_move('left');" /><input class="action_button" type="button" name="" value="Down" onclick="action_move('down');" /><input class="action_button" type="button" name="" value="Right" onclick="action_move('right');" />
+	<br /><br />
+	<input class="action_button" type="button" name="" value="Shoot" onclick="action_shoot();" />
+	</div>
+
+	<div id="Game_Rules">
+		Вы защищаете цвета славного клуба «Рыбное Филе». Но подлый и хитрый Стиг Хагер мешает вам выйти из группы в Кубке Колотиловки (Мамин Сибиряк).<br /><br />
+		Управляйте игроком с мячём или бейте по воротам с выгодной позиции. Голы лучше всего забиваются из штрафной. Пасы только короткие. Игроки без мяча и соперник хаотично бегают по полю. Но избегайте встреч с игроком соперника на одной клетке. Если у вас отберут мяч (а его отберут всегда) — маршалы получат шанс на контратаку.<br /><br />
+		Тестовая версия 0.9<br />
+		08.02.2007
+	</div>
+
+	</td>
+	<td style="width:100%; vertical-align:top;">
+		<div id="Report_Design">
+			<div id="Game_Report_TXT"></div>
+			<div id="Report_Backup_TXT" style="display: none;"></div>
+		</div>
+	</td>
+</tr>
+</table>
+
+
+</body>
+</html>

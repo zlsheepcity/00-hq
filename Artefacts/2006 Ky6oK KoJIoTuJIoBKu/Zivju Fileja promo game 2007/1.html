@@ -1,0 +1,107 @@
+<style>
+	table.gamefield {
+		background: #9E9;
+		border: 2px #666 solid;
+	}
+	table.gamefield td.field {
+	width:50px;
+	height:50px;
+	text-align: center;
+	vertical-align: center;
+	border: 1px #666 solid;
+	}
+	table.gamefield td.field div {
+	width: 100%;
+	height: 100%;
+	}
+	div.zplayer { background: url('zf1.gif') 0% 100% no-repeat; }
+	div.mplayer { background: url('mr1.gif') 100% 0% no-repeat; }
+	div.zball { background: url('ball.gif') 30% 100% no-repeat; }
+	div.mball { background: url('ball.gif') 35px 30px no-repeat; }
+</style>
+
+<table class="gamefield" cellspacing="2" cellpadding="0" border="0">
+
+<script>
+var fieldSizeX = 4;
+var fieldSizeY = 5;
+var fieldBorder = 4;
+var teamSize = 5;
+
+var z_players_x = new Array;
+var z_players_y = new Array;
+var m_players_x = new Array;
+var m_players_y = new Array;
+var z_fieldslot = new Array;
+var m_fieldslot = new Array;
+z_fieldslot['00'] = 1;
+m_fieldslot['00'] = 1;
+var ball_x = 1;
+var ball_y = 1;
+
+for(y=1;y<=fieldSizeY;y++) {
+	document.write('<tr>');
+	for(x=1;x<=fieldSizeX;x++){
+		document.write('<td class="field">');
+		document.write('<div id="playerZ_'+x+y+'">');
+		document.write('<div id="playerM_'+x+y+'">');
+		document.write('<div id="ball_'+x+y+'">');
+		//document.write(Math.round(Math.random() * 3)+1);
+		document.write('</div>');
+		document.write('</div>');
+		document.write('</div>');
+		document.write('</td>');
+
+		z_fieldslot[x+''+y] =0;
+		m_fieldslot[x+''+y] =0;
+	}
+	document.write('</tr>');
+}
+
+
+z_players_x['1'] = 1;
+z_players_y['1'] = 1;
+m_players_x['1'] = 1;
+m_players_y['1'] = 1;
+
+for(t=1;t<=teamSize;t++){
+	// BEGIN SEARCH Z SLOT
+	if(t==1) ramkaY = fieldBorder; else ramkaY = 1;
+	tmpX = 0;
+	tmpY = 0;
+	while(z_fieldslot[tmpX+''+tmpY]>0) {
+		tmpX = Math.round(Math.random() * (fieldSizeX - 1))+1;
+		tmpY = Math.round(Math.random() * (fieldSizeY - ramkaY)) + ramkaY;
+	}
+	// SET Z SLOT
+	z_players_x[t] = tmpX;
+	z_players_y[t] = tmpY;
+	z_fieldslot[tmpX+''+tmpY] = 1;
+	// BEGIN SEARCH M SLOT
+	tmpX = 0;
+	tmpY = 0;
+	while(m_fieldslot[tmpX+''+tmpY]>0) {
+		tmpX = Math.round(Math.random() * (fieldSizeX-1))+1;
+		tmpY = Math.round(Math.random() * (fieldSizeY-1))+1;
+	}
+	// SET M SLOT
+	m_players_x[t] = tmpX;
+	m_players_y[t] = tmpY;
+	m_fieldslot[tmpX+''+tmpY] = 1;
+	// DRAW PLAYERS
+	DivZ = document.getElementById('playerZ_'+z_players_x[t]+z_players_y[t]);
+	DivM = document.getElementById('playerM_'+m_players_x[t]+m_players_y[t]);
+	DivZ.className = "zplayer";
+	DivM.className = "mplayer";
+}
+
+ball_x = z_players_x['1'];
+ball_y = z_players_y['1'];
+
+tmpDiv = document.getElementById('ball_'+ball_x+ball_y);
+tmpDiv.className = "zball";
+
+
+</script>
+
+</table>

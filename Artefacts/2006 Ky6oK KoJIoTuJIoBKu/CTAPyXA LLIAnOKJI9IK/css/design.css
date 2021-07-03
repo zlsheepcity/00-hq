@@ -1,0 +1,161 @@
+body {
+text-align: center;
+}
+
+#Subbody {
+text-align: left;
+width: 710px;
+margin: 0 auto;
+}
+
+
+#Header_Logo {
+margin: 15px 0 8px 0;
+height: 145px;
+background: url('../i/header_logo.gif') 0 0 no-repeat;
+}
+
+
+#Main_Menu {
+background: #990000;
+border-bottom: #FF9933 2px solid;
+padding: 2px 12px 0 12px;
+font-size: 1px;
+}
+
+#Main_Menu a {
+color: #FFF;
+font-family: tahoma, arial, sans-serif;
+font-weight: bold;
+font-size: 11px;
+text-decoration: none;
+padding: 3px 6px;
+margin-right: 2px;
+display: block;
+float: left;
+}
+
+#Main_Menu a:hover {
+background: #C63;
+}
+
+#Main_Menu a.selected {
+color: #000;
+background: #FF9933;
+}
+
+#Main_Menu a.selected:hover {
+background: #FF9933;
+}
+
+
+#Content {
+margin: 20px 12px;
+width: 510px;
+text-align: justify;
+}
+
+#Content #Content_Design h2 {
+color: #600;
+}
+
+
+.score_table {
+margin-bottom: 1.5em;
+}
+
+.score_table td,
+.score_table th {
+text-align:left;
+padding: 2px 4px;
+font-size: 82%;
+}
+
+.score_table th {
+background: #999;
+color: #FFF;
+font-weight: bold;
+}
+
+.score_table td {
+border-bottom: #CCC 1px solid;
+}
+
+.score_table td.teamname { width: 200px; }
+
+/* ===================== */
+
+#Content_First {
+margin: 20px 0px 20px 12px;
+width: 460px;
+text-align: justify;
+}
+
+#Right_First {
+margin: 20px 0px;
+width: 220px;
+float:right;
+}
+
+#Right_First h3 {
+background: #FEC;
+border-left: #FF9933 5px solid;
+border-top: #FF9933 1px solid;
+color: #600;
+font-size:0.85em;
+padding:2px 4px;
+margin-bottom: 4px;
+/*  border-right: #FF9933 1px solid; */
+}
+
+#Right_First h4 {
+font-size:1em;
+padding-bottom: 4px;
+color:#666;
+}
+
+#Right_First .right_content {
+padding: 0 4px 4px 4px;
+font-size:0.85em;
+margin-bottom: 24px;
+border-left: #FEC 5px solid;
+/*  border-right: #FEC 1px solid; */
+}
+
+#Right_First table {
+border-bottom: #EEE 1px solid;
+}
+
+#Right_First table tr.row1 { background:#EEE; }
+
+#Right_First table th {
+font-size:0.7em;
+padding:2px 4px;
+font-weight: bold;
+text-align: left;
+border-bottom: #666 1px solid;
+}
+
+#Right_First table td {
+font-size:0.7em;
+padding:2px 4px;
+}
+#Right_First table td.mid {
+padding:2px 8px;
+color:#600;
+}
+
+/* ================================== */
+
+#Footer {
+margin-top: 20px;
+padding: 12px;
+border-top: #900 2px solid;
+color: #555;
+}
+
+
+
+
+
+

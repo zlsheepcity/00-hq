@@ -1,0 +1,5 @@
+div.block_end {font-size:0;line-height:0;height:0;clear:both;}
+
+div#topresults {width:800px;}
+div#topres_last {float:left;}
+div#topres_next {float:right;}

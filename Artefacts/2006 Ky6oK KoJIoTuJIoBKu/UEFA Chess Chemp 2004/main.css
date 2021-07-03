@@ -1,0 +1,213 @@
+body {
+	margin:0px;padding:0px;
+	}
+
+td.black_field, td.black_divider {
+	background-color:#000000;
+	color:#FFFFFF;
+	}
+
+td.gray_field {
+	background-color:#E6E6E6;
+	}
+
+td.gray_divider {
+	background-color:#CCCCCC;
+	}
+
+td.black_field p {
+	margin:3px; padding:0px;
+	color:#FFFFFF; 
+	font-family: verdana, arial, sans-serif;
+	font-size:10px;
+	}
+	td.black_field a:link, td.black_field a:visited, td.black_field a:active {
+		text-decoration:none;
+		color:#FFFFFF;
+		}
+	td.black_field a:hover {
+		text-decoration:underline;
+		color:#FFFFFF;
+		}
+
+td.mainmenu {
+	color:#000000;
+	font-weight:bold;
+	font-size:10px;
+	font-family: verdana, arial, sans-serif;
+	}
+	td.mainmenu a:link, td.mainmenu a:visited, td.mainmenu a:active {
+		padding:1px 3px 1px 5px;
+		width:100%;
+		text-decoration:none;
+		color:#000000;
+		}
+	td.mainmenu a:hover {
+		text-decoration:none;
+		color:#000000;
+		background-color:#CCCCCC;
+		}
+
+td.shedule_field {
+	background-color:#E6E8F1;
+	}
+
+td.shedule_list {
+	color:#000000;
+	font-family: verdana, arial, sans-serif;
+	font-size:11px;	
+	}
+	td.shedule_list a:link, td.shedule_list a:visited, td.shedule_list a:active {
+		color:#000000;
+		text-decoration:underline;
+		}
+	td.shedule_list a:hover {
+		color:#0000FF;
+		text-decoration:none;
+		}
+td.shedule_info {
+	padding-bottom:3px;
+	color:#000000;
+	font-family: verdana, arial, sans-serif;
+	font-size:9px;	
+	}
+	td.shedule_info a:link, td.shedule_info a:visited, td.shedule_info a:active {
+		color:#000099;
+		text-decoration:none;
+		}
+	td.shedule_info a:hover {
+		color:#0000FF;
+		text-decoration:underline;
+		}
+
+p.news_title {
+	margin:0px; padding:0px;
+	padding-top:5px;
+	color:#999999;
+	font-family: verdana, arial, sans-serif;
+	font-size:10px;
+	}
+p.news_text {
+	margin:0px; padding:0px;
+	color:#000000;
+	font-family: verdana, arial, sans-serif;
+	font-size:10px;
+	}
+	p.news_text a:link, p.news_text a:visited, p.news_text a:active {
+		font-weight:bold;
+		color:#000000;
+		text-decoration:none;
+		}
+	p.news_text a:hover {
+		font-weight:bold;
+		color:#000000;
+		text-decoration:underline;
+		}
+
+p.news_marker {
+	margin:0px; padding:0px;
+	color:#000000;
+	font-family: verdana, arial, sans-serif;
+	font-size:11px;
+	text-align:center;
+	font-weight:bold;
+	}
+
+p.general_news {
+	margin:0px; padding:2px 2px 0px 5px;
+	color:#000000;
+	font-family: verdana, arial, sans-serif;
+	font-size:10px;
+	}
+
+p.general_news_title {
+	margin:0px; padding:2px 2px 5px 5px;
+	color:#000000;
+	font-family: verdana, arial, sans-serif;
+	font-size:12px;
+	}
+	p.general_news_title a:link, p.general_news_title a:visited, p.general_news_title a:active {
+		font-weight:bold;
+		color:#000000;
+		text-decoration:none;
+		}
+	p.general_news_title a:hover {
+		font-weight:bold;
+		color:#000000;
+		text-decoration:underline;
+		}
+
+p.shedule_title {
+	margin:0px; padding:5px 0px 5px 0px;
+	font-weight:bold;
+	font-family: verdana, arial, sans-serif;
+	font-size:11px;
+	color:#000000;
+	text-align:center;
+	}
+
+/*-----------------------------------------------------------*/
+
+td.table_1, td.table_2 {
+	color:#000000;
+	font-family: verdana, arial, sans-serif;
+	font-size:10px;	
+	}  
+
+td.table_1 a:link, td.table_1 a:visited, td.table_1 a:active,  td.table_2 a:link, td.table_2 a:visited, td.table_2 a:active {
+	color:#000000;
+	text-decoration:none;
+	}
+
+td.table_1 a:hover, td.table_2 a:hover {
+	color:#0000FF;
+	text-decoration:underline;
+	}
+
+td.table_2 {
+	background-color:#E6E8F1;
+	}
+
+td.players_photo {
+	font-family: verdana, arial, sans-serif;
+	font-size:10px;
+	color:#000000;	
+	}
+
+p.main_text, h3.main_text, p.main_date {
+	margin:0px; padding:0px;
+	font-family: verdana, arial, sans-serif;
+	font-size:11px;
+	color:#000000;
+	}
+
+p.main_date {	
+	font-size:10px;
+	padding-bottom:5px;
+	}
+
+h3.main_text {
+	margin-bottom:5px; margin-top:5px;
+	font-size:14px;
+	}
+
+/*------------------------------------*/
+
+
+td.blue_field {
+	background-color:#252A4D;
+	color:#FFFFFF;
+	text-align:center;
+	font-family: verdana, arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	}
+
+p.game_count {
+	margin:0px; padding:0px;
+	color:#000000;
+	font-family: verdana, arial, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	}

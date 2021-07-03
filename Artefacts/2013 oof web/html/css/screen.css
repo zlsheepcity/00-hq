@@ -1,0 +1,35 @@
+/*Mua!*/
+
+html, body
+{
+  margin:0;
+  padding:0;
+  width:100%;
+  min-height:100%;
+}
+
+body
+{
+  background:url(../../pics/noiz1.jpg) 50% 50% no-repeat;
+  background-size:cover;
+}
+
+h1 
+{
+  font: normal 34px/40px sans-serif;
+  color: wheat;
+}
+
+footer 
+{
+  position:absolute;
+  bottom:0;
+  left:0;
+  padding:2em;
+}
+
+footer small
+{
+  font:normal 15px/21px serif;
+  
+}

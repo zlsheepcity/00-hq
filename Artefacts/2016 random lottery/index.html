@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <title>Чья это коровка</title>
+  <meta charset="utf-8" mapuping="ы">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  
+  <link rel="stylesheet" href="animate.css" media="all">
+  
+  <!-- в отдельном файле напишем декорации для улицы -->
+  <link rel="stylesheet" href="street.css" media="all">
+
+  
+</head>
+<body>
+
+  <!-- весь город будет находится внутри -->
+  <section class="City">
+    
+    <!-- дома расположены на улицах, сначала самая дальняя улица -->
+    <section class="Street streetN5">
+      <img src="img/street5.png" class="street5">
+    </section>    
+    <section class="Street streetN4">
+      <img src="img/street4a.png" class="street4a">
+      <img src="img/street4b.png" class="street4b">
+    </section>
+    <section class="Street streetN3">
+      <img src="img/street3.png" class="street3">
+    </section>
+    <section class="Street streetN2">
+      <img src="img/street2.png" class="street2">
+    </section>    
+    <section class="Street streetN1">
+      <img src="img/street1.png" class="street1">
+    </section>        
+    
+    <div id="awataras">
+    <!--
+      <div class="awatar onStreet1"><img src="awataras/demoAwatar.jpg"></div>
+      <div class="awatar onStreet2"><img src="awataras/demoAwatar.jpg"></div>
+      <div class="awatar onStreet3"><img src="awataras/demoAwatar.jpg"></div>
+      <div class="awatar onStreet4"><img src="awataras/demoAwatar.jpg"></div>
+      <div class="awatar onStreet5"><img src="awataras/demoAwatar.jpg"></div>
+    -->      
+    </div>
+    
+  </section>
+  
+  <div id="log">
+    <textarea id="logDropPosition"></textarea>
+    <textarea id="logStepPosition"></textarea>
+    <textarea id="logDecision"></textarea>
+  </div>
+  
+  <div id="Start">
+    <div>Play</div>
+  </div>
+  
+  <div id="cash"></div>
+  
+  
+
+
+
+  
+  <!-- Правило хорошего тона: подключать скрипты в самом конце BODY  -->
+  <!-- При таком раскладе броузер сначала загрузит содержание (и покажет его)  -->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="engine.js"></script>
+</body>
+</html>

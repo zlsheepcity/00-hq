@@ -1,0 +1,170 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.City {
+  position:absolute;
+  height:100vh;
+  width:100vw;
+  overflow:hidden;
+  
+  background-color:#B27F90;
+}
+
+#Start {
+  background:rgba(0,0,0,.8);
+  color:white;
+  z-index:2000;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  cursor:pointer;
+}
+#Start > div {
+  position:absolute;
+  top:50%;
+  left:40%;
+  transform: transitionX(-50%);
+  font-family: sans-serif;
+  font-size:40px;
+}
+
+/* 
+  Каждый домик (картинка img) на улице будет абсолютным
+  Вертикальные координаты в пикселях,
+  а горизонтальные относительными к ширине экрана  
+  
+  Цифры беру из исходной картинки, отмеряя растояния в фотошопе до Nord-West угла
+*/
+
+.Street img { 
+  position:absolute;
+  opacity:1;
+}
+.street5 {
+  left:60vw;
+  top:50px;
+}
+.street4a {
+  left:78vw;
+  top:50px;
+}
+.street4b {
+  left:18vw;
+  top:10px;
+}
+.street3 {
+  left:36vw;
+  top:77px;
+}
+.street2 {
+  left:53vw;
+  top:160px;
+}
+.street1 {
+  left:10vw;
+  top:218px;
+}
+
+/* 
+  Чем дальше улица, тем меньше z-index 
+  (потому что на экране большой z-index рисуется сверху маленького )
+*/
+.streetN5 img { z-index:100 }
+.streetN4 img { z-index:200 }
+.streetN3 img { z-index:300 }
+.streetN2 img { z-index:400 }
+.streetN1 img { z-index:500 }
+
+
+/*
+  Стили для аватарок
+  Общие, а затем для каждой улицы
+*/
+
+.awatar {
+  position:absolute;
+  border-radius:50%;
+  left:33vw;
+  transition: left .5s, opacity 2s;
+}
+.awatar img {
+  display:block;
+  height:100%;
+  width:100%;
+  border-radius:50%;
+}
+
+.awatar.onStreet1 {
+  z-index:550;
+  top:440px;
+  width:100px;
+  height:100px;    
+}
+.awatar.onStreet2 {
+  z-index:450;
+  top:320px;
+  width:80px;
+  height:80px;  
+}
+.awatar.onStreet3 {
+  z-index:350;
+  top:217px;
+  width:60px;
+  height:60px;  
+}
+.awatar.onStreet4 {
+  z-index:250;
+  top:152px;
+  width:40px;
+  height:40px;  
+}
+.awatar.onStreet5 {
+  z-index:150;
+  top:123px;
+  width:30px;
+  height:30px;  
+}
+
+.awatar.out {
+  top: auto !important;
+  bottom:0;
+}
+
+.awatar.winner {
+  top: 440px !important;
+  left:40vw !important;
+  width:100px !important;
+  height:100px !important;
+  z-index:1200 !important;
+}
+.awatar.winner:after {
+  content:'моя коровка!';
+  position:absolute;
+  left:100%;
+  top:0;
+  font-family: sans-serif;
+  font-size:40px;
+  line-height:100px;
+  padding-left:20px;
+  white-space:nowrap;
+  color:white;  
+}
+
+
+#log {
+  position:absolute;
+  left:0;
+  bottom:0;
+  z-index:1111;
+}
+#logDropPosition { background:pink;}
+#logStepPosition { background:wheat;}
+#logDecision {}
+
+
+
+

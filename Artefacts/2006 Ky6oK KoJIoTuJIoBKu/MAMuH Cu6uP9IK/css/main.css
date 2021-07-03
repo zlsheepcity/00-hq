@@ -1,0 +1,125 @@
+html, body { margin:0; padding:0; }
+
+body {
+	text-align: center;
+	background: #FFF;
+	color: #000;
+
+	font-family: tahoma, arial, sans-serif;
+}
+
+/* HTML ELEMENTS
+------------------------------------ */
+
+* { margin: 0; }
+
+a, a:link {
+color: #00F;
+text-decoration: underline;
+}
+
+p {
+padding: 0 0 1.5em 0;
+}
+
+table {
+border: 0px;
+border-collapse: collapse; /* border-collapse:separate; */
+}
+table td {
+padding: 0px;
+}
+
+input {
+vertical-align: middle;
+}
+
+blockquote {
+	padding: 0.5em 0 1.5em 2em;
+	font-size: 0.9em;
+}
+
+h2 {
+font-size: 27px;
+color: #900;
+font-weight: normal;
+margin-bottom: 12px;
+}
+
+h3 {
+font-size:16px;
+margin: 12px 0 8px 0;
+}
+
+h4.topic {
+font-size: 13px;
+color: #900;
+margin-bottom: 4px;
+margin-top: 12px;
+background-color: #FF9;
+padding: 2px;
+}
+
+img { border: 0 }
+
+
+/* SPECIAL ELEMENTS
+------------------------------------ */
+
+.textsmall  { font-size: 0.9em; }
+.textsmall2 { font-size: 0.85em; }
+.textsmall3 { font-size: 0.79em; }
+.textbig    { font-size: 1.1em; }
+.textbig2   { font-size: 1.15em; }
+
+.textblack { color: #000; }
+.textgray  { color: #7C7C7C; }
+.textred   { color: #F00; }
+
+.date { 
+color: #999;
+font-size: 0.8em;
+}
+
+/* LAYOUT
+------------------------------------ */
+
+table#BodyTable {
+	width: 722px;
+	margin:0 auto;
+	text-align: left;
+	font-size: 82%;
+}
+
+/* ELEMENTS
+------------------------------------ */
+
+/* GROUP TABLE */
+
+table.group_table {
+margin:0 12px 12px 0;
+}
+table.group_table th, table.group_table td  { font-size: 11px; }
+table.group_table th {
+background: #EEC;
+text-align:left;
+font-weight:bold;
+padding:2px;
+}
+table.group_table td {
+padding:2px;
+width:10px;
+text-align:center;
+}
+table.group_table td.teamname { 
+width:200px;
+text-align: left;
+}
+table.group_table th.re, table.group_table td.re  { text-align:right; }
+
+.table_legend { 
+font-size: 10px;
+margin-bottom: 12px;
+}
+
+.table_legend span { background: #EEC; }

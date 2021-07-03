@@ -1,0 +1,61 @@
+		body { 
+		margin: 4px;
+		padding: 0;
+		background: #FFF;
+		color: #000;
+		}
+		
+		table.gamefield {
+		background: url('field.gif') 0 0 no-repeat #9E9;
+		border: 2px #666 solid;
+		}
+		table.gamefield td.field {
+		width:50px;
+		height:50px;
+		text-align: center;
+		vertical-align: center;
+		/*border: 1px #666 solid;*/
+		}
+		table.gamefield td.field div {
+		width: 100%;
+		height: 100%;
+		}
+		div.player11 { background: url('zf1.gif') 0% 100% no-repeat; }
+		div.player12 { background: url('zf2.gif') 0% 100% no-repeat; }
+		div.player13 { background: url('zf3.gif') 0% 100% no-repeat; }
+		div.player14 { background: url('zf4.gif') 0% 100% no-repeat; }
+		div.player15 { background: url('zf5.gif') 0% 100% no-repeat; }
+
+		div.player21 { background: url('mr1.gif') 100% 0% no-repeat; }
+		div.player22 { background: url('mr2.gif') 100% 0% no-repeat; }
+		div.player23 { background: url('mr3.gif') 100% 0% no-repeat; }
+		div.player24 { background: url('mr4.gif') 100% 0% no-repeat; }
+		div.player25 { background: url('mr5.gif') 100% 0% no-repeat; }
+
+		div.ball { background: url('ball.gif') 30% 100% no-repeat; }
+		/* div.mball { background: url('ball.gif') 35px 30px no-repeat; } */
+
+		span.htplayer { color:#267F30; text-decoration: underline; }
+		span.lastReport { color: #F00; font-weight: bold; }
+
+		#Report_Design {
+			font-size: 10px;
+			font-family: verdana, arial, sans-serif;
+		}
+
+		#Game_Rules {
+			margin-top: 12px;
+			border-top: #999 4px solid;
+			padding-top: 4px;
+			font-size: 11px;
+			font-family: verdana, arial, sans-serif;
+		}
+
+		input.action_button {
+			border: 1px #666 solid;
+			width: 50px;
+			margin: 0 2px 4px 2px;
+			font-size: 11px;
+			background: #EEE;
+			color: #600;
+		}
