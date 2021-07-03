@@ -1,0 +1,27 @@
+body {
+	margin:0px; padding:0px;
+	background-color:#FFFFFF;
+	}
+
+.topline {
+	margin:0px; padding:0px;
+	color:#666666;
+	font-family:verdana, arial, sans-serif;
+	font-size:70%;
+	}
+
+.poetry {
+	margin:0px;
+	padding:20px 10px 0px 60px;
+	color:#666666;
+	font-family:georgia, times, serif;
+	font-size:90%;
+	}
+
+.song {
+	margin:0px;
+	padding:0px 10px 10px 10px;
+	color:#666666;
+	font-family:verdana, arial, sans-serif;
+	font-size:70%;
+	}

@@ -1,0 +1,237 @@
+body {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+
+	color:#000000;
+	background-color:#FFFFFF;
+	}
+
+p.navigation_first {
+	margin:35px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:bold;
+	font-size:80%;
+	text-align:center;
+	color:#000000;
+	}
+	p.navigation_first a:link, p.navigation_first a:visited, p.navigation_first a:active {
+		color:#990000;
+		text-decoration:none;
+		}
+	p.navigation_first a:hover {
+		color:#CC0000;
+		text-decoration:none;
+		}
+	p.navigation_first .nolink {
+		font-weight:normal;
+		}
+
+p.navigation_main {
+	margin:5px 0px 0px 50px;
+	padding:0px 0px 0px 0px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:bold;
+	font-size:80%;
+	text-align:left;
+	color:#000000;
+	}
+	p.navigation_main a:link, p.navigation_main a:visited, p.navigation_main a:active {
+		color:#990000;
+		text-decoration:none;
+		}
+	p.navigation_main a:hover {
+		color:#CC0000;
+		text-decoration:none;
+		}
+	p.navigation_main .nolink {
+		font-weight:normal;
+		}
+
+p.navigation_photo {
+	margin:30px 0px 0px 40px;
+	padding:0px 0px 0px 0px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:90%;
+	text-align:left;
+	color:#000000;
+	}
+	p.navigation_photo a:link, p.navigation_photo a:visited, p.navigation_photo a:active {
+		color:#990000;
+		text-decoration:none;
+		}
+	p.navigation_photo a:hover {
+		color:#CC0000;
+		text-decoration:underline;
+		}
+	p.navigation_photo .nolink {
+		font-weight:normal;
+		}
+
+p.page_info {
+	margin:100px 0px 30px 0px;
+	padding:0px 0px 0px 0px;
+	font-size:70%;
+	text-align:center;
+	color:#999999;
+	font-family:verdana, arial, sans-serif;
+	}
+
+/* photos */
+
+img.photo {
+	margin:20px 0px 0px 35px;
+	padding:1px;
+	border:#CCCCCC 2px solid;
+	}	
+
+img.photo_thumb {
+	margin:3px 3px 3px 3px;
+	padding:0px;
+	border:#CCCCCC 1px solid;
+	}	
+
+p.photo_info {
+	margin:0px 0px 0px 40px;
+	padding:0px 0px 0px 0px;
+	font-size:70%;
+	text-align:left;
+	color:#999999;
+	font-family:verdana, arial, sans-serif;
+	}
+
+p.photo_list {
+	margin:17px 0px 0px 32px;
+	padding:0px;
+	}
+
+
+/* text */
+
+h2.text {
+	margin:0px 0px 10px 20px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:bold;
+	font-size:100%;
+	text-align:left;
+	color:#000000;	
+	}
+
+h3.text {
+	margin:0px 0px 10px 20px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:bold;
+	font-size:90%;
+	text-align:left;
+	color:#666666;	
+	}
+
+p.text {
+	margin:0px 0px 30px 20px;
+	padding:0px 0px 0px 0px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:80%;
+	text-align:left;
+	color:#000000;	
+	}
+
+p.text2 {
+	margin:0px 0px 30px 20px;
+	padding:0px 0px 0px 0px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:80%;
+	text-align:right;
+	color:#000000;	
+	}
+
+	p.text a:link, p.text a:active, p.text2 a:link, p.text2 a:active {
+		color:#990000;
+		text-decoration:underline;
+		}
+	p.text a:visited, p.text2 a:visited {
+		color:#660000;
+		text-decoration:underline;
+		}
+	p.text a:hover, p.text2 a:hover {
+		color:#CC0000;
+		text-decoration:none;
+		}
+
+.text_script {
+	font-style:italic;
+	color:#666666;
+	font-size:110%;
+	}
+
+/* comments */
+
+p.comment_name {
+	margin:0px 0px 0px 20px;
+	padding:0px 0px 0px 0px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:bold;
+	font-size:80%;
+	text-align:left;
+	color:#000000;	
+	}
+	p.comment_name b {
+		font-weight:normal;
+		color:#660000;
+		}
+
+p.comment_text {
+	margin:0px 0px 5px 20px;
+	padding:0px 0px 0px 0px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:80%;
+	text-align:left;
+	color:#333333;	
+	}
+
+p.comment_date {
+	margin:0px 0px 30px 20px;
+	padding:0px 0px 0px 0px;
+	font-family:verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:70%;
+	text-align:left;
+	color:#003300;	
+	}
+
+form.comment {
+	margin:0px 0px 30px 20px;
+	}
+
+td.formtext {
+	padding:0px 5px 0px 0px;
+	text-align:right;
+	font-family:verdana, arial, sans-serif;
+	font-weight:normal;
+	font-size:80%;
+	color:#000000;
+	}
+
+form.comment input {
+	font-family:verdana, arial, sans-serif;
+	font-size:80%;
+	color:#000000;
+	}
+form.comment textarea {
+	font-family:verdana, arial, sans-serif;
+	font-size:80%;
+	color:#000000;
+	}
+
+form.comment .submit {
+	font-family:verdana, arial, sans-serif;
+	font-weight:bold;
+	font-size:80%;
+	color:#990000;
+	background-color:#EEEEEE;
+	margin-top:3px;
+	border:#000000 1px solid;
+	}

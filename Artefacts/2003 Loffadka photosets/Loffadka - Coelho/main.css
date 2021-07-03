@@ -1,0 +1,159 @@
+body {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	background-color:#FFFFFF;
+	color:#666666;
+	font-family:verdana,arial,sans-serif;
+	}
+
+p.cover_navi {
+	margin:0px 0px 0px 0px;
+	padding:10px 7px 0px 0px;
+	font-size:80%;
+	text-align:right;
+	font-weight:bold;
+	}
+
+	p.cover_navi a:link, p.cover_navi a:visited, p.cover_navi a:active {
+		color:#660000;
+		text-decoration:none;
+		}
+	p.cover_navi a:hover {
+		color:#660000;
+		text-decoration:none;
+		}
+
+	p.cover_navi .bigger {
+		font-size:133%;
+		}
+
+p.main_navi {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 20px 5px;
+	font-size:70%;
+	text-align:left;
+	font-weight:normal;
+	}
+
+	p.main_navi a:link, p.main_navi a:visited, p.main_navi a:active {
+		color:#660000;
+		text-decoration:none;
+		}
+	p.main_navi a:hover {
+		color:#660000;
+		text-decoration:none;
+		}
+
+
+p.copyright {
+	margin:0px 0px 0px 0px;
+	padding:20px 10px 0px 0px;
+	color:#999999;
+	font-size:70%;
+	text-align:right;
+	}
+
+p.photo {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	text-align:center;	
+	font-size:70%;
+	color:#999999;
+	}
+	p.photo a:link, p.photo a:visited, p.photo a:active {
+		color:#999999;
+		text-decoration:none;
+		}
+	p.photo a:hover {
+		color:#999999;
+		text-decoration:underline;
+		}
+
+p.comment {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	text-align:center;	
+	font-size:60%;
+	color:#999999;
+	}
+
+p.maintext {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	text-align:left;	
+	font-size:80%;
+	color:#666666;
+	}
+
+p.maintext2 {
+	margin:0px 0px 0px 10px;
+	padding:0px 0px 0px 0px;
+	text-align:left;	
+	font-size:80%;
+	color:#666666;
+	}	
+
+.large_photo {
+	border:#000000 2px solid;
+	}
+
+.small_photo {
+	border:#000000 1px solid;
+	}
+
+/***************************************/
+
+.comment_name {
+	margin:0px 0px 0px 10px;
+	padding:0px 0px 0px 0px;	
+	font-size:80%;
+	font-weight:bold;
+	color:#660000;
+	}
+
+.comment_text {
+	margin:0px 0px 0px 10px;
+	padding:0px 0px 0px 0px;	
+	font-size:80%;
+	font-weight:normal;
+	color:#333333;
+	}
+
+.comment_date {
+	margin:0px 0px 20px 10px;
+	padding:0px 0px 0px 0px;	
+	font-size:70%;
+	font-weight:normal;
+	color:#999999;
+	}
+
+form {
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+	}
+
+
+DL {
+	margin:0px 0px 0px 10px;
+	padding:0px 0px 0px 0px;
+	}
+DT	{
+	font-size:12px;
+	font-weight:normal;
+	color:#666666;
+	}
+DD {
+	margin-left: 100px;
+	margin-top: -1.1em;
+	font-size:12px;
+	}
+
+input {
+	width:200px;
+	}
+textarea {
+	width:200px;
+	height:100px;
+	}
+
+

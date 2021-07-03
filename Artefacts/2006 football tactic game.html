@@ -1,0 +1,1066 @@
+<!doctype html public "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head> 
+	<title>Game 0.1</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+
+	<script>
+	var Game_Time = "";
+	var Game_Score = new Array (0,0);
+	var Game_BallMaster = "";
+	var Game_BallStart = new Array;
+	var Game_TeamMaster = 0;
+
+	var Game_TeamName = new Array ("Barcelona", "Milan");
+
+	var skill_koeff = 5;
+	var skill_koeffMin = 5;
+	var skill_specadd = 0;
+
+	var skill_Vratar = new Array;
+	var skill_Udar = new Array;
+	var skill_Perehvat = new Array;
+	var skill_Tehnika = new Array;
+	var skill_Skorost = new Array;
+
+	var player_Status = new Array;
+
+function show_report(report) {
+	document.getElementById("text_lastReport").value = '[' + Game_Time + "] " + report;
+
+	return true;
+}
+
+function display_status() {
+
+	// Field
+	if(player_Status['Puyol']) document.getElementById("Status_Puyol").className = "status_obvod";
+		else document.getElementById("Status_Puyol").className = "status_normal";
+	if(player_Status['Ronaldinho']) document.getElementById("Status_Ronaldinho").className = "status_obvod";
+		else document.getElementById("Status_Ronaldinho").className = "status_normal";
+	if(player_Status['Etoo']) document.getElementById("Status_Etoo").className = "status_obvod";
+		else document.getElementById("Status_Etoo").className = "status_normal";
+
+	if(player_Status['Maldini']) document.getElementById("Status_Maldini").className = "status_obvod";
+		else document.getElementById("Status_Maldini").className = "status_normal";
+	if(player_Status['Kaka']) document.getElementById("Status_Kaka").className = "status_obvod";
+		else document.getElementById("Status_Kaka").className = "status_normal";
+	if(player_Status['Shevchenko']) document.getElementById("Status_Shevchenko").className = "status_obvod";
+		else document.getElementById("Status_Shevchenko").className = "status_normal";
+
+
+	// Actions
+		if(player_Status['Puyol'] == 1) document.getElementById("button_Puyol_pass").disabled="yes";
+			else document.getElementById("button_Puyol_pass").disabled="";
+		if(player_Status['Puyol'] == 1) document.getElementById("button_Puyol_obvodka").disabled="yes";
+			else document.getElementById("button_Puyol_obvodka").disabled="";
+		if(player_Status['Puyol'] == 1) document.getElementById("button_Puyol_shortpass").disabled="";
+			else document.getElementById("button_Puyol_shortpass").disabled="yes";
+		if(player_Status['Puyol'] == 1) document.getElementById("button_Puyol_pass2").disabled="";
+			else document.getElementById("button_Puyol_pass2").disabled="yes";
+
+		if(player_Status['Ronaldinho'] == 1) document.getElementById("button_Ronaldinho_pass").disabled="yes";
+			else document.getElementById("button_Ronaldinho_pass").disabled="";
+		if(player_Status['Ronaldinho'] == 1) document.getElementById("button_Ronaldinho_obvodka").disabled="yes";
+			else document.getElementById("button_Ronaldinho_obvodka").disabled="";
+		if(player_Status['Ronaldinho'] == 1) document.getElementById("button_Ronaldinho_shortpass").disabled="";
+			else document.getElementById("button_Ronaldinho_shortpass").disabled="yes";
+		if(player_Status['Ronaldinho'] == 1) document.getElementById("button_Ronaldinho_shoot").disabled="";
+			else document.getElementById("button_Ronaldinho_shoot").disabled="yes";
+
+		if(player_Status['Etoo'] == 1) document.getElementById("button_Etoo_shoot").disabled="yes";
+			else document.getElementById("button_Etoo_shoot").disabled="";
+		if(player_Status['Etoo'] == 1) document.getElementById("button_Etoo_obvodka").disabled="yes";
+			else document.getElementById("button_Etoo_obvodka").disabled="";
+		if(player_Status['Etoo'] == 1) document.getElementById("button_Etoo_shoot2").disabled="";
+			else document.getElementById("button_Etoo_shoot2").disabled="yes";
+
+
+		if(player_Status['Maldini'] == 1) document.getElementById("button_Maldini_pass").disabled="yes";
+			else document.getElementById("button_Maldini_pass").disabled="";
+		if(player_Status['Maldini'] == 1) document.getElementById("button_Maldini_obvodka").disabled="yes";
+			else document.getElementById("button_Maldini_obvodka").disabled="";
+		if(player_Status['Maldini'] == 1) document.getElementById("button_Maldini_shortpass").disabled="";
+			else document.getElementById("button_Maldini_shortpass").disabled="yes";
+		if(player_Status['Maldini'] == 1) document.getElementById("button_Maldini_pass2").disabled="";
+			else document.getElementById("button_Maldini_pass2").disabled="yes";
+
+		if(player_Status['Kaka'] == 1) document.getElementById("button_Kaka_pass").disabled="yes";
+			else document.getElementById("button_Kaka_pass").disabled="";
+		if(player_Status['Kaka'] == 1) document.getElementById("button_Kaka_obvodka").disabled="yes";
+			else document.getElementById("button_Kaka_obvodka").disabled="";
+		if(player_Status['Kaka'] == 1) document.getElementById("button_Kaka_shortpass").disabled="";
+			else document.getElementById("button_Kaka_shortpass").disabled="yes";
+		if(player_Status['Kaka'] == 1) document.getElementById("button_Kaka_shoot").disabled="";
+			else document.getElementById("button_Kaka_shoot").disabled="yes";
+
+		if(player_Status['Shevchenko'] == 1) document.getElementById("button_Shevchenko_shoot").disabled="yes";
+			else document.getElementById("button_Shevchenko_shoot").disabled="";
+		if(player_Status['Shevchenko'] == 1) document.getElementById("button_Shevchenko_obvodka").disabled="yes";
+			else document.getElementById("button_Shevchenko_obvodka").disabled="";
+		if(player_Status['Shevchenko'] == 1) document.getElementById("button_Shevchenko_shoot2").disabled="";
+			else document.getElementById("button_Shevchenko_shoot2").disabled="yes";
+
+	return true;
+}
+
+function display_ball() {
+
+	// display field
+	document.getElementById("Ball_Valdes").className = "ball_no";
+	document.getElementById("Ball_Puyol").className = "ball_no";
+	document.getElementById("Ball_Ronaldinho").className = "ball_no";
+	document.getElementById("Ball_Etoo").className = "ball_no";
+
+	document.getElementById("Ball_Dida").className = "ball_no";
+	document.getElementById("Ball_Maldini").className = "ball_no";
+	document.getElementById("Ball_Kaka").className = "ball_no";
+	document.getElementById("Ball_Shevchenko").className = "ball_no";
+
+	document.getElementById("Ball_" + Game_BallMaster).className = "ball_yes";
+
+	
+	// display actions
+	document.getElementById("Action_Valdes").style.display = "none";
+	document.getElementById("Action_Puyol").style.display = "none";
+	document.getElementById("Action_Ronaldinho").style.display = "none";
+	document.getElementById("Action_Etoo").style.display = "none";
+
+	document.getElementById("Action_Dida").style.display = "none";
+	document.getElementById("Action_Maldini").style.display = "none";
+	document.getElementById("Action_Kaka").style.display = "none";
+	document.getElementById("Action_Shevchenko").style.display = "none";
+
+	document.getElementById("Action_" + Game_BallMaster).style.display = "block";
+
+	return true;
+}
+
+function display() {
+	document.getElementById("text_time").value = Game_Time;
+	document.getElementById("text_score").value = Game_Score[0] + ':' + Game_Score[1];
+
+			document.getElementById("skill_Vratar['Valdes']").value = skill_Vratar['Valdes'];
+
+			document.getElementById("skill_Udar['Puyol']").value = skill_Udar['Puyol'];
+			document.getElementById("skill_Perehvat['Puyol']").value = skill_Perehvat['Puyol'];
+			document.getElementById("skill_Tehnika['Puyol']").value = skill_Tehnika['Puyol'];
+			document.getElementById("skill_Skorost['Puyol']").value = skill_Skorost['Puyol'];
+
+			document.getElementById("skill_Udar['Ronaldinho']").value = skill_Udar['Ronaldinho'];
+			document.getElementById("skill_Perehvat['Ronaldinho']").value = skill_Perehvat['Ronaldinho'];
+			document.getElementById("skill_Tehnika['Ronaldinho']").value = skill_Tehnika['Ronaldinho'];
+			document.getElementById("skill_Skorost['Ronaldinho']").value = skill_Skorost['Ronaldinho'];
+
+			document.getElementById("skill_Udar['Etoo']").value = skill_Udar['Etoo'];
+			document.getElementById("skill_Perehvat['Etoo']").value = skill_Perehvat['Etoo'];
+			document.getElementById("skill_Tehnika['Etoo']").value = skill_Tehnika['Etoo'];
+			document.getElementById("skill_Skorost['Etoo']").value = skill_Skorost['Etoo'];
+
+
+			document.getElementById("skill_Vratar['Dida']").value = skill_Vratar['Dida'];
+
+			document.getElementById("skill_Udar['Maldini']").value = skill_Udar['Maldini'];
+			document.getElementById("skill_Perehvat['Maldini']").value = skill_Perehvat['Maldini'];
+			document.getElementById("skill_Tehnika['Maldini']").value = skill_Tehnika['Maldini'];
+			document.getElementById("skill_Skorost['Maldini']").value = skill_Skorost['Maldini'];
+
+			document.getElementById("skill_Udar['Kaka']").value = skill_Udar['Kaka'];
+			document.getElementById("skill_Perehvat['Kaka']").value = skill_Perehvat['Kaka'];
+			document.getElementById("skill_Tehnika['Kaka']").value = skill_Tehnika['Kaka'];
+			document.getElementById("skill_Skorost['Kaka']").value = skill_Skorost['Kaka'];
+
+			document.getElementById("skill_Udar['Shevchenko']").value = skill_Udar['Shevchenko'];
+			document.getElementById("skill_Perehvat['Shevchenko']").value = skill_Perehvat['Shevchenko'];
+			document.getElementById("skill_Tehnika['Shevchenko']").value = skill_Tehnika['Shevchenko'];
+			document.getElementById("skill_Skorost['Shevchenko']").value = skill_Skorost['Shevchenko'];
+
+	return true;
+}
+
+
+function game_initgame() {
+	
+	// TEAM 0
+	skill_Vratar['Valdes'] = Math.round((Math.random()) * skill_koeff) + skill_koeffMin + skill_specadd;
+
+	skill_Udar['Puyol']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Perehvat['Puyol'] = Math.round((Math.random()) * skill_koeff) + skill_koeffMin + skill_specadd;
+	skill_Tehnika['Puyol']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Skorost['Puyol']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+
+	skill_Udar['Ronaldinho']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Perehvat['Ronaldinho']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Tehnika['Ronaldinho']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin + skill_specadd;
+	skill_Skorost['Ronaldinho']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+
+	skill_Udar['Etoo']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin + skill_specadd;
+	skill_Perehvat['Etoo']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Tehnika['Etoo']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Skorost['Etoo']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+
+
+	// TEAM 1
+	skill_Vratar['Dida'] = Math.round((Math.random()) * skill_koeff) + skill_koeffMin + skill_specadd;
+
+	skill_Udar['Maldini']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Perehvat['Maldini']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin + skill_specadd;
+	skill_Tehnika['Maldini']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Skorost['Maldini']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+
+	skill_Udar['Kaka']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Perehvat['Kaka']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Tehnika['Kaka']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin + skill_specadd;
+	skill_Skorost['Kaka']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+
+	skill_Udar['Shevchenko']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin + skill_specadd;
+	skill_Perehvat['Shevchenko']	= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Tehnika['Shevchenko']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+	skill_Skorost['Shevchenko']		= Math.round((Math.random()) * skill_koeff) + skill_koeffMin;
+
+	// OTHER
+	Game_Time = 0;
+	Game_Score[0] = 0;
+	Game_Score[1] = 0;
+	Game_BallStart[0] = "Ronaldinho";
+	Game_BallStart[1] = "Kaka";
+	Game_BallMaster = "";
+	Game_TeamMaster = 0;
+
+	return true;
+}
+
+
+function game_start_round() {
+	if (Game_Time == 0) Game_TeamMaster = 0;
+	else Game_TeamMaster = 1;
+
+	Game_BallMaster = Game_BallStart[Game_TeamMaster];
+
+	return true;
+}
+
+	var engine_action = new Array;
+
+	function anti_team(team) {
+		if(team == 0) enemy = 1; else enemy = 0;
+		return enemy;
+	}
+	
+	function engine_compare(attacker, defender) {
+		engine_action['attacker'] = Math.round(Math.random() * attacker);
+		engine_action['defender'] = Math.round(Math.random() * defender);
+
+		engine_action['result'] = -1;
+		if(engine_action['attacker'] > engine_action['defender'])  engine_action['result'] = 1;
+		if(engine_action['attacker'] == engine_action['defender']) engine_action['result'] = 0;
+
+		return engine_action;
+	}
+
+	function engine_endturn(report) {
+		Game_Time++;
+
+		// Clear stats
+		if(Game_TeamMaster == 0) {
+			player_Status['Maldini'] = 0;
+			player_Status['Kaka'] = 0;
+			player_Status['Shevchenko'] = 0;
+		}
+		else {
+			player_Status['Puyol'] = 0;
+			player_Status['Ronaldinho'] = 0;
+			player_Status['Etoo'] = 0;		
+		}
+		
+		display();
+		display_ball();
+		display_status();
+		show_report(report);
+
+		return true;
+	}
+
+	function engine_endturn_short(report) {
+		Game_Time--;
+		engine_endturn(report);
+		return true;
+	}
+
+
+
+
+	function play_pass_vratar(team, target_name) {
+		Game_BallMaster = target_name;
+		Game_TeamMaster = team;
+
+		report = Game_TeamName[team] + ' ' + Message['vratar_pass_defender'] + "\n";
+		engine_endturn(report);
+		return true;
+	}
+
+	function play_pass(team, shooter_name, target_name, perehvat_name, cover_name) {
+		// Set numbers
+		udar = skill_Udar[shooter_name];
+		perehvat  = skill_Perehvat[perehvat_name];
+		report = "";
+
+		// Begin Pass
+		result = engine_compare(udar, perehvat);
+
+		if(result['result'] < 0) {
+			// Perehvat true
+			report += perehvat_name + " " + Message['antipass_perehvat'];
+			report += " ( " + result['attacker'] + " / " + result['defender'] + " )\n";
+
+			Game_BallMaster = perehvat_name;
+			Game_TeamMaster = anti_team(team);
+
+			// Analize Effects
+			/*
+			if(result['attacker'] == 0) {
+				report += "- MIN Udar\n";
+				skill_Udar[udar_name]--;
+				if(skill_Udar[udar_name] < 2) skill_Udar[udar_name] = 2;
+				}
+			if(result['defender'] == perehvat) {
+				report += "+ MAX Ball в перехвате\n";
+				skill_Ball[perehvat_name]++;
+				}
+			*/
+			
+			engine_endturn(report);
+			return false;
+		}
+
+		// Perehvat False
+		report += shooter_name + " " + Message['pass'] + " " + target_name;
+		report += " ( " + result['attacker'] + " / " + result['defender'] + " )\n";
+
+		Game_BallMaster = target_name;
+		Game_TeamMaster = team;
+
+		taktik1 = skill_Skorost[target_name];
+		taktik2 = skill_Skorost[cover_name];
+		taktik_result = engine_compare(taktik1, taktik2);
+		if (taktik1 > taktik2)
+		{
+			report += "... " + target_name + " " + Message['taktik_take_pass'] + "\n";
+			player_Status[target_name] = 1;
+
+			// Analize Effects
+
+			display_status();
+		}
+
+		// Analize Effects
+		/*
+		if(result['attacker'] == udar) {
+			report += "+ MAX Udar\n";
+			skill_Udar[udar_name]++;
+			}
+		if(result['defender'] == 0) {
+			report += "- MIN Ball в перехвате\n";
+			skill_Ball[perehvat_name]--;
+			if(skill_Ball[perehvat_name] < 2) skill_Ball[perehvat_name] = 2;
+			}
+		*/
+
+		engine_endturn(report);
+		return true;
+	}
+
+
+	function play_obvodka(team, baller_name, unballer_name) {
+		// Set numbers
+		obvodka = skill_Tehnika[baller_name];
+		otbor   = skill_Perehvat[unballer_name];
+		report = "";
+
+		// Begin Obvodka
+		result = engine_compare(obvodka, otbor);
+		
+		if(result['result'] == 0) {
+			// Shtrafnoi
+			}
+		
+		if(result['result'] > 0) {
+			// Obvodka
+
+			report += baller_name + " " + Message['obvodka'] + " " + unballer_name;
+			report += " ( " + result['attacker'] + " / " + result['defender'] + " )\n";
+
+			Game_BallMaster = baller_name;
+			Game_TeamMaster = team;
+			player_Status[baller_name] = 1;
+
+			// Analize Effects
+			/*
+			if(result['attacker'] == obvodka) {
+				report += "+ MAX Ball в обводе\n";
+				skill_Ball[baller_name]++;
+				}
+			if(result['defender'] == 0) {
+				report += "- MIN Ball в отборе\n";
+				skill_Ball[unballer_name]--;
+				if(skill_Ball[unballer_name] < 2) skill_Ball[unballer_name] = 2;
+				}
+			*/
+
+			engine_endturn(report);
+			return true;
+			}
+
+		// Otbor
+
+		report += unballer_name + " " + Message['otbor'];
+		report += " ( " + result['attacker'] + " / " + result['defender'] + " )\n";
+
+		Game_BallMaster = unballer_name;
+		Game_TeamMaster = anti_team(team);
+
+		// Analize Effects
+		/*
+		if(result['attacker'] == 0) {
+			report += "- MIN Ball в обводе\n";
+			skill_Ball[baller_name]--;
+			if(skill_Ball[baller_name] < 2) skill_Ball[baller_name] = 2;
+			}
+		if(result['defender'] == otbor) {
+			report += "+ MAX Ball в отборе\n";
+			skill_Ball[unballer_name]++;
+			}
+		*/
+
+		engine_endturn(report);
+		return false;
+	}
+
+
+	function play_pass_short(team, target_name, cover_name) {
+		Game_BallMaster = target_name;
+		Game_TeamMaster = team;		
+		report = Message['short_pass'] + " " + target_name + "\n";
+
+		// Taktik
+		taktik1 = skill_Skorost[target_name];
+		taktik2 = skill_Skorost[cover_name];
+		taktik_result = engine_compare(taktik1, taktik2);
+		if (taktik1 > taktik2)
+		{
+			report += "... " + target_name + " " + Message['taktik_take_pass'] + "\n";
+			player_Status[target_name] = 1;
+
+			// Analize Effects
+
+			display_status();
+		}
+
+		engine_endturn_short(report);
+		return true;
+	}
+
+
+	function play_shoot(team, shooter_name, support_name, defender_name, vratar_name) {
+		// Set numbers
+		vratar = skill_Vratar[vratar_name];
+		defender = skill_Perehvat[defender_name];
+		udar = skill_Udar[shooter_name];
+
+		report = "(!) " + shooter_name + " " + Message['shoot_on_goal'] + "\n";
+
+		// Begin Defender
+		result = engine_compare(udar, defender);
+		if(result['result'] < 1) {
+			report += "... " + defender_name + " " + Message['close_shoot'];
+			report += ' ( '  + result['attacker'] + ' / ' + result['defender'] + " )\n";
+
+			Game_BallMaster = defender_name;
+			Game_TeamMaster = anti_team(team);
+
+			// Analize Effects
+			/*
+			if(result['attacker'] == 0) {
+				report += "- MIN Attack\n";
+				skill_Udar[shooter_name]--;
+				if(skill_Udar[shooter_name] < 2) skill_Udar[shooter_name] = 2;
+				}
+			if(result['defender'] == defender) {
+				report += "+ MAX Defend\n";
+				skill_Ball[defender_name]++;
+				}
+			*/
+
+			engine_endturn(report);
+			return false
+			}
+
+		// Defender Loose
+
+		// Analize Effects
+		/*
+		if(result['attacker'] == udar) {
+			report += "+ MAX Attack\n";
+			skill_Udar[shooter_name]++;
+			}
+		if(result['defender'] == 0) {
+			report += "- MIN Defend\n";
+			skill_Ball[defender_name]--;
+			if(skill_Ball[defender_name] < 2) skill_Ball[defender_name] = 2;
+			}
+		*/
+
+		// Begin Goalkeeper
+		result2 = engine_compare(result['attacker'], vratar);
+		if(result2['result'] > 0) {
+			// Goal
+			report += "*** " + Message['GOAL'] + " ***\n";
+			Game_Score[team]++;
+			report += shooter_name + " " + Message['make_goal'] + " (" + Game_Score[0] + ":" + Game_Score[1] + ")\n";
+
+			// Analize Effects
+			/*
+			*/
+			
+			Game_BallMaster = Game_BallStart[anti_team(team)];
+			Game_TeamMaster = anti_team(team);
+
+			engine_endturn(report);
+			return true;
+			}
+		// Analize Effects
+		/*
+		*/
+
+		if (support_name)
+		{
+			// Try to assist
+			taktik1 = skill_Skorost[support_name];
+			taktik2 = skill_Skorost[defender_name];
+			taktik_result = engine_compare(taktik1, taktik2);
+			if (taktik1 > taktik2)
+			{
+				report += "... " + support_name + " " + Message['na_dobivanie'] + "\n";
+				
+				// Analize Effects
+				/*
+				*/
+
+				udar2 = skill_Udar[support_name];
+				vratar2 = skill_Vratar[vratar_name];
+
+				result3 = engine_compare(udar2, vratar2);
+				if(result3['result'] > 0) {
+					// Goal
+					report += "*** " + Message['GOAL'] + " ***\n";
+					Game_Score[team]++;
+					report += support_name + " " + Message['make_goal'] + " (" + Game_Score[0] + ":" + Game_Score[1] + ")\n";
+
+					// Analize Effects
+					/*
+					*/
+					
+					Game_BallMaster = Game_BallStart[anti_team(team)];
+					Game_TeamMaster = anti_team(team);
+
+					engine_endturn(report);
+					return true;
+				}
+			}
+		} // support block
+
+		report += "... " +  vratar_name + " " + Message['vratar_save'];
+		report += ' ( '  + result2['attacker'] + ' / ' + result2['defender'] + " )\n";
+
+		Game_BallMaster = vratar_name;
+		Game_TeamMaster = anti_team(team);
+
+		engine_endturn(report);
+		return false;
+	}
+
+
+	function play_shoot_oneone(team, shooter_name, vratar_name) {
+		// Set numbers
+		vratar = skill_Vratar[vratar_name];
+		udar = skill_Udar[shooter_name];
+		report = shooter_name + " " + Message['danger_shoot'] + "\n";		
+
+		result = engine_compare(udar, vratar);
+		
+		// Analize Goal
+		if(result['result'] > 0) {
+			report += "*** " + Message['GOAL'] + " ***\n";
+			Game_Score[team]++;
+			report += shooter_name + " " + Message['make_goal'] + " (" + Game_Score[0] + ":" + Game_Score[1] + ")\n";
+
+			// Analize Effects
+			/*
+			*/
+
+			Game_BallMaster = Game_BallStart[anti_team(team)];
+			Game_TeamMaster = anti_team(team);
+
+			engine_endturn(report);
+			return true;
+			}
+
+		report += "... " + vratar_name + " " + Message['vratar_save'];
+		report += ' ( '  + result['attacker'] + ' / ' + result['defender'] + " )\n";
+
+		Game_BallMaster = vratar_name;
+		Game_TeamMaster = anti_team(team);
+
+		engine_endturn(report);
+		return false;		
+	}
+
+
+	function play_enterball(team, target_name, enemy_name) {
+		taktik1 = skill_Skorost[target_name];
+		taktik2 = skill_Skorost[enemy_name];
+		report = "";
+
+		taktik_result = engine_compare(taktik1, taktik2);
+		if (taktik1 < taktik2)
+		{	
+			report += enemy_name + " " + Message['otbor_v_pole'] + " " + target_name + "\n";
+			Game_BallMaster = enemy_name;
+			Game_TeamMaster = anti_team(team);
+
+			// Analize Effects
+			/*
+			*/
+
+			engine_endturn(report);
+			return true;
+		}
+
+		report += target_name + " " + Message['udar_ot_vorot'] + "\n";
+		Game_BallMaster = target_name;
+		Game_TeamMaster = team;
+
+		// Analize Effects
+		/*
+		*/
+
+		engine_endturn(report);
+		return true;
+	}
+	</script>
+
+	<style type="text/css">
+/* FIELD  */
+
+div.player {
+width: 150px;
+height: 150px;
+border: #CCC 1px solid;
+padding: 5px;
+}
+
+div.player h2 {
+margin: 0 0 5px 0;
+font-weight: bold;
+font-size: 1.1em;
+color: #333;
+font-family: verdana, arial, sans-serif;
+}
+
+div.team0 div.status_normal { padding-right: 60px; padding-left: 0; border:0; }
+div.team0 div.status_obvod { padding-left: 50px; border-right: 10px #F33 solid; padding-right: 0; }
+div.team0 div.ball_no { background: #FEE; }
+div.team0 div.ball_yes { background: #F99; }
+
+div.team1 { text-align: right; }
+
+div.team1 div.status_normal { padding-left: 60px; padding-right: 0; border: 0; }
+div.team1 div.status_obvod { padding-right: 50px; border-left: 10px #F33 solid; padding-left: 0; }
+div.team1 div.ball_no { background: #EEF; }
+div.team1 div.ball_yes { background: #99F; }
+
+
+
+#Report_Area {
+float: right;
+}
+	</style>	
+
+</head>
+<body>
+
+<script>
+	var Message = new Array;
+
+	Message['vratar_pass_defender'] = "медленно вводит мяч в игру";
+	Message['antipass_perehvat'] = "перехватил пас";
+	Message['pass'] = "перекинул мяч";
+	Message['taktik_take_pass'] = "избавился от опеки и удачно принял мяч";
+	Message['obvodka'] = "обoшёл";
+	Message['otbor'] = "отобрал мяч";
+	Message['short_pass'] = "короткий пас";
+	Message['shoot_on_goal'] = "бъёт по воротам...";
+	Message['close_shoot'] = "перехватывает мяч";
+	Message['GOAL'] = "Гол!";
+	Message['make_goal'] = "увеличивает счёт";
+	Message['na_dobivanie'] = "поправляет мяч";
+	Message['vratar_save'] = "спасает свои ворота";
+	Message['danger_shoot'] = "опасно пробивает по воротам";
+	Message['otbor_v_pole'] = "опережает";
+	Message['udar_ot_vorot'] = "принимает мяч и начинает атаку";
+	
+	game_initgame();
+		Game_TeamName[0] = "Барселона"; Game_TeamName[1] = "Милан";
+	game_start_round();
+
+	//document.write(Game_BallMaster);
+
+</script>
+
+<p>
+	Время 
+	<input type="text" name="text_time" id="text_time" size="4" />
+</p>
+
+<p>
+	<script>document.write(Game_TeamName[0]);</script>
+	<input type="text" name="text_score" id="text_score" size="8" />
+	<script>document.write(Game_TeamName[1]);</script>
+</p>
+
+<table cellpadding="0" cellspacing="10" border="0">
+<tr>
+	<td rowspan="2">
+		<div class="team0" id="DIV_Valdes">
+		<div id="Ball_Valdes" class="ball_yes">
+		<div class="player">
+
+			<h2>Valdes &rarr;</h2>
+
+			<input type="text" name="skill_Vratar['Valdes']" id="skill_Vratar['Valdes']" size="2" />
+			Вратарь<br />
+
+		</div>
+		</div><!-- Ball_Valdes -->
+		</div><!-- DIV_Valdes -->
+	</td>
+	<td>
+		<div class="team0" id="DIV_Puyol">
+		<div id="Status_Puyol" class="status_normal">
+		<div id="Ball_Puyol" class="ball_no">
+		<div class="player">
+
+			<h2>Puyol</h2>
+
+			<input type="text" name="skill_Udar['Puyol']" id="skill_Udar['Puyol']" size="2" />
+			Удар<br />
+			<input type="text" name="skill_Perehvat['Puyol']" id="skill_Perehvat['Puyol']" size="2" />
+			Перехват<br />
+			<input type="text" name="skill_Tehnika['Puyol']" id="skill_Tehnika['Puyol']" size="2" />
+			Техника<br />
+			<input type="text" name="skill_Skorost['Puyol']" id="skill_Skorost['Puyol']" size="2" />
+			Скорость<br />
+
+		</div>
+		</div><!-- Ball_Puyol -->
+		</div><!-- Status_Puyol -->
+		</div><!-- DIV_Puyol -->
+	</td>
+	<td>
+		<div class="team0" id="DIV_Ronaldinho">
+		<div id="Status_Ronaldinho" class="status_normal">
+		<div id="Ball_Ronaldinho" class="ball_no">
+		<div class="player">
+
+			<h2>Ronaldinho</h2>
+
+			<input type="text" name="skill_Udar['Ronaldinho']" id="skill_Udar['Ronaldinho']" size="2" />
+			Удар<br />
+			<input type="text" name="skill_Perehvat['Ronaldinho']" id="skill_Perehvat['Ronaldinho']" size="2" />
+			Перехват<br />
+			<input type="text" name="skill_Tehnika['Ronaldinho']" id="skill_Tehnika['Ronaldinho']" size="2" />
+			Техника<br />
+			<input type="text" name="skill_Skorost['Ronaldinho']" id="skill_Skorost['Ronaldinho']" size="2" />
+			Скорость<br />
+
+		</div>
+		</div><!-- Ball_Ronaldinho -->
+		</div><!-- Status_Ronaldinho -->
+		</div><!-- DIV_Ronaldinho -->
+	</td>
+	<td>
+		<div class="team0" id="DIV_Etoo">
+		<div id="Status_Etoo" class="status_normal">
+		<div id="Ball_Etoo" class="ball_no">
+		<div class="player">
+
+			<h2>Etoo</h2>
+
+			<input type="text" name="skill_Udar['Etoo']" id="skill_Udar['Etoo']" size="2" />
+			Удар<br />
+			<input type="text" name="skill_Perehvat['Etoo']" id="skill_Perehvat['Etoo']" size="2" />
+			Перехват<br />
+			<input type="text" name="skill_Tehnika['Etoo']" id="skill_Tehnika['Etoo']" size="2" />
+			Техника<br />
+			<input type="text" name="skill_Skorost['Etoo']" id="skill_Skorost['Etoo']" size="2" />
+			Скорость<br />
+
+		</div>
+		</div><!-- Ball_Etoo -->
+		</div><!-- Status_Etoo -->
+		</div><!-- DIV_Etoo -->
+	</td>
+	<td rowspan="2">
+		<div class="team1" id="DIV_Dida">
+		<div id="Ball_Dida" class="ball_no">
+		<div class="player">
+
+			<h2>&larr; Dida</h2>
+
+			Вратарь
+			<input type="text" name="skill_Vratar['Dida']" id="skill_Vratar['Dida']" size="2" />
+			<br />
+
+		</div>
+		</div><!-- Ball_Dida -->
+		</div><!-- DIV_Dida -->
+	</td>
+</tr>
+<tr>
+	<td>
+		<div class="team1" id="DIV_Shevchenko">
+		<div id="Status_Shevchenko" class="status_normal">
+		<div id="Ball_Shevchenko" class="ball_no">
+		<div class="player">
+
+			<h2>Shevchenko</h2>
+
+			Удар
+			<input type="text" name="skill_Udar['Shevchenko']" id="skill_Udar['Shevchenko']" size="2" /><br />
+			Перехват
+			<input type="text" name="skill_Perehvat['Shevchenko']" id="skill_Perehvat['Shevchenko']" size="2" /><br />
+			Техника
+			<input type="text" name="skill_Tehnika['Shevchenko']" id="skill_Tehnika['Shevchenko']" size="2" /><br />
+			Скорость
+			<input type="text" name="skill_Skorost['Shevchenko']" id="skill_Skorost['Shevchenko']" size="2" /><br />
+
+
+		</div>
+		</div><!-- Ball_Shevchenko -->
+		</div><!-- Status_Shevchenko -->
+		</div><!-- DIV_Shevchenko -->
+	</td>
+	<td>
+		<div class="team1" id="DIV_Kaka">
+		<div id="Status_Kaka" class="status_normal">
+		<div id="Ball_Kaka" class="ball_yes">
+		<div class="player">
+
+			<h2>Kaka</h2>
+
+			Удар
+			<input type="text" name="skill_Udar['Kaka']" id="skill_Udar['Kaka']" size="2" /><br />
+			Перехват
+			<input type="text" name="skill_Perehvat['Kaka']" id="skill_Perehvat['Kaka']" size="2" /><br />
+			Техника
+			<input type="text" name="skill_Tehnika['Kaka']" id="skill_Tehnika['Kaka']" size="2" /><br />
+			Скорость
+			<input type="text" name="skill_Skorost['Kaka']" id="skill_Skorost['Kaka']" size="2" /><br />
+
+		</div>
+		</div><!-- Ball_Kaka -->
+		</div><!-- Status_Kaka -->
+		</div><!-- DIV_Kaka -->
+	</td>
+	<td>
+		<div class="team1" id="DIV_Maldini">
+		<div id="Status_Maldini" class="status_normal">
+		<div id="Ball_Maldini" class="ball_no">
+		<div class="player">
+
+			<h2>Maldini</h2>
+
+			Удар
+			<input type="text" name="skill_Udar['Maldini']" id="skill_Udar['Maldini']" size="2" /><br />
+			Перехват
+			<input type="text" name="skill_Perehvat['Maldini']" id="skill_Perehvat['Maldini']" size="2" /><br />
+			Техника
+			<input type="text" name="skill_Tehnika['Maldini']" id="skill_Tehnika['Maldini']" size="2" /><br />
+			Скорость
+			<input type="text" name="skill_Skorost['Maldini']" id="skill_Skorost['Maldini']" size="2" /><br />
+
+		</div>
+		</div><!-- Ball_Maldini -->
+		</div><!-- Status_Maldini -->
+		</div><!-- DIV_Maldini -->
+	</td>
+</tr>
+</table>
+
+
+<div id="Report_Area">
+	<textarea name="text_lastReport" id="text_lastReport" rows="5" cols="70"></textarea>
+</div>
+
+
+<div class="actions" id="Action_Valdes">
+<h2>Valdes</h2>
+	<input type="button" value="Пас Puyol" 
+		onclick="play_pass_vratar(0, 'Puyol')" /><br />
+	<input type="button" value="Вынос в поле" 
+		onclick="play_enterball(0, 'Etoo', 'Kaka');"/><br />
+</div>
+
+<div class="actions" id="Action_Puyol">
+<h2>Puyol</h2>
+	
+	<input type="button" value="Пас Ronaldinho" id="button_Puyol_pass" 
+		onclick="play_pass(0, 'Puyol', 'Ronaldinho', 'Shevchenko', 'Kaka');" /><br />
+	
+	<input type="button" value="Пойти в обводку" id="button_Puyol_obvodka"
+		onclick="play_obvodka(0, 'Puyol', 'Shevchenko');" /><br />
+	<input type="button" value="Короткий пас Ronaldinho" id="button_Puyol_shortpass"
+		onclick="play_pass_short(0, 'Ronaldinho', 'Kaka');" /><br />
+	<input type="button" value="Пас Etoo" id="button_Puyol_pass2"
+		onclick="play_pass(0, 'Puyol', 'Etoo', 'Kaka', 'Maldini');" /><br />
+
+	<script>
+		if(player_Status['Puyol'] == 1) document.getElementById("button_Puyol_pass").disabled="yes";
+			else document.getElementById("button_Puyol_pass").disabled="";
+		if(player_Status['Puyol'] == 1) document.getElementById("button_Puyol_obvodka").disabled="yes";
+			else document.getElementById("button_Puyol_obvodka").disabled="";
+		if(player_Status['Puyol'] == 1) document.getElementById("button_Puyol_shortpass").disabled="";
+			else document.getElementById("button_Puyol_shortpass").disabled="yes";
+		if(player_Status['Puyol'] == 1) document.getElementById("button_Puyol_pass2").disabled="";
+			else document.getElementById("button_Puyol_pass2").disabled="yes";
+	</script>
+
+</div>
+
+<div class="actions" id="Action_Ronaldinho">
+<h2>Ronaldinho</h2>
+
+	<input type="button" value="Пас Etoo" id="button_Ronaldinho_pass" 
+		onclick="play_pass(0, 'Ronaldinho', 'Etoo', 'Kaka', 'Maldini');" /><br />
+	<input type="button" value="Пойти в обводку" id="button_Ronaldinho_obvodka"
+		onclick="play_obvodka(0, 'Ronaldinho', 'Kaka');" /><br />
+	<input type="button" value="Короткий пас Etoo" id="button_Ronaldinho_shortpass"
+		onclick="play_pass_short(0, 'Etoo', 'Maldini');" /><br />
+	<input type="button" value="Удар по воротам" id="button_Ronaldinho_shoot"
+		onclick="play_shoot(0, 'Ronaldinho', 'Etoo', 'Maldini', 'Dida');" /><br />
+	<script>
+		if(player_Status['Ronaldinho'] == 1) document.getElementById("button_Ronaldinho_pass").disabled="yes";
+			else document.getElementById("button_Ronaldinho_pass").disabled="";
+		if(player_Status['Ronaldinho'] == 1) document.getElementById("button_Ronaldinho_obvodka").disabled="yes";
+			else document.getElementById("button_Ronaldinho_obvodka").disabled="";
+		if(player_Status['Ronaldinho'] == 1) document.getElementById("button_Ronaldinho_shortpass").disabled="";
+			else document.getElementById("button_Ronaldinho_shortpass").disabled="yes";
+		if(player_Status['Ronaldinho'] == 1) document.getElementById("button_Ronaldinho_shoot").disabled="";
+			else document.getElementById("button_Ronaldinho_shoot").disabled="yes";
+	</script>
+</div>
+
+<div class="actions" id="Action_Etoo">
+<h2>Etoo</h2>
+
+	<input type="button" value="Удар по воротам" id="button_Etoo_shoot"
+		onclick="play_shoot(0, 'Etoo', '', 'Maldini', 'Dida');" /><br />
+	<input type="button" value="Пойти в обводку" id="button_Etoo_obvodka"
+		onclick="play_obvodka(0, 'Etoo', 'Maldini');" /><br />
+	<input type="button" value="Выход 1 на 1" id="button_Etoo_shoot2"
+		onclick="play_shoot_oneone(0, 'Etoo', 'Dida');" /><br />
+	<script>
+		if(player_Status['Etoo'] == 1) document.getElementById("button_Etoo_shoot").disabled="yes";
+			else document.getElementById("button_Etoo_shoot").disabled="";
+		if(player_Status['Etoo'] == 1) document.getElementById("button_Etoo_obvodka").disabled="yes";
+			else document.getElementById("button_Etoo_obvodka").disabled="";
+		if(player_Status['Etoo'] == 1) document.getElementById("button_Etoo_shoot2").disabled="";
+			else document.getElementById("button_Etoo_shoot2").disabled="yes";
+	</script>
+</div>
+
+<div class="actions" id="Action_Dida">
+<h2>Dida</h2>
+
+	<input type="button" value="Пас Maldini" 
+		onclick="play_pass_vratar(1, 'Maldini')" /><br />
+	<input type="button" value="Вынос в поле" 
+		onclick="play_enterball(1, 'Shevchenko', 'Ronaldinho');"/><br />
+</div>
+
+<div class="actions" id="Action_Maldini">
+<h2>Maldini</h2>
+
+	<input type="button" value="Пас Kaka" id="button_Maldini_pass" 
+		onclick="play_pass(1, 'Maldini', 'Kaka', 'Etoo', 'Ronaldinho');" /><br />
+	<input type="button" value="Пойти в обводку" id="button_Maldini_obvodka"
+		onclick="play_obvodka(1, 'Maldini', 'Etoo');" /><br />
+	<input type="button" value="Короткий пас Kaka" id="button_Maldini_shortpass"
+		onclick="play_pass_short(1, 'Kaka', 'Ronaldinho');" /><br />
+	<input type="button" value="Пас Etoo" id="button_Maldini_pass2"
+		onclick="play_pass(1, 'Maldini', 'Shevchenko', 'Kaka', 'Puyol');" /><br />
+
+	<script>
+		if(player_Status['Maldini'] == 1) document.getElementById("button_Maldini_pass").disabled="yes";
+			else document.getElementById("button_Maldini_pass").disabled="";
+		if(player_Status['Maldini'] == 1) document.getElementById("button_Maldini_obvodka").disabled="yes";
+			else document.getElementById("button_Maldini_obvodka").disabled="";
+		if(player_Status['Maldini'] == 1) document.getElementById("button_Maldini_shortpass").disabled="";
+			else document.getElementById("button_Maldini_shortpass").disabled="yes";
+		if(player_Status['Maldini'] == 1) document.getElementById("button_Maldini_pass2").disabled="";
+			else document.getElementById("button_Maldini_pass2").disabled="yes";
+	</script>
+
+</div>
+
+<div class="actions" id="Action_Kaka">
+<h2>Kaka</h2>
+
+	<input type="button" value="Пас Shevchenko" id="button_Kaka_pass" 
+		onclick="play_pass(1, 'Kaka', 'Shevchenko', 'Ronaldinho', 'Puyol');" /><br />
+	<input type="button" value="Пойти в обводку" id="button_Kaka_obvodka"
+		onclick="play_obvodka(1, 'Kaka', 'Ronaldinho');" /><br />
+	<input type="button" value="Короткий пас Shevchenko" id="button_Kaka_shortpass"
+		onclick="play_pass_short(1, 'Shevchenko', 'Puyol');" /><br />
+	<input type="button" value="Удар по воротам" id="button_Kaka_shoot"
+		onclick="play_shoot(1, 'Kaka', 'Shevchenko', 'Puyol', 'Valdes');" /><br />
+	<script>
+		if(player_Status['Kaka'] == 1) document.getElementById("button_Kaka_pass").disabled="yes";
+			else document.getElementById("button_Kaka_pass").disabled="";
+		if(player_Status['Kaka'] == 1) document.getElementById("button_Kaka_obvodka").disabled="yes";
+			else document.getElementById("button_Kaka_obvodka").disabled="";
+		if(player_Status['Kaka'] == 1) document.getElementById("button_Kaka_shortpass").disabled="";
+			else document.getElementById("button_Kaka_shortpass").disabled="yes";
+		if(player_Status['Kaka'] == 1) document.getElementById("button_Kaka_shoot").disabled="";
+			else document.getElementById("button_Kaka_shoot").disabled="yes";
+	</script>
+</div>
+
+<div class="actions" id="Action_Shevchenko">
+<h2>Shevchenko</h2>
+
+	<input type="button" value="Удар по воротам" id="button_Shevchenko_shoot"
+		onclick="play_shoot(1, 'Shevchenko', '', 'Puyol', 'Valdes');" /><br />
+	<input type="button" value="Пойти в обводку" id="button_Shevchenko_obvodka"
+		onclick="play_obvodka(1, 'Shevchenko', 'Puyol');" /><br />
+	<input type="button" value="Выход 1 на 1" id="button_Shevchenko_shoot2"
+		onclick="play_shoot_oneone(1, 'Shevchenko', 'Valdes');" /><br />
+	<script>
+		if(player_Status['Shevchenko'] == 1) document.getElementById("button_Shevchenko_shoot").disabled="yes";
+			else document.getElementById("button_Shevchenko_shoot").disabled="";
+		if(player_Status['Shevchenko'] == 1) document.getElementById("button_Shevchenko_obvodka").disabled="yes";
+			else document.getElementById("button_Shevchenko_obvodka").disabled="";
+		if(player_Status['Shevchenko'] == 1) document.getElementById("button_Shevchenko_shoot2").disabled="";
+			else document.getElementById("button_Shevchenko_shoot2").disabled="yes";
+	</script>
+</div>
+
+
+<script>
+	display();
+	display_ball();
+</script>
+
+</body>
+</html>

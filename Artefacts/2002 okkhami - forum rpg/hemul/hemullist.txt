@@ -1,0 +1,19 @@
+hemul01.gif - хемуль фиговый (hemulus herratus)
+hemul02.gif - хемуль €ркий (hemulus idiotus)
+hemul03.gif - хемуль волосатый (hemulus dmitrius)
+
+hemul01.gif - хемуль псевдосъедобный (hemulus kakatus)
+hemul02.gif - хемуль пучеглазый (hemulus kakatus)
+hemul03.gif - хемуль съедобный (hemulus kakatus)
+hemul04.gif - хемуль отвратный (hemulus babis nosatis)
+hemul05.gif - хемуль зеленый очковый (hemulus anus vulgaris)
+hemul06.gif - хемуль луковый (hemulus cippolinius)
+hemul07.gif - хемуль плохого танцора (hemulus ovularis)
+hemul08.gif - хемуль "дрова и стекловата" (hemulus barbarus)
+hemul09.gif - хемуль "стекловата и дрова" (hemulus barbaris)
+hemul10.gif - хемуль скользкий (hemulus rvotus)
+hemul11.gif - хемуль склизкий (hemulus blevotus)
+hemul12.gif - хемуль печатный (hemulus multidudas)
+hemul13.gif - хемуль ч/б х/б б/у (hemulus shtellus)
+
+muli.gif    - это не хемуль, но зато это поездковые мули.
