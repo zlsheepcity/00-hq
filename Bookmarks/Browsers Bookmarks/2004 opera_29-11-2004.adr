@@ -1,0 +1,5214 @@
+Opera Hotlist version 2.0
+Options: encoding = utf8, version=3
+
+#FOLDER
+	ID=11
+	NAME=Trash
+	TRASH FOLDER=YES
+
+#URL
+	ID=12
+	NAME=OSIOS.ORG
+	URL=http://www.osios.org/
+	CREATED=1015320914
+	VISITED=1098864196
+
+#URL
+	ID=13
+	NAME=Жизнь!
+	URL=http://www.play.ru/games/36/index.htm
+	CREATED=1002641844
+	VISITED=1096483478
+
+#URL
+	ID=14
+	NAME=КАСТА :: Мужской портал
+	URL=http://www.casta.ru/index.asp?art=design/articles/september.htm
+	CREATED=1098888064
+	VISITED=1099595480
+	DESCRIPTION=секс, приколы, анекдоты, фотоприколы, юмор, юмор, черный юмор, компьютерный юмор, фото юмор, анекдоты, флэш, флеш, игры
+
+#URL
+	ID=15
+	NAME=Anti-Portfolio of Dylan Snow
+	URL=http://images.dylan-snow.com/
+	CREATED=1100088523
+
+-
+
+#FOLDER
+	ID=16
+	NAME=#Web development
+	CREATED=1092209203
+
+#URL
+	ID=17
+	NAME=useit.com
+	URL=http://www.useit.com/
+	CREATED=1092209219
+	DESCRIPTION=Alertbox column, Web usability, usability engineering, and Jakob's minimalist approach to Web quality; Jakob's biography. Conferences and training events.
+
+#FOLDER
+	ID=18
+	NAME=tools
+	CREATED=1092210267
+
+#URL
+	ID=19
+	NAME=WebCode.ru
+	URL=http://www.webcode.ru/
+	CREATED=1092210274
+	VISITED=1099576030
+
+-
+
+#FOLDER
+	ID=20
+	NAME=coding
+	CREATED=1092210474
+
+#URL
+	ID=21
+	NAME=(JS) serge.design.ru
+	URL=http://serge.design.ru/
+	CREATED=1092210497
+	VISITED=1099576341
+
+#URL
+	ID=22
+	NAME=Заметки HTML кодера
+	URL=http://htmlcoder.visions.ru/
+	CREATED=1092640203
+	VISITED=1099575980
+	DESCRIPTION=HTML вёрстка для умных :-) В меру регулярные заметки профессионального HTML кодера об HTML, CSS и JavaScript.
+
+#URL
+	ID=23
+	NAME=HTML-справочник.
+	URL=http://html.manual.ru/book/html.php
+	CREATED=1092737318
+	VISITED=1093961910
+
+#URL
+	ID=24
+	NAME=W3Schools Online Web Tutorials
+	URL=http://www.w3schools.com/default.asp
+	CREATED=1093537705
+	VISITED=1098863017
+	DESCRIPTION=HTML,CSS,JavaScript,DHTML,XML,XHTML,ASP,ADO and VBScript tutorial from W3Schools.
+	ICONFILE=www.w3schools.com.ico
+
+#FOLDER
+	ID=25
+	NAME=samples
+	CREATED=1097577054
+
+#URL
+	ID=26
+	NAME=MAGNUM PHOTOS
+	URL=http://www.magnumphotos.com/c/htm/FramerT_MAG.aspx?V=CDocT&E=2TYRYD1A3SGY&Page=1&Total=153&DT=ALB&Pass=
+	CREATED=1097577062
+	VISITED=1098863681
+
+#URL
+	ID=27
+	NAME=ComboBox | Underware
+	URL=http://serge.design.ru/libs/combobox/
+	CREATED=1099490705
+	VISITED=1099490681
+
+#URL
+	ID=28
+	NAME=Открытие нового окна | Underware
+	URL=http://serge.design.ru/tips/openwindow/
+	CREATED=1099490957
+
+-
+
+#FOLDER
+	ID=29
+	NAME=Articles
+	CREATED=1098114530
+
+#URL
+	ID=30
+	NAME=Встраиваем флэш-ролики
+	URL=http://www.revision.ru/articles/?ArtId=100002663
+	CREATED=1098114549
+	VISITED=1098863650
+	ICONFILE=www.revision.ru.ico
+
+#URL
+	ID=31
+	NAME=Ten CSS tricks you may not know : evolt.org, Code
+	URL=http://www.evolt.org/article/Ten_CSS_tricks_you_may_not_know/17/60369/
+	CREATED=1099411387
+	DESCRIPTION=A world community for web developers, evolt.org promotes the mutual free exchange of ideas, skills and experiences.
+
+-
+
+-
+
+#URL
+	ID=32
+	NAME=imfo.ru/division
+	URL=http://imfo.ru/division/
+	CREATED=1092210725
+	VISITED=1099576305
+	DESCRIPTION=Блог новостей. В поисках индульгирующего орла. // Блог, сраный блог, да, да! это сраный блог! (c) Д.Смирнов aka SpEcTaToR
+	ICONFILE=imfo.ru.ico
+
+#URL
+	ID=33
+	NAME=Webmascon 
+	URL=http://www.webmascon.com/
+	CREATED=1092210739
+	VISITED=1100079018
+	DESCRIPTION=О том, как правильно делать веб-сайты
+	ICONFILE=www.webmascon.com.ico
+
+#URL
+	ID=34
+	NAME=zeldman.com
+	URL=http://www.zeldman.com/
+	CREATED=1092212728
+	VISITED=1098862928
+	DESCRIPTION=CSS, XHTML, front end design. Jeffrey Zeldman Presents The Daily Report: web design news and information since 1995.
+	ICONFILE=www.zeldman.com.ico
+
+#URL
+	ID=35
+	NAME=ieCapture - the PC cousin of iCapture
+	URL=http://www.danvine.com/iecapture/
+	CREATED=1099413156
+
+#URL
+	ID=36
+	NAME=A List Apart
+	URL=http://www.alistapart.com/
+	CREATED=1094541784
+	VISITED=1099561300
+	DESCRIPTION=Web design, content, and coding. Accessibility, CSS, XHTML, scripting, server side, front and back end. Designing with web standards.
+	ICONFILE=www.alistapart.com.ico
+
+#URL
+	ID=37
+	NAME=Usability in Russia
+	URL=http://usability.ru/
+	CREATED=1094543640
+	VISITED=1095253133
+	DESCRIPTION=Usability в России - Российские эргономические ресурсы
+	ICONFILE=usability.ru.ico
+
+#URL
+	ID=38
+	NAME=Web-Anatomy.Ru
+	URL=http://www.web-anatomy.ru/
+	CREATED=1095856117
+	VISITED=1098862962
+
+#URL
+	ID=39
+	NAME=W3C Validation Service
+	URL=http://validator.w3.org/
+	CREATED=1098281085
+	DESCRIPTION=W3C's easy-to-use      HTML validation service, based on an SGML parser.
+
+-
+
+#FOLDER
+	ID=40
+	NAME=#Friends on the net
+	CREATED=1092562444
+
+#URL
+	ID=41
+	NAME=Форум без байды
+	URL=http://kolbasa.kid.lv/forum/
+	CREATED=1092562466
+	VISITED=1101710238
+
+#URL
+	ID=42
+	NAME=AleXan4o on rate.ee
+	URL=http://www.rate.ee/userinfo.php?id=390654
+	CREATED=1092562494
+	DESCRIPTION=Rate.ee: hindamine ja suhtlemine
+	ICONFILE=www.rate.ee.ico
+
+#URL
+	ID=43
+	NAME=alx.lv
+	URL=http://www.alx.lv/
+	CREATED=1092562515
+	VISITED=1099985374
+	DESCRIPTION=Творчество Александра Щербина - профессионального инженера и веб-дизайнера. Статьи о веб-дизайне,жизни и обо всем красивом. Красота и функциональность.
+	ICONFILE=www.alx.lv.ico
+
+#URL
+	ID=44
+	NAME=Voron's Nest
+	URL=http://voron.kid.lv/
+	CREATED=1092562557
+	VISITED=1099991970
+	DESCRIPTION=voron nest
+
+#URL
+	ID=45
+	NAME=alexan4o on fotoplenka.ru
+	URL=http://fotoplenka.ru/avtor/alexan4o/
+	CREATED=1092562594
+	VISITED=1099985377
+	DESCRIPTION= Fotoplenka.ru - фотопленка.ру - сервер личных фотоальбомов, картинок, иллюстраций, частного ню, обнаженной натурыСайт ориентирован на фотолюбителей, фотографов профессионалов, а также компьтерных графиков,дизайнеров, рисовальщиков. Каждый фотоальбом дополнен книгой отзывов.
+	ICONFILE=fotoplenka.ru.ico
+
+#URL
+	ID=46
+	NAME=AvariyA
+	URL=http://avariya.gde.to/
+	CREATED=1094542708
+	VISITED=1099992017
+
+#URL
+	ID=47
+	NAME=by.bulkin
+	URL=http://bulkin.times.lv/
+	CREATED=1094542713
+	VISITED=1099992014
+
+#URL
+	ID=48
+	NAME=Gbl-Gbl Officail internet Site
+	URL=http://gbl-gbl.times.lv/
+	CREATED=1094542736
+	VISITED=1099992011
+
+#URL
+	ID=49
+	NAME=citizZzen
+	URL=http://citizen.times.lv/
+	CREATED=1094542751
+	VISITED=1099992012
+
+#URL
+	ID=50
+	NAME=hoodoba.com
+	URL=http://hoodoba.com/
+	CREATED=1094542766
+	VISITED=1099992009
+
+#URL
+	ID=51
+	NAME=raga
+	URL=http://www.ctx.lv/raga/
+	CREATED=1094542814
+	VISITED=1098199220
+
+#URL
+	ID=52
+	NAME=raga design studio
+	URL=http://www.ctx.lv/raga/studio/
+	CREATED=1094542828
+	VISITED=1099919571
+
+#URL
+	ID=53
+	NAME=Somretin zone
+	URL=http://somretin.times.lv/
+	CREATED=1094542866
+	VISITED=1099991959
+
+#FOLDER
+	ID=54
+	NAME=LJ
+	CREATED=1095231032
+	EXPANDED=YES
+
+#URL
+	ID=55
+	NAME=Jammm
+	URL=http://www.livejournal.com/users/jammm/
+	CREATED=1095231039
+	VISITED=1097129789
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=56
+	NAME=Mechtoi
+	URL=http://www.livejournal.com/users/mechtoj/
+	CREATED=1095231061
+	VISITED=1099917883
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=57
+	NAME=Lila
+	URL=http://www.livejournal.com/users/lilu_dallas/
+	CREATED=1095231078
+	VISITED=1096632131
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=58
+	NAME=Angel
+	URL=http://www.livejournal.com/users/sonnaja/
+	CREATED=1095231093
+	VISITED=1099385822
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=59
+	NAME=Kukla urod
+	URL=http://www.livejournal.com/users/kukla_urod/
+	CREATED=1095231127
+	VISITED=1099405369
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=60
+	NAME=Loffadka
+	URL=http://www.livejournal.com/users/miuu/
+	CREATED=1095231163
+	VISITED=1098255385
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=61
+	NAME=Kabarawka
+	URL=http://www.livejournal.com/users/kabarawka/
+	CREATED=1095231182
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=62
+	NAME=Catarios
+	URL=http://www.livejournal.com/users/catarios/
+	CREATED=1095231228
+	VISITED=1099985687
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=63
+	NAME=Vorron
+	URL=http://www.livejournal.com/userinfo.bml?user=vorron
+	CREATED=1095231243
+	VISITED=1097129824
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=64
+	NAME=Midka
+	URL=http://www.livejournal.com/users/cebepnight/
+	CREATED=1095231277
+	VISITED=1096009011
+	ICONFILE=urbanhunter.ca.gif
+
+#URL
+	ID=65
+	NAME=rububu
+	URL=http://www.livejournal.com/users/rububu/
+	CREATED=1099303474
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=66
+	NAME=brmr
+	URL=http://www.livejournal.com/users/brmr/
+	CREATED=1099303506
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=67
+	NAME=hutopia
+	URL=http://www.livejournal.com/users/hutopia/
+	CREATED=1099303578
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=68
+	NAME=himmel
+	URL=http://www.livejournal.com/users/himmel/
+	CREATED=1099303588
+	VISITED=1101471847
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=69
+	NAME=ulla
+	URL=http://www.livejournal.com/users/ulla/
+	CREATED=1099303596
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=70
+	NAME=romuald
+	URL=http://www.livejournal.com/userinfo.bml?user=3epkajio
+	CREATED=1099303688
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=71
+	NAME=Avaria
+	URL=http://www.livejournal.com/userinfo.bml?user=dead__princess
+	CREATED=1099303702
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=72
+	NAME=DS
+	URL=http://www.livejournal.com/userinfo.bml?user=fratrum
+	CREATED=1099303710
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=73
+	NAME=hoodoba
+	URL=http://www.livejournal.com/userinfo.bml?user=hoodoba
+	CREATED=1099303717
+	VISITED=1101129284
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=74
+	NAME=lapin_bizarre
+	URL=http://www.livejournal.com/userinfo.bml?user=lapin_bizarre
+	CREATED=1099303725
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=75
+	NAME=lazzycat 
+	URL=http://www.livejournal.com/userinfo.bml?user=lazzycat
+	CREATED=1099303735
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=76
+	NAME=serb_i_molod
+	URL=http://www.livejournal.com/userinfo.bml?user=serb_i_molod
+	CREATED=1099303747
+	VISITED=1101314506
+	ICONFILE=www.livejournal.com.ico
+
+-
+
+#URL
+	ID=77
+	NAME=MupInc™
+	URL=http://www.mupinc.net/
+	CREATED=1097672981
+	VISITED=1099991994
+
+#URL
+	ID=78
+	NAME=Roman Sidorov's Personal WebSite r.4
+	URL=http://www.sidorov.com/
+	CREATED=1099985241
+	VISITED=1099992024
+
+-
+
+#FOLDER
+	ID=79
+	NAME=#Photografy
+	CREATED=1092919647
+
+#URL
+	ID=80
+	NAME=digital photoscape
+	URL=http://www.photoscape.ru/
+	CREATED=1092919664
+	VISITED=1098968519
+	DESCRIPTION=Digital Photoscape - авторский проект Дмитрия и Ольги Рудаковых. Азбука цифровой фотографии, советы начинающим, как выбрать фотоаппарат, методы обработки снимков в Photoshop, секреты мастерства, обозрение цифровых фотокамер, новости, форум.
+	ICONFILE=www.photoscape.ru.gif
+
+#FOLDER
+	ID=81
+	NAME=photo library
+	CREATED=1094543827
+
+#URL
+	ID=82
+	NAME=a photo a day
+	URL=http://www.aphotoaday.org/
+	CREATED=1094543883
+	VISITED=1098280551
+
+#URL
+	ID=83
+	NAME=all-photo.ru
+	URL=http://all-photo.ru/index.ru.html
+	CREATED=1094543911
+	VISITED=1098280563
+	DESCRIPTION=Самые лучшие и самые разные фотографии
+
+#URL
+	ID=84
+	NAME=Photo Gallery: Favorites
+	URL=http://www.thevisualrecord.com/dbphotopages/thumbnailpage.php?favorites=yes
+	CREATED=1094543957
+	VISITED=1094543955
+
+#URL
+	ID=85
+	NAME=quarlo -- photos -- new york city
+	URL=http://www.quarlo.com/index.html
+	CREATED=1094543989
+	VISITED=1098278412
+	DESCRIPTION=photos
+	ICONFILE=www.quarlo.com.ico
+
+#FOLDER
+	ID=86
+	NAME=Fashion
+	CREATED=1094544119
+
+#URL
+	ID=87
+	NAME=LITHIUM PICNIC
+	URL=http://www.lithiumpicnic.com/index2.html
+	CREATED=1094544124
+
+-
+
+#FOLDER
+	ID=88
+	NAME=Cuba
+	CREATED=1094544138
+
+#URL
+	ID=89
+	NAME=Jeff Dunas Photographe: Havana, CUBA
+	URL=http://www.dunas.com/cuba.html
+	CREATED=1094544149
+
+#URL
+	ID=90
+	NAME=designproject :: куба :: сентябрь 2003
+	URL=http://www.designproject.com/2003_sept/cuba_01.html
+	CREATED=1094544167
+	VISITED=1095249035
+
+#URL
+	ID=91
+	NAME=Mark Tucker
+	URL=http://www.marktucker.com/r_cuba/source/chegueverra.html
+	CREATED=1095249440
+	DESCRIPTION=Advertising photographer specializing in lifestyle, children, and portraiture. Represented by Mergeleft Reps, 212-840-0321
+
+-
+
+#FOLDER
+	ID=92
+	NAME=Industrial
+	CREATED=1094544293
+	EXPANDED=YES
+
+#URL
+	ID=93
+	NAME=Ghost Towns | Pictures of ghost towns in Arizona, California, Utah, Colorado, Nevada, New Mexico | Ghost Town Gallery
+	URL=http://www.ghosttowngallery.com/
+	CREATED=1094544278
+	DESCRIPTION=Pictures of ghost towns and historic places in Arizona, California, Colorado, Nevada, New Mexico, Idaho, Montana, Utah. Picture gallery, driving directions, historic information, maps.
+
+#URL
+	ID=94
+	NAME=urban.cyberpunk.ru
+	URL=http://urban.cyberpunk.ru/photo.html
+	CREATED=1094544329
+
+#URL
+	ID=95
+	NAME=newenglandruins.com - photography by rob dobi
+	URL=http://photos.dobi.nu/
+	CREATED=1094543847
+	VISITED=1098280545
+
+#URL
+	ID=96
+	NAME=oboylephoto home page
+	URL=http://oboylephoto.com/
+	CREATED=1098280191
+
+-
+
+#URL
+	ID=97
+	NAME=Fine Art Nude Photography.
+	URL=http://www.slastyonoff.com/index.htm
+	CREATED=1094544390
+	DESCRIPTION=Exclusive works of the Russian master Fine Nude Art. Awesome Russian models! Great free colour and B&W of gallery! More than 2500 photos in member galleries! +6 Mpix a photo!
+
+#FOLDER
+	ID=98
+	NAME=CreaSessions
+	CREATED=1094544872
+
+#URL
+	ID=99
+	NAME=Николай Бахарев - ОБЫЧНЫЕ ЛЮДИ
+	URL=http://www.photographer.ru/galleries/author.htm?id=28
+	CREATED=1094544883
+	VISITED=1094804475
+	DESCRIPTION=Современная творческая фотография. Календарь важных фотографических событий. Фотогалерея. Интервью, обзоры, исследования и другие интересные вещи. Онлайновый фотоклуб и более двух тысяч его участников. Присоединяйтесь!  
+	ICONFILE=www.photographer.ru.ico
+
+#URL
+	ID=100
+	NAME=LOST ART
+	URL=http://www.lost.art.br/
+	CREATED=1094545252
+	VISITED=1098280434
+
+#URL
+	ID=101
+	NAME=Fantasy Photographs -- American Museum of Photography(SM)
+	URL=http://photographymuseum.com/talltale.html
+	CREATED=1094543935
+	VISITED=1098280572
+
+-
+
+#URL
+	ID=102
+	NAME=Soviet War Photography
+	URL=http://www.schicklerart.com/exh/sovietwar/index.html
+	CREATED=1096957963
+	DESCRIPTION=Howard Schickler Fine Art specializes in European Avant-Garde photography,works on paper and rare books and in Astronomical and Space Explorationphotography and rare books. We have a unique collection of Sovietphotography.
+
+#URL
+	ID=103
+	NAME=The Russian Photography Collection 1917-1945 
+	URL=http://www.russianphotographs.com/
+	CREATED=1096958001
+	DESCRIPTION=The Russian Photography Collection is comprised of approximately 7,000 gelatin-silver photographs by the leading photographers and photojournalists working in Soviet Russia between the two World Wars. The collection was assembled as the Soviet Union tore itself apart leaving a tattered social fabric behind. Organized as a history of 20th century photography of the Soviet Union the collection focuses on the categories: Constructivism/Avant-Garde, Propaganda, Photo-Reportage, War Photography, and Socialist Realism which provide the most effective and complete view of one of the most incredible experiments in human history.
+
+-
+
+#FOLDER
+	ID=104
+	NAME=Articles
+	CREATED=1094543982
+
+#URL
+	ID=105
+	NAME=Восстановление цифровых фото
+	URL=http://www.bugz.ru/digital_photo/vosstanovka/
+	CREATED=1094544001
+
+#URL
+	ID=106
+	NAME=Инфракрасная фотография FAQ
+	URL=http://www.photoweb.ru/prophoto/biblioteka/Metodolog/02.htm
+	CREATED=1094544010
+	VISITED=1098279755
+	DESCRIPTION=Eio?ae?aniay ieaiea, oioia?aoey, Kodak HIE, Konica EE 750, Ilford SFX 200, Agfa APX 200S, Kodak Ektachrome IR IE
+
+#URL
+	ID=107
+	NAME=Разумно о фото
+	URL=http://afanas.ru/video/photo.htm
+	CREATED=1094544046
+	DESCRIPTION=Выбор фотоаппарата. Цифра или плёнка, мыльница или зеркалка?
+	ICONFILE=afanas.ru.ico
+
+#URL
+	ID=108
+	NAME=Получение цветных изображений из негативов Прокудина-Горского - Чудеса фотографии: восстановление фотографического наследия С. М. Прокудина-Горского
+	URL=http://www.loc.gov/exhibits/empire/making-ru.html
+	CREATED=1094545391
+	VISITED=1094545387
+	DESCRIPTION=The photographs of Sergei Mikhailovich Prokudin-Gorskii (1863-1944) offer a vivid portrait of a lost world--the Russian Empire on the eve of World War I and the coming revolution. His subjects ranged from the medieval churches and monasteries of old Russia, to the railroads and factories of an emerging industrial power, to the daily life and work of Russia's diverse population. 
+
+-
+
+#FOLDER
+	ID=109
+	NAME=Photographers
+	CREATED=1094544216
+
+#URL
+	ID=110
+	NAME=Mark Tucker
+	URL=http://www.marktucker.com/
+	CREATED=1094544227
+	VISITED=1095249014
+	DESCRIPTION=Advertising photographer specializing in Lifestyle, Children, and Portraiture, for ad agencies, design firms, and corporations. Represented by MergeLeft Reps, 212-840-0321.
+
+#URL
+	ID=111
+	NAME=Jeff Dunas
+	URL=http://www.dunas.com/fapage.html
+	CREATED=1094544355
+	VISITED=1095249009
+
+#URL
+	ID=112
+	NAME=tom ruddock
+	URL=http://www.tomruddock.com/
+	CREATED=1094544407
+	VISITED=1095250167
+
+#URL
+	ID=113
+	NAME=Alex Axon
+	URL=http://www.axonphoto.com/
+	CREATED=1094544455
+	VISITED=1095248751
+	DESCRIPTION=Alex Axon Photography Portfolio, Landscapes, Nature, Macro, Flowers, Animals, People, Kitten
+
+#URL
+	ID=114
+	NAME=Darron R. Silva
+	URL=http://www.darronsilva.com/
+	CREATED=1094544568
+	VISITED=1095248766
+
+#URL
+	ID=115
+	NAME=Michael Zeppetello
+	URL=http://www.zeppetello.com/
+	CREATED=1094544584
+	VISITED=1095250120
+
+#URL
+	ID=116
+	NAME=Loretta Lux
+	URL=http://www.lorettalux.de/
+	CREATED=1094544624
+	VISITED=1094804256
+
+#URL
+	ID=117
+	NAME=Jan Saudek & Sára Saudková
+	URL=http://www.saudek.com/
+	CREATED=1094544631
+	VISITED=1096555446
+
+#URL
+	ID=118
+	NAME=Ondrea Barbe
+	URL=http://www.ondreabarbe.com/intimate.html
+	CREATED=1094544752
+	VISITED=1095250144
+
+#URL
+	ID=119
+	NAME=Ross Whitaker
+	URL=http://www.rosswhitaker.com/
+	CREATED=1094544778
+	VISITED=1095250149
+
+#URL
+	ID=120
+	NAME=Steve McCurry
+	URL=http://www.stevemccurry.com/siteindex.html
+	CREATED=1094544806
+	VISITED=1095250162
+	DESCRIPTION=Steve McCurry, photojournalist, displays his recent work in a photography journal format as well as offering a picture gallery of well-known work. 
+
+#FOLDER
+	ID=121
+	NAME=Rus
+	CREATED=1094545003
+
+#URL
+	ID=122
+	NAME=Светопись Георгия Розова
+	URL=http://www.rozov.ru/
+	CREATED=1094544963
+	DESCRIPTION=портреты, реклама, натюрморт, репортаж, интерьер, фотохудожник, фотограф,фотография, съемка по заказу, светопись, розов георгий, пейзаж, жанровая фотография, путешествия, куба,европа, архитектура, туризм, фотобанк, крым, русский пейзаж, дети, съемка промышленных предприятий
+
+#URL
+	ID=123
+	NAME=Татьяна Салютова
+	URL=http://www.salutova.ru/gallery.phtml
+	CREATED=1094544992
+
+#URL
+	ID=124
+	NAME=Борис Хигрин
+	URL=http://www.photokhigrin.com/main/main.php
+	CREATED=1094544834
+
+-
+
+#URL
+	ID=125
+	NAME=Chema Madoz
+	URL=http://chemamadoz.com/
+	CREATED=1094749071
+	VISITED=1095248757
+	DESCRIPTION=Fotografías de Chema Madoz fotógrafo en blanco y negro.
+
+#URL
+	ID=126
+	NAME=Chris Buck
+	URL=http://www.chrisbuck.com/Default.aspx?MenuItemID=32
+	CREATED=1096269027
+	VISITED=1096270079
+
+#URL
+	ID=127
+	NAME=Gabriele Rigon
+	URL=http://www.gabrielerigon.it/
+	CREATED=1097825493
+
+#URL
+	ID=128
+	NAME=Cleo Sullivan Photography here
+	URL=http://www.cleosullivan.com/detail.php?pid=1
+	CREATED=1097826322
+
+#URL
+	ID=129
+	NAME=Carl de Keyzer 
+	URL=http://www.carldekeyzer.com/
+	CREATED=1098278880
+	DESCRIPTION=Official website of Magnum photographer Carl De Keyzer.
+
+-
+
+#FOLDER
+	ID=130
+	NAME=Photographers2
+	CREATED=1094544606
+
+#URL
+	ID=131
+	NAME=Czech and Slovak Staged Photographs
+	URL=http://www.czechslovakphotos.com/
+	CREATED=1094544488
+	VISITED=1094544484
+
+#URL
+	ID=132
+	NAME=Masters of Photography
+	URL=http://www.masters-of-photography.com/
+	CREATED=1094544601
+	VISITED=1098280273
+
+-
+
+#URL
+	ID=133
+	NAME=::: Soliaris.com :::
+	URL=http://www.soliaris.com/
+	CREATED=1094545065
+	VISITED=1098863971
+	DESCRIPTION=Monthly magazine about photography, digital art and the Vidas Biveinis portfolio, who is the author of Soliaris.
+	ICONFILE=www.soliaris.com.ico
+
+#URL
+	ID=134
+	NAME=ArtNude.ru | Главная - сайт эротической художественной фотографии
+	URL=http://www.artnude.ru/
+	CREATED=1094545074
+	VISITED=1094545073
+	DESCRIPTION=ArtNude.ru - сайт эротической художественной фотографии
+
+#FOLDER
+	ID=135
+	NAME=Tehnika
+	CREATED=1094545090
+
+#URL
+	ID=136
+	NAME=dpcamera.ru
+	URL=http://www.dpcamera.ru/
+	CREATED=1094545100
+
+#URL
+	ID=137
+	NAME=DigiCamHistory
+	URL=http://digicamhistory.com/
+	CREATED=1094545126
+	DESCRIPTION=digicamhistory.com - The best place on the web for digital camera history information. We have descriptions of all historical digital cameras.
+
+#URL
+	ID=138
+	NAME=Camera Database and Museum at PBase.com
+	URL=http://www.pbase.com/cameras
+	CREATED=1094545139
+	VISITED=1095422369
+	ICONFILE=www.pbase.com.ico
+
+#URL
+	ID=139
+	NAME=Digital Camera Reviews and News: Digital Photography Review: Forums, Glossary, FAQ
+	URL=http://dpreview.com/
+	CREATED=1095422390
+	DESCRIPTION=Digital Photography Review: All the latest digital camera reviews and digital imaging news. Lively discussion forums. Vast samples galleries and the largest database of digital camera specifications.
+
+-
+
+#URL
+	ID=140
+	NAME=atStudio - Digital Photography
+	URL=http://atstudio.kiev.ua/
+	CREATED=1094545176
+	VISITED=1098863967
+	DESCRIPTION=В студии Андрея Турцевича, цифровая фотография: новости, галерея фотоснимков, уроки фотографии. Также: путеводитель по Киеву - одному из красивейших городов мира.
+
+#URL
+	ID=141
+	NAME=Photographer Ru. Cовременная творческая фотография
+	URL=http://www.photographer.ru/
+	CREATED=1095832776
+	VISITED=1096357118
+	DESCRIPTION=Современная творческая фотография. Календарь важных фотографических событий. Фотогалерея. Интервью, обзоры, исследования и другие интересные вещи. Онлайновый фотоклуб и более двух тысяч его участников. Присоединяйтесь!  
+	ICONFILE=www.photographer.ru.ico
+
+#URL
+	ID=142
+	NAME=ERfoto
+	URL=http://www.erfoto.lv/
+	CREATED=1096958985
+	VISITED=1100675491
+	DESCRIPTION=Elmārs Rudzītis :: Fotogrāfija
+	ICONFILE=www.erfoto.lv.ico
+
+#URL
+	ID=143
+	NAME=photosight.ru
+	URL=http://www.photosight.ru/
+	CREATED=1098280399
+	VISITED=1100671540
+	ICONFILE=www.photosight.ru.ico
+
+#URL
+	ID=144
+	NAME=photoZilla.ru
+	URL=http://photozilla.ru/
+	CREATED=1098280419
+
+#URL
+	ID=145
+	NAME=PHOTOPROART
+	URL=http://www.photoproart.ru/
+	CREATED=1098280884
+	VISITED=1098865110
+
+-
+
+#FOLDER
+	ID=146
+	NAME=People
+	CREATED=1094539701
+
+#URL
+	ID=147
+	NAME=fat robot
+	URL=http://kakandokalo.ru/index-1.html
+	CREATED=1094539721
+	VISITED=1098864057
+
+#URL
+	ID=148
+	NAME=Postman.Strana.De
+	URL=http://postman2004.strana.de/
+	CREATED=1094539745
+	VISITED=1094539742
+
+#URL
+	ID=149
+	NAME=Leonid Kaganov home page
+	URL=http://lleo.aha.ru/
+	CREATED=1094539778
+
+#URL
+	ID=150
+	NAME=Сайт Александра Лаэртского
+	URL=http://laertsky.com/
+	CREATED=1096953809
+
+#URL
+	ID=151
+	NAME=Виктор ШЕНДЕРОВИЧ
+	URL=http://www.shender.ru/
+	CREATED=1098866005
+	VISITED=1098865992
+
+#URL
+	ID=152
+	NAME=РезиновыйЗапаЛ
+	URL=http://biolab.vologda.ru/zapal/
+	CREATED=1099641453
+	DESCRIPTION=РезиновыйЗапаЛ | Другая сторона
+
+-
+
+#FOLDER
+	ID=153
+	NAME=#Link library
+	CREATED=1093502346
+
+#FOLDER
+	ID=154
+	NAME=steb
+	CREATED=1093502365
+
+#URL
+	ID=155
+	NAME=Nahui, Peru
+	URL=http://www.calle.com/world/PE/8/Nahui.html
+	CREATED=1093502382
+	VISITED=1096442121
+	DESCRIPTION=Maps and information about Nahui, Peru
+
+#URL
+	ID=156
+	NAME=ООО "ЛАСИС"
+	URL=http://www.nedras.astranet.ru/win/business/lasys/lasys.htm
+	CREATED=1094543436
+	VISITED=1096442136
+
+#URL
+	ID=157
+	NAME=Gary Glitter lookalike - Splitting Images
+	URL=http://www.splitting-images.com/gary_glitter.html
+	CREATED=1094543453
+	VISITED=1098864034
+	DESCRIPTION=Gary Glitter lookalike from Splitting Images Lookalike Agency, UK
+
+#URL
+	ID=158
+	NAME=http://www.psu.edu/dept/inart10_110/inart10/now%20you%20die%20thumb.JPG
+	URL=http://www.psu.edu/dept/inart10_110/inart10/now%20you%20die%20thumb.JPG
+	CREATED=1094543470
+	VISITED=1096442104
+
+#URL
+	ID=159
+	NAME=richardsandrak.com
+	URL=http://www.richardsandrak.com/
+	CREATED=1094543504
+	VISITED=1098864029
+
+#URL
+	ID=160
+	NAME=Здравствуйте! Вы попали на хер.
+	URL=http://www.xep.kiev.ua/
+	CREATED=1094543520
+	VISITED=1098864023
+
+#URL
+	ID=161
+	NAME=Овцы вовсе не такие тупые, как это принято считать
+	URL=http://www.rokf.ru/odd/12454.shtml
+	CREATED=1094543539
+	VISITED=1098864016
+
+#URL
+	ID=162
+	NAME=губозакатывалка
+	URL=http://kcn.org.ua/images/stuff/lips.jpg
+	CREATED=1094543581
+	VISITED=1098864026
+
+#URL
+	ID=163
+	NAME=Audi-oh.com
+	URL=http://www.audi-oh.com/Store/default.asp
+	CREATED=1094543613
+	VISITED=1098864039
+	DESCRIPTION=Audi-Oh&#8482; is a revolution in adult stimulation technology. Sound is transmitted into infinitely variable pulses of pleasure. Audi-Oh can use ambient sound, like the music in your favorite club, or direct audio input from devices such as portable CD players, MP3 players, your PC or home audio and video systems.
+
+#URL
+	ID=164
+	NAME=Adult iT.net
+	URL=http://adultit.net/
+	CREATED=1098866277
+
+#URL
+	ID=165
+	NAME=Соня Волкова — дизайнер
+	URL=http://www.designdepot.ru/studio/team/sonya/
+	CREATED=1098867519
+	VISITED=1098867609
+	ICONFILE=www.designdepot.ru.ico
+
+#URL
+	ID=166
+	NAME=Обман зрения | Затеи | SERGELIN.RU
+	URL=http://www.sergelin.ru/inventions/009.asp
+	CREATED=1098868263
+
+#URL
+	ID=167
+	NAME=Introduction to Shapes : Liberator Shapes Bedroom Adventure Gear
+	URL=http://theliberator.co.uk/products_shapes.php
+	CREATED=1099601018
+	VISITED=1099601324
+	DESCRIPTION=Liberator Shapes make your fantasy sexual positions a reality. Liberator Shape positions are the modern-day Kama Sutra. Go beyond the average sex toy.
+	ICONFILE=www.liberatorshapes.com.ico
+
+#URL
+	ID=168
+	NAME=Sexy Army Girl Halloween Costume, Sexy Military Girl Halloween Costume, Military Officer Costume
+	URL=http://www.forplaycatalog.com/sexy_military_costume.asp
+	CREATED=1099601426
+	VISITED=1099601422
+	DESCRIPTION=Sexy Army Girl Halloween Costume, Sexy Military Girl Halloween Costume, Military Officer Costume
+	ICONFILE=www.forplaycatalog.com.ico
+
+-
+
+#URL
+	ID=169
+	NAME=Google War
+	URL=http://googlewar.com/
+	CREATED=1094543747
+
+#URL
+	ID=170
+	NAME=Color Names in - English - Czech - Hungarian - French - German - Spanish
+	URL=http://www.main.cz/colors/color_names.htm
+	CREATED=1094543372
+
+#FOLDER
+	ID=171
+	NAME=creatiff
+	CREATED=1093952020
+
+#URL
+	ID=172
+	NAME=Banksy : The history of civilisation
+	URL=http://www.banksy.co.uk/indoors/history-of-civilisation.html
+	CREATED=1093952032
+	VISITED=1094545881
+
+-
+
+#FOLDER
+	ID=173
+	NAME=glance
+	CREATED=1092561979
+
+#URL
+	ID=174
+	NAME=Бархатная Акула
+	URL=http://velvetshark.ru/
+	CREATED=1092562001
+	VISITED=1094475200
+	DESCRIPTION=Журнал для безбашенных яппи
+
+#URL
+	ID=175
+	NAME=Буржуазный журнал
+	URL=http://www.bj.ru/
+	CREATED=1092562032
+	VISITED=1096969910
+
+#URL
+	ID=176
+	NAME=Vip.lenta.ru
+	URL=http://vip.lenta.ru/
+	CREATED=1092562049
+	VISITED=1101474452
+	ICONFILE=vip.lenta.ru.ico
+
+#URL
+	ID=177
+	NAME=Riga Nova
+	URL=http://www.riganova.lv/
+	CREATED=1092562063
+	VISITED=1094475215
+
+#URL
+	ID=178
+	NAME=эксперимент.ру
+	URL=http://experiment.ru/
+	CREATED=1094543790
+	DESCRIPTION=эксперимент.ру
+
+#URL
+	ID=179
+	NAME=56STUFF.ru
+	URL=http://www.56stuff.ru/
+	CREATED=1094540176
+	VISITED=1095839872
+	DESCRIPTION=современное искусство, культура, музыка, графика, фотография, acid jazz, downtempo, lounge, electronica, 56, пятьдесят шесть, художники, музыканты, артисты, творчество, Санкт-Петербург
+	ICONFILE=www.56stuff.ru.ico
+
+#URL
+	ID=180
+	NAME=Zaraz.org - Киевский портал либертарных инициатив
+	URL=http://www.zaraz.org/index.php
+	CREATED=1094459932
+	VISITED=1095747965
+	ICONFILE=www.zaraz.org.ico
+
+-
+
+#FOLDER
+	ID=181
+	NAME=Gif Art
+	CREATED=1094539083
+
+#URL
+	ID=182
+	NAME=gif-TV art art art
+	URL=http://tv.gif.ru/
+	CREATED=1094539094
+	DESCRIPTION=мультимедийный гифанимационный арт проект
+	ICONFILE=tv.gif.ru.ico
+
+-
+
+#FOLDER
+	ID=183
+	NAME=music
+	CREATED=1092562142
+
+#URL
+	ID=184
+	NAME=ElectroSound.ru - танцы об архитектуре
+	URL=http://electrosound.ru/
+	CREATED=1092562162
+	VISITED=1101109824
+	DESCRIPTION=ElectroSound.ru - электронный адрес электронного звука. Статьи о музыкантах, обзоры дисков, форум
+	ICONFILE=www.electrosound.ru.ico
+
+#URL
+	ID=185
+	NAME=Темная Сторона Луны
+	URL=http://dmoon.ru/obzor.shtml
+	CREATED=1092562199
+	VISITED=1101109267
+	DESCRIPTION=Официальный сайт проекта Темная сторона Луны, музыкальные новости, еженедельные обзоры CD-дисков
+
+#URL
+	ID=186
+	NAME=Microbio Records 
+	URL=http://www.microbiorecords.net/
+	CREATED=1094466079
+	VISITED=1095842083
+	DESCRIPTION=• The Human Isolated Bacteria • Gerald Wenzel • F L N • Yopo Man • Free Mp3 electronica net label •
+	ICONFILE=www.microbiorecords.net.ico
+
+#URL
+	ID=187
+	NAME=музпросвет: лампочка в твоём ухе
+	URL=http://muzprosvet.ru/
+	CREATED=1092562226
+	VISITED=1101109836
+	DESCRIPTION=Музпросвет: музыкальная радиопередача Немецкой волны
+
+#URL
+	ID=188
+	NAME=Radio NABA 96,2fm
+	URL=http://www.radionaba.lv/index.php
+	CREATED=1092562306
+	VISITED=1094754513
+
+#URL
+	ID=189
+	NAME=musicplasma : the music visual search engine
+	URL=http://www.musicplasma.com/
+	CREATED=1092562384
+	VISITED=1099384105
+	DESCRIPTION=musicplasma is the only visual search engine that will allow you to identifyall the artists that fit your musical tastes.
+
+#URL
+	ID=190
+	NAME=zvuki.ru
+	URL=http://www.zvuki.ru/
+	CREATED=1092810825
+	VISITED=1098429765
+	ICONFILE=www.zvuki.ru.ico
+
+#FOLDER
+	ID=191
+	NAME=groups
+	CREATED=1096018599
+
+#URL
+	ID=192
+	NAME=Sтепень Sвободы (Степень Свободы) . Официальный сайт богема-панк-стеб-группы
+	URL=http://svobodi.net/
+	CREATED=1096018649
+	VISITED=1099484930
+	DESCRIPTION=Группа Sтепень Sвободы (Степень Свободы) продвигает в музыкальные массы такие музыкальные направления, как богема-панк и стеб-рок. Была организованна в 1999 году и к настоящему времени завоевала массу поклонников, которые с удовольствием ездят на клубные концерты группы. Хотите послушать, что это такое? Тогда ждем вас у нас на сайте http://www.svobodi.net
+
+#URL
+	ID=193
+	NAME=Dana Lyons
+	URL=http://www.ampcast.com/music/12031/artist.php
+	CREATED=1096018736
+	VISITED=1096025298
+	DESCRIPTION=Your source for free music and MP3s to play or download, artist CDs, free MP3 software, MP3 news, MP3 product reviews, free personal account for CDs and MP3s, free radio stations, programmed playlists
+	ICONFILE=www.ampcast.com.ico
+
+#URL
+	ID=194
+	NAME=Время Срать - Аудио
+	URL=http://obosrano.narod.ru/audio.htm
+	CREATED=1096019329
+
+#URL
+	ID=195
+	NAME=te333
+	URL=http://www.tequilajazzz.spb.ru/
+	CREATED=1098809668
+
+#URL
+	ID=196
+	NAME=Ракетобиль
+	URL=http://raketobile.lib.ru/
+	CREATED=1098865149
+
+-
+
+#URL
+	ID=197
+	NAME=http://music.df.ru/
+	URL=http://music.df.ru/
+	CREATED=1098434699
+	VISITED=1101205410
+
+-
+
+#FOLDER
+	ID=198
+	NAME=Posters
+	CREATED=1094539581
+
+#URL
+	ID=199
+	NAME=Антиалкогольные плакаты советских времен
+	URL=http://www.russianhome.com/drink/
+	CREATED=1094539598
+	DESCRIPTION=Сайт русскоязычной общины ОАЭ - Русский Дом. Ежедневные новости, форум, чат, календарь событий, множество полезной информации для русскоязычных граждан Эмиратов
+
+#URL
+	ID=200
+	NAME=Военные плакаты
+	URL=http://poster.genstab.ru/
+	CREATED=1094539632
+	VISITED=1094539629
+	DESCRIPTION=GENSTAB
+
+#URL
+	ID=201
+	NAME=German Propaganda Archive (Guide Page)
+	URL=http://www.calvin.edu/academic/cas/gpa/
+	CREATED=1094541739
+	VISITED=1094541733
+	DESCRIPTION=A collection of translations of German propaganda materialfrom the Nazi and East German eras.
+	ICONFILE=www.calvin.edu.ico
+
+#URL
+	ID=202
+	NAME=Stalin era posters
+	URL=http://www.jhindin.com/posters/
+	CREATED=1094541756
+
+#URL
+	ID=203
+	NAME=AllPosters.com - The World's Largest Poster and Print Store!
+	URL=http://www.allposters.com/
+	CREATED=1094541811
+
+-
+
+#FOLDER
+	ID=204
+	NAME=Konstruktivizm
+	CREATED=1094541673
+
+#URL
+	ID=205
+	NAME=New Russian Media
+	URL=http://www.pitt.edu/~slavic/courses/russ1771/index.html
+	CREATED=1094541683
+
+#URL
+	ID=206
+	NAME=marshak & lebedev
+	URL=http://digital.library.mcgill.ca/russian/toc.htm
+	CREATED=1094541702
+
+-
+
+#FOLDER
+	ID=207
+	NAME=Animations and movies
+	CREATED=1096017790
+
+#URL
+	ID=208
+	NAME=The Other Side - Twisted animations by Mata - Suggested for mature viewers
+	URL=http://www.matazone.co.uk/menus/gamesmenu.html
+	CREATED=1096017806
+	VISITED=1096024908
+	DESCRIPTION=The Other Side is the home of Little Goth Girl, Mittens and Snowdrop, Mr. Snaffleburger, Samuri Lapin and other twisted creations from Mata
+	ICONFILE=www.matazone.co.uk.gif
+
+-
+
+#FOLDER
+	ID=209
+	NAME=Illustrations and art
+	CREATED=1096353722
+
+#URL
+	ID=210
+	NAME=Serena Riglietti
+	URL=http://www.serenariglietti.it/
+	CREATED=1096353733
+
+-
+
+#URL
+	ID=211
+	NAME=Монета
+	URL=http://moneta.ngi.odessa.ua/
+	CREATED=1096999880
+
+#URL
+	ID=212
+	NAME=правила грамматики русского языка
+	URL=http://www.dimulka.aha.ru/rus/
+	CREATED=1097415651
+	VISITED=1098168541
+
+#FOLDER
+	ID=213
+	NAME=games
+	CREATED=1097745372
+
+#URL
+	ID=214
+	NAME=Bunny game
+	URL=http://www.honda.co.uk/grrrgame/
+	CREATED=1097745379
+	VISITED=1097745431
+	DESCRIPTION=Full Honda range of cars, motorbikes, scooters, power equipment, lawnmowers, generators, motorcycles, outboard motors, etc.
+
+-
+
+#FOLDER
+	ID=215
+	NAME=art
+	CREATED=1097930431
+
+#URL
+	ID=216
+	NAME=Stalin vs. Hitler
+	URL=http://vad.spb.ru/cool/pic/hitler/?1
+	CREATED=1097930452
+
+#URL
+	ID=217
+	NAME=Julius Zimmerman Adult
+	URL=http://www.dreamerblue.info/Eek-sr/zim/zimmer_adult01.htm
+	CREATED=1098106404
+	VISITED=1100339067
+
+#URL
+	ID=218
+	NAME=Jacek Yerka
+	URL=http://www.ergeal.ru/pix/yerka/index.htm
+	CREATED=1100338759
+	VISITED=1100339001
+	ICONFILE=www.ergeal.ru.ico
+
+#URL
+	ID=219
+	NAME=Jane Andrews
+	URL=http://www.janeandrews.co.uk/
+	CREATED=1100339054
+	VISITED=1100339070
+
+#URL
+	ID=220
+	NAME=Картинная галерея Замка Дракона
+	URL=http://www.ergeal.ru/pix/index.htm
+	CREATED=1100339445
+	ICONFILE=www.ergeal.ru.ico
+
+#URL
+	ID=221
+	NAME=Alessandro Bavari
+	URL=http://www.alessandrobavari.com/gallery1/gallery1.htm
+	CREATED=1100340552
+
+-
+
+#URL
+	ID=222
+	NAME=Пещера признаний
+	URL=http://otkpobehho.blogspot.com/
+	CREATED=1097930838
+
+#URL
+	ID=223
+	NAME=Lively flash  letters
+	URL=http://www.raskraska.ru/azbuka/a-eng-flash.htm
+	CREATED=1098358646
+	DESCRIPTION=education
+	ICONFILE=www.raskraska.ru.ico
+
+#URL
+	ID=224
+	NAME=Зрительные иллюзии и феномены
+	URL=http://www.psy.msu.ru/illusion/
+	CREATED=1098865937
+
+#URL
+	ID=225
+	NAME=Основные правила грамматики русского языка
+	URL=http://www.ipmce.su/~igor/osn_prav.html
+	CREATED=1098865959
+	VISITED=1098865950
+
+#URL
+	ID=226
+	NAME=Веселая мастерская - Главная
+	URL=http://igrushka.forever.kz/
+	CREATED=1100631076
+	DESCRIPTION=Как сделать 1000 забавных игрушек своими руками
+
+-
+
+#FOLDER
+	ID=227
+	NAME=#zzz Links
+	CREATED=1093950218
+
+#URL
+	ID=228
+	NAME=جست وجوی گوگل: tatu pic
+	URL=http://images.google.com/images?q=tatu+pic+&start=20&hl=fa&lr=&ie=UTF-8&sa=N
+	CREATED=1093950229
+	ICONFILE=images.google.com.ico
+
+#URL
+	ID=229
+	NAME=Google meklēšana: квартира
+	URL=http://www.google.lv/search?hl=lv&ie=UTF-8&q=%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%20&btnG=Mekl%C4%93t&meta=cr%3DcountryLV
+	CREATED=1093950574
+	ICONFILE=www.google.lv.ico
+
+#URL
+	ID=230
+	NAME=проект :поверхности:
+	URL=http://www.over.no/surface/
+	CREATED=1095670357
+	VISITED=1096440548
+
+#URL
+	ID=231
+	NAME=MOVIEOKE
+	URL=http://www.movieoke.net/faq.htm
+	CREATED=1096015392
+	VISITED=1096024896
+	DESCRIPTION=Movieoke: Karaoke with movies and beer.
+
+#URL
+	ID=232
+	NAME=hobo
+	URL=http://pip.rubberfeet.org/stuff/hobo.html
+	CREATED=1096015750
+	VISITED=1096024899
+	ICONFILE=pip.rubberfeet.org.ico
+
+#URL
+	ID=233
+	NAME=hex clock
+	URL=http://www2.b3ta.com/hexclock/
+	CREATED=1096016440
+	VISITED=1096440544
+	ICONFILE=www2.b3ta.com.ico
+
+#URL
+	ID=234
+	NAME=Bed kom ik niet uit
+	URL=http://www.nobodyhere.com/bed.hier
+	CREATED=1096030901
+	VISITED=1098863127
+	DESCRIPTION=Ooit kom ik uit bed.
+	ICONFILE=www.nobodyhere.com.ico
+
+#URL
+	ID=235
+	NAME=Iranian Boy Names
+	URL=http://cleo.lcs.psu.edu/boy_names.html
+	CREATED=1098281159
+	VISITED=1098281157
+
+-
+
+#FOLDER
+	ID=236
+	NAME=#Design
+	CREATED=1094454217
+
+#FOLDER
+	ID=237
+	NAME=Designers
+	CREATED=1094454261
+
+#URL
+	ID=238
+	NAME=miu-mau.org
+	URL=http://miu-mau.org/
+	CREATED=1094454269
+	VISITED=1094457765
+
+#URL
+	ID=239
+	NAME=conclave obscurum
+	URL=http://cmart.design.ru/
+	CREATED=1094540134
+
+#URL
+	ID=240
+	NAME=yoyo
+	URL=http://yoyo.gazeta.ru/
+	CREATED=1094540153
+
+#URL
+	ID=241
+	NAME=Dinara.Ru — Динара Нургатина, домашняя страничка
+	URL=http://dinara.ru/
+	CREATED=1094541415
+
+#URL
+	ID=242
+	NAME=jat.ru / Home
+	URL=http://jat.ru/
+	CREATED=1094541432
+
+#URL
+	ID=243
+	NAME=logvindesign
+	URL=http://www.logvin.ru/
+	CREATED=1094541450
+	DESCRIPTION=ЛОГВИНDESIGN : Концепции рекламных кампаний, Создание торговых марок, продвижение брэндов, все виды графического дизайна. Решаем проблемы, создаем светлые образы, воплощаем неосознанные желания, поднимаем продажи!
+
+#URL
+	ID=244
+	NAME=omie.ru
+	URL=http://omie.ru/
+	CREATED=1094541508
+
+#URL
+	ID=245
+	NAME=* адреса персональных страниц русскоговорящих дизайнеров
+	URL=http://bob.kgb.ru/bookmarks/
+	CREATED=1094541540
+
+#URL
+	ID=246
+	NAME=granik.com
+	URL=http://www.granik.com/
+	CREATED=1094541581
+	DESCRIPTION=Графический дизайнер. Сайт о дизайне, для дизайна и pro-дизайн.
+
+#URL
+	ID=247
+	NAME=Susan Kare User Interface Graphics
+	URL=http://www.kare.com/
+	CREATED=1096287795
+
+-
+
+#FOLDER
+	ID=248
+	NAME=Journals
+	CREATED=1094539102
+	EXPANDED=YES
+
+#URL
+	ID=249
+	NAME=format (Электронный PDF-журнал)
+	URL=http://format.gutwerk.ru/
+	CREATED=1094542105
+	VISITED=1101214163
+
+#URL
+	ID=250
+	NAME=BEAST Magazine
+	URL=http://www.ths.nu/beast/
+	CREATED=1094454227
+	VISITED=1095762438
+	DESCRIPTION={ths} thomas schostok - graphic design
+	ICONFILE=www.ths.nu.ico
+
+#URL
+	ID=251
+	NAME=Xerotika>Периодика>САМИЗДАТ
+	URL=http://www.zaraz.org/samvydav/journals/xerotika.html
+	CREATED=1094454819
+	VISITED=1095762541
+	ICONFILE=www.zaraz.org.ico
+
+#URL
+	ID=252
+	NAME=Периодика > САМИЗДАТ
+	URL=http://www.zaraz.org/samvydav/journal.html
+	CREATED=1094454915
+	VISITED=1095762729
+	ICONFILE=www.zaraz.org.ico
+
+#URL
+	ID=253
+	NAME=Гнида. Журнал ни о чем: Номера
+	URL=http://gnidamagazine.ru/magazine/
+	CREATED=1100800899
+
+-
+
+#URL
+	ID=254
+	NAME=47 программ по телику
+	URL=http://www.zanuda.msk.ru/
+	CREATED=1094540081
+	VISITED=1098685033
+
+#URL
+	ID=255
+	NAME=bozetto.com
+	URL=http://www.bozzetto.com/
+	CREATED=1094540098
+	VISITED=1094541493
+
+#FOLDER
+	ID=256
+	NAME=Web Design Studios
+	CREATED=1094540212
+
+#URL
+	ID=257
+	NAME=undo.ru
+	URL=http://undo.ru/
+	CREATED=1094540251
+
+#URL
+	ID=258
+	NAME=Студия Артемия Лебедева
+	URL=http://www.artlebedev.ru/
+	CREATED=1094540276
+	VISITED=1097479692
+	ICONFILE=www.artlebedev.ru.ico
+
+#URL
+	ID=259
+	NAME=Cherry-Design
+	URL=http://cherry-design.ru/
+	CREATED=1094540290
+	DESCRIPTION=Web-студия 'Cherry-Design'. Дизайн и создание стильных web-сайтов, их поддержка и раскрутка в сети. Статьи для начинающих web-дизайнеров. Коллекция избранных ссылок по web-дизайну.
+
+#URL
+	ID=260
+	NAME=LEBONZE
+	URL=http://www.lebonze.com/
+	CREATED=1097667153
+	DESCRIPTION=LEBONZE is a web agency based in Bordeaux, France. LEBONZE est une agence de création de sites web de qualité basée sur Bordeaux.
+
+-
+
+#URL
+	ID=261
+	NAME=. C u b e . b i r d .
+	URL=http://cubebird.com/
+	CREATED=1094540711
+	VISITED=1094541493
+
+#URL
+	ID=262
+	NAME=EMILIANO RODRIGUEZ | Graphic Designer, Web Design, Photographer | Diseñador Gráfico, Diseño Web, Fotógrafo | Picture Sales | Image Bank | Venta de fotografнas
+	URL=http://www.emilianorodriguez.com.ar/
+	CREATED=1094540931
+	VISITED=1094541493
+	DESCRIPTION=Portfolio of a professional web & graphic designer and photographer. Diseсador grбfico y web recibido en la UBA. Buy Pictures from Argentina, Patagonia, Brasil, Bolivia, Peru, Cuba, Costa Rica, etc. Venta de Fotografнas.
+
+#URL
+	ID=263
+	NAME=John Galliano
+	URL=http://www.johngalliano.com/
+	CREATED=1094540991
+	VISITED=1094541495
+	DESCRIPTION=John Galliano : fashion, ready to wear, accessories, women, clothes, leathergoods
+	ICONFILE=www.johngalliano.com.ico
+
+#URL
+	ID=264
+	NAME=Дизайн для адалт ресурсов
+	URL=http://iuda.ru/
+	CREATED=1094541609
+
+#URL
+	ID=265
+	NAME=Art Prostitute
+	URL=http://www.artprostitute.com/
+	CREATED=1094541866
+
+#URL
+	ID=266
+	NAME=best of CNN
+	URL=http://hello.typepad.com/photos/cnn/
+	CREATED=1094541892
+	VISITED=1094541939
+
+#URL
+	ID=267
+	NAME=goglus
+	URL=http://www.goglus.com/
+	CREATED=1094542131
+
+#URL
+	ID=268
+	NAME=time tales
+	URL=http://www.timetales.com/
+	CREATED=1094542394
+	DESCRIPTION=time tales is a shelter for found photographs. found on the street, at fleamarkets, thrift shops, in archives, in abandoned lofts...
+
+#FOLDER
+	ID=269
+	NAME=Ideas
+	CREATED=1094542425
+
+#URL
+	ID=270
+	NAME=AffiliateNetwork.ru — реклама, приносящая доход
+	URL=http://www.affiliatenetwork.ru/
+	CREATED=1094542435
+	DESCRIPTION=AffiliateNetwork.ru — реклама, приносящая доход
+
+#URL
+	ID=271
+	NAME=BlueRobot - Surprisingly fragile.
+	URL=http://www.bluerobot.com/log/2002_01.asp
+	CREATED=1094542458
+
+#URL
+	ID=272
+	NAME=Cherry.Gallery | Абстракция
+	URL=http://www.cherry-gallery.spb.ru/gallery.php
+	CREATED=1094542489
+	DESCRIPTION=Частная фотогалерея Михаила Мельникова. Прогулки с фотоаппаратом по Санкт-Петербургу, его окрестностям, а также другие фотозарисовки в путешествиях с цифровой камерой. Разбивка фотографий по категориям и расширенный набор возможностей для просмотра фотографий.
+
+#URL
+	ID=273
+	NAME=time runs with an ax
+	URL=http://www.orangejeep.org/
+	CREATED=1094542579
+
+#URL
+	ID=274
+	NAME=karlsson.ee
+	URL=http://www.karlsson.ee/
+	CREATED=1098281224
+	DESCRIPTION=исчерпывающая информация о хомяках и карлсонах
+
+#URL
+	ID=275
+	NAME=The real Ninja page
+	URL=http://www.realultimatepower.net/
+	CREATED=1098281376
+
+-
+
+#FOLDER
+	ID=276
+	NAME=GoodWorks
+	CREATED=1094542605
+
+#URL
+	ID=277
+	NAME=Upstream Systems
+	URL=http://upstream.ru/
+	CREATED=1094542612
+
+#URL
+	ID=278
+	NAME=www.abrahams.com.au
+	URL=http://www.abrahams.com.au/
+	CREATED=1098281428
+
+-
+
+#URL
+	ID=279
+	NAME=Textbased.com - minimalist web design, theory and discussions
+	URL=http://textbased.com/~minimalist/
+	CREATED=1094543672
+	VISITED=1094543666
+	ICONFILE=textbased.com.gif
+
+#FOLDER
+	ID=280
+	NAME=Typography
+	CREATED=1096287428
+
+#URL
+	ID=281
+	NAME=TypeBase.com
+	URL=http://www.typebase.com/
+	CREATED=1096287436
+	DESCRIPTION=TypeBase contains links to the best typographic sites of the web, selected by Donald Roos & Robert-Jan van Noort, produced by Otherways & Studio Pankra
+
+-
+
+#FOLDER
+	ID=282
+	NAME=Articles
+	CREATED=1096812325
+
+#URL
+	ID=283
+	NAME=Kevin Hulsey Technical Illustrations - How-To Demonstration 1
+	URL=http://www.khulsey.com/demo_1howto.html
+	CREATED=1096812331
+	VISITED=1097080612
+	DESCRIPTION=Tutorials and lessons on cutaway technical illustrations: Basic perspective, perspective grids, and working from blueprints.
+	ICONFILE=www.khulsey.com.ico
+
+-
+
+#URL
+	ID=284
+	NAME=:: Энциклопедия интернет-рекламы
+	URL=http://book.promo.ru/book/
+	CREATED=1096998655
+
+#URL
+	ID=285
+	NAME=re:vision
+	URL=http://www.revision.ru/
+	CREATED=1097075172
+	VISITED=1098863675
+	ICONFILE=www.revision.ru.ico
+
+#FOLDER
+	ID=286
+	NAME=contores LV
+	CREATED=1098281480
+
+#URL
+	ID=287
+	NAME=Nova Media / Par mums
+	URL=http://www.nova.lv/
+	CREATED=1098281495
+	ICONFILE=www.nova.lv.ico
+
+#URL
+	ID=288
+	NAME=www.bulterjers.lv
+	URL=http://www.bulterjers.lv/website/raziine.html
+	CREATED=1098281522
+
+#URL
+	ID=289
+	NAME=STATION :: re.covered
+	URL=http://deep.station.lv/
+	CREATED=1098281543
+	DESCRIPTION=Denis Golyakov - official page
+
+#URL
+	ID=290
+	NAME=Internet Solutions Agency "ALT RD"
+	URL=http://www.alt.lv/
+	CREATED=1098281561
+	DESCRIPTION=ALT RD - Internet advertisement agency
+
+#URL
+	ID=291
+	NAME=Intechnic Europe
+	URL=http://www.intechnic.lv/rus/
+	CREATED=1098281627
+
+-
+
+#URL
+	ID=292
+	NAME=Дизайн Депо
+	URL=http://www.designdepot.ru/
+	CREATED=1098867653
+	ICONFILE=www.designdepot.ru.ico
+
+-
+
+#FOLDER
+	ID=293
+	NAME=#Visual Art
+	CREATED=1094541911
+
+#FOLDER
+	ID=294
+	NAME=Artists
+	CREATED=1094541934
+
+#URL
+	ID=295
+	NAME=Ray Patin - Commerical Art
+	URL=http://theimaginaryworld.com/rayart.html
+	CREATED=1094541954
+	VISITED=1098281007
+
+#URL
+	ID=296
+	NAME=Alex Dukal - Graphic Territory
+	URL=http://www.adukal.com/
+	CREATED=1098281002
+	DESCRIPTION=ALEX DUKAL. Graphik territory. Freelance Illustrator. Include the E-Zine: Furry Toy
+	ICONFILE=www.adukal.com.ico
+
+#URL
+	ID=297
+	NAME=wa11
+	URL=http://wa11.com/
+	CREATED=1098685405
+	VISITED=1098685396
+	DESCRIPTION=illustator's portfolio by Wall 2004
+
+-
+
+#FOLDER
+	ID=298
+	NAME=Flash
+	CREATED=1094543245
+
+#URL
+	ID=299
+	NAME=wonderful world of LARRY CARLSON_______________________________________________________________________________
+	URL=http://larrycarlson.com/
+	CREATED=1094543252
+
+-
+
+#URL
+	ID=300
+	NAME=Lewis Carroll Graphics Page
+	URL=http://www.lewiscarroll.org/graph.html
+	CREATED=1094543334
+	DESCRIPTION=This page contains graphics and illustrations related to the works of Lewis Carroll (AKA Charles Lutwidge Dodgson). Clearly most of these will be from Alice's Adventures in Wonderland and Through the Looking-Glass, but there are others as well. There are contemporary illustrations as well as modern interpretations.
+
+#URL
+	ID=301
+	NAME=Золотой Теленок в иллюстрациях Кукрыниксов
+	URL=http://petrov.com.ua/GoldCalf/GoldCalf.htm
+	CREATED=1094543349
+	VISITED=1094543348
+
+#URL
+	ID=302
+	NAME=the Creatures in my Head - illustration and artwork by Andrew Bell
+	URL=http://www.creaturesinmyhead.com/
+	CREATED=1098281188
+	ICONFILE=www.creaturesinmyhead.com.ico
+
+#URL
+	ID=303
+	NAME=«Афиша»: иллюстрированный номер
+	URL=http://illustrated.afisha.ru/
+	CREATED=1098459985
+	VISITED=1098802558
+
+-
+
+#FOLDER
+	ID=304
+	NAME=#Advertising
+	CREATED=1094542017
+
+#FOLDER
+	ID=305
+	NAME=Logotypes & brands
+	CREATED=1094542318
+
+#URL
+	ID=306
+	NAME=GoodLogo!com - Top 250 (1-5)
+	URL=http://www.goodlogo.com/top250/
+	CREATED=1094542329
+	DESCRIPTION=goodlogo!com, Submit and vote your alltime favourite logo or logos This site is dedicated to the artform of the logo and its accompanied corporate identity. We hope to serve you here with the finest selection of logos, selected and submitted by everyone from all over the world. With our voting and rating system and our classification in categories we would like to give you a multidimensional view on the best logos for different purposes. We accomplish this by letting you select different categories and styles per top-listing.
+
+#URL
+	ID=307
+	NAME=the best brands of the world
+	URL=http://www.brandsoftheworld.com/
+	CREATED=1094540389
+	VISITED=1094540447
+	DESCRIPTION=World's largest collection of the brands
+	ICONFILE=www.brandsoftheworld.com.ico
+
+#URL
+	ID=308
+	NAME=Car logos history
+	URL=http://gawlowski.com/matt/cars/car_logos.html
+	CREATED=1098883233
+
+-
+
+#FOLDER
+	ID=309
+	NAME=Samples
+	CREATED=1094544073
+	EXPANDED=YES
+
+#URL
+	ID=310
+	NAME=Period Paper - Vintage Paper Advertisements
+	URL=http://www.bambootrading.com/paperads.htm
+	CREATED=1094542356
+
+#URL
+	ID=311
+	NAME=Retro Ads
+	URL=http://ephemeranow.com/av/av01.htm
+	CREATED=1094542027
+	VISITED=1101238835
+	DESCRIPTION=Retro American pop culture, graphic arts and mid-century design as shown in advertising and illustration art of the 1950s.
+
+-
+
+#URL
+	ID=312
+	NAME=Advertology.Ru - все о рекламе, маркетинге и PR. Новости рекламы, маркетинга и PR. Статьи о рекламе, репортажи, аналитика, события
+	URL=http://www.advertology.ru/
+	CREATED=1094544088
+	VISITED=1101238259
+	DESCRIPTION=Реклама, маркетинг, PR. Новости рекламы. Новости маркетинга. Новости PR. Статьи о рекламе, репортажи, аналитика. Фестивали, выставки, конкурсы. Новости рекламных агентств, пресс-релизы. Закон о рекламе. РАРА, РСР, IAA, ассоциация рекламодателей, АКОС. Академия рекламы, лаборатория рекламы
+
+#URL
+	ID=313
+	NAME=Today's Front Pages
+	URL=http://www.newseum.org/todaysfrontpages/
+	CREATED=1098868181
+	VISITED=1101238028
+
+#URL
+	ID=314
+	NAME=Joelapompe - ads plagiat
+	URL=http://www.joelapompe.fr.st/
+	CREATED=1099030375
+	VISITED=1101238155
+	DESCRIPTION=le rendez-vous des copies honteuses
+
+#URL
+	ID=315
+	NAME=AdMe.ru : Реклама. Креатив. Энциклопедия рекламы.
+	URL=http://adme.ru/
+	CREATED=1099601610
+	VISITED=1099603195
+	ICONFILE=adme.ru.ico
+
+#FOLDER
+	ID=316
+	NAME=articles
+	CREATED=1099603243
+	EXPANDED=YES
+
+#URL
+	ID=317
+	NAME=Реклама Sisley: вопрос не больной совести | Креативная Лента | AdMe.Ru
+	URL=http://adme.ru/register/29.09.2004/2/comments
+	CREATED=1099603253
+	VISITED=1101238329
+	ICONFILE=adme.ru.ico
+
+-
+
+-
+
+#FOLDER
+	ID=318
+	NAME=#Library (texts)
+	CREATED=1094543276
+	EXPANDED=YES
+
+#URL
+	ID=319
+	NAME=Ляпики и Злохвосты
+	URL=http://www.kinder.ru/zlohvost/index.html
+	CREATED=1094543313
+
+#URL
+	ID=320
+	NAME=Дмитрий Горчев
+	URL=http://gorchev.lib.ru/
+	CREATED=1095847934
+
+#URL
+	ID=321
+	NAME=Домовая странница Мэри Шелли
+	URL=http://fuga.ru/shelley/
+	CREATED=1096972876
+
+#FOLDER
+	ID=738
+	NAME=articles
+	CREATED=1101709307
+
+#URL
+	ID=739
+	NAME="Упаковать" Иванькова
+	URL=http://compromat.ru/main/japonchik/ohota.htm
+	CREATED=1101709315
+
+-
+
+-
+
+#FOLDER
+	ID=322
+	NAME=#root
+	CREATED=1098279500
+
+#URL
+	ID=323
+	NAME=:: De'games - Просмотр форума
+	URL=http://www.deforum.ru/forum/viewforum.php?f=13
+	CREATED=1097075116
+	VISITED=1101109846
+
+#URL
+	ID=324
+	NAME=500px | an art of photography
+	URL=http://www.livejournal.com/community/500px/
+	CREATED=1096469240
+	VISITED=1098863878
+	ICONFILE=www.livejournal.com.ico
+
+#URL
+	ID=325
+	NAME=B3TA : WE LOVE THE WEB
+	URL=http://b3ta.com/
+	CREATED=1096013951
+	VISITED=1098863746
+	ICONFILE=b3ta.com.ico
+
+#URL
+	ID=326
+	NAME=dirty.ru
+	URL=http://dirty.ru/
+	CREATED=1096013801
+	VISITED=1101477378
+	ICONFILE=dirty.ru.ico
+
+#URL
+	ID=327
+	NAME=MAGMA RAREFUEL WELCOME
+	URL=http://www.magmabooks.com/
+	CREATED=1097142822
+	VISITED=1098863828
+	DESCRIPTION=MAGMA BOOKS LONDON - the premier design bookshop on the net, buy books online, MAGMA London, Covent Garden
+
+#URL
+	ID=328
+	NAME=Satan's Laundromat
+	URL=http://www.satanslaundromat.com/sl/
+	CREATED=1098077583
+	VISITED=1098078368
+
+#URL
+	ID=329
+	NAME=ИНФОРМАЦИОННЫЙ БУМ
+	URL=http://ezhe.ru/ib/
+	CREATED=1095855823
+	VISITED=1098863835
+	ICONFILE=ezhe.ru.ico
+
+-
+
+#FOLDER
+	ID=330
+	NAME=#to see
+	CREATED=1098279979
+
+#URL
+	ID=331
+	NAME=naivist.net - kā tam bija jābūt
+	URL=http://naivist.net/gallery/
+	CREATED=1098279988
+	VISITED=1098863816
+	DESCRIPTION=naivist.net - melns uz balta (free food is for fools)
+
+#URL
+	ID=332
+	NAME=IPX.RU | Закладки
+	URL=http://ipx.ru/bookmarks/?line_end=1774&line_start=1734
+	CREATED=1098280640
+	VISITED=1098863809
+
+#URL
+	ID=333
+	NAME=Rambler-Vision
+	URL=http://vision.rambler.ru/
+	CREATED=1098432898
+
+-
+
+#FOLDER
+	ID=334
+	NAME=Internet Explorer Favorites
+
+#FOLDER
+	ID=335
+	NAME=!Themes
+	CREATED=1096483478
+	VISITED=1096483477
+
+#FOLDER
+	ID=336
+	NAME=Army and Weapon
+	CREATED=1096483477
+	VISITED=1096483477
+
+#URL
+	ID=337
+	NAME= Все о арбалетах
+	URL=http://www.arbalet.hut.ru/
+	CREATED=1012997334
+	VISITED=1096483477
+
+#URL
+	ID=338
+	NAME=SUBMARINE. РОССИЙСКИЙ ПОДВОДНЫЙ ФЛОТ. ФОТОГАЛЕРЕЯ - РИСУНКИ - ГРАФИКА.
+	URL=http://www.submarine.id.ru/thumbs/index.html
+	CREATED=1017986254
+	VISITED=1098865003
+
+#URL
+	ID=339
+	NAME=War Online
+	URL=http://www.waronline.org/
+	CREATED=1019559394
+	VISITED=1098865007
+
+#URL
+	ID=340
+	NAME=Броне-Сайт Чобитка Василия
+	URL=http://armor.kiev.ua/
+	CREATED=1012898474
+	VISITED=1098865014
+
+#URL
+	ID=341
+	NAME=ВАС. Авиационное вооружение
+	URL=http://www.airwar.ru/aweapon.html
+	CREATED=1012898244
+	VISITED=1096483477
+
+#URL
+	ID=342
+	NAME=Военная литература
+	URL=http://militera.lib.ru/
+	CREATED=1020864720
+	VISITED=1096483477
+
+#URL
+	ID=343
+	NAME=Воздушный таран
+	URL=http://aeroram.narod.ru/win/taran.htm
+	CREATED=1009111304
+	VISITED=1096483477
+
+-
+
+#FOLDER
+	ID=344
+	NAME=art
+	CREATED=1096483477
+	VISITED=1096483477
+
+#URL
+	ID=345
+	NAME=Арт-галерея Event Живопись Графика Скульптура Art Gallery Event
+	URL=http://art.m9.ru/
+	CREATED=1020078286
+	VISITED=1098865021
+
+-
+
+#FOLDER
+	ID=346
+	NAME=Deti
+	CREATED=1096483477
+	VISITED=1096483477
+
+#URL
+	ID=347
+	NAME=.. Детский портал СОЛНЫШКО ..
+	URL=http://www.solnyshko.ee/
+	CREATED=1006249728
+	VISITED=1096483477
+
+#URL
+	ID=348
+	NAME=berni.lv
+	URL=http://www.berni.lv/
+	CREATED=1018078140
+	VISITED=1096483477
+
+#URL
+	ID=349
+	NAME=Первый год жизни ребенка. Ребенок и уход за ним. Универсальное пособие для Вас.
+	URL=http://www.malish.ru/
+	CREATED=1006249838
+	VISITED=1096483477
+
+-
+
+#FOLDER
+	ID=350
+	NAME=EDA
+	CREATED=1096483477
+	VISITED=1096483477
+
+#URL
+	ID=351
+	NAME=(Кулинария,рецепты,национальная кухня,морепродукты,приправы,специи,диеты,аквариум,Новый Свет,Крым,Казантип,фотообои, Java Apple
+	URL=http://www.homejungle.km.ru/
+	CREATED=1005811686
+	VISITED=1096483477
+
+#URL
+	ID=352
+	NAME=Кулинарный сервер ЕДА! Все о кулинарии и еде.
+	URL=http://cooking.mana.ru/
+	CREATED=1008157678
+	VISITED=1098865052
+
+-
+
+#URL
+	ID=353
+	NAME=FashionLook  Стиль. Ежедневно - обо всём.
+	URL=http://win.fashionlook.ru/style/
+	CREATED=1014811308
+	VISITED=1096483478
+
+#FOLDER
+	ID=354
+	NAME=for women
+	CREATED=1096483477
+	VISITED=1096483477
+
+#URL
+	ID=355
+	NAME=Журнал Женские страсти
+	URL=http://www.passion.ru/
+	CREATED=1005811356
+	VISITED=1098865060
+
+-
+
+#FOLDER
+	ID=356
+	NAME=Foto
+	CREATED=1096483477
+	VISITED=1096483477
+
+#URL
+	ID=357
+	NAME=PhotoProArt
+	URL=http://www.photoproart.ru/
+	CREATED=1019628554
+	VISITED=1098865110
+
+-
+
+#URL
+	ID=358
+	NAME=INTERNATIONAL Civic Heraldry
+	URL=http://www.ngw.nl/
+	CREATED=1020595662
+	VISITED=1098865385
+
+#URL
+	ID=359
+	NAME=Islamic Republic of Iran Broadcasting
+	URL=http://www.irib.com/
+	CREATED=1019286330
+	VISITED=1096483478
+
+#URL
+	ID=360
+	NAME=LEWIS CARROLL Graphics Page
+	URL=http://www.lewiscarroll.org/graph.html
+	CREATED=1015067712
+	VISITED=1096483478
+
+#FOLDER
+	ID=361
+	NAME=mobil
+	CREATED=1096483477
+	VISITED=1096483477
+
+#URL
+	ID=362
+	NAME=gsm.dot.lv for Mobil
+	URL=http://gsm.dot.lv/
+	CREATED=997195534
+	VISITED=1096483477
+
+#URL
+	ID=363
+	NAME=Music.AllMobile.ru - Мелодии для мобильных телефонов
+	URL=http://music.allmobile.ru/
+	CREATED=1000448342
+	VISITED=1096483477
+
+#URL
+	ID=364
+	NAME=Software for you mobile phones
+	URL=http://truba.times.lv/
+	CREATED=1001926514
+	VISITED=1096483477
+
+#URL
+	ID=365
+	NAME=Мелодии для мобильных телефонов eng only
+	URL=http://melody.org.ru/
+	CREATED=1000446582
+	VISITED=1096483477
+
+-
+
+#FOLDER
+	ID=366
+	NAME=mp3
+	CREATED=1096483478
+	VISITED=1096483477
+
+#URL
+	ID=367
+	NAME=. Lyrics.Ru .
+	URL=http://www.lyrics.ru/
+	CREATED=997511938
+	VISITED=1096483477
+
+#URL
+	ID=368
+	NAME=ALL OF MP3. Best MP3 Downloads. Full Albums. Music from Soundtracks, Singles, Videos, Games. Free for Russia.
+	URL=http://www.allofmp3.com/
+	CREATED=1015533312
+	VISITED=1096483477
+
+#URL
+	ID=369
+	NAME=DELit music navigator
+	URL=http://www.delit.ru/music/artist_list_rus.asp?Chr=%C0&mp=1
+	CREATED=1000104528
+	VISITED=1096483477
+
+#URL
+	ID=370
+	NAME=eMyz новый развлекательный портал о музыке
+	URL=http://emyz.ru/
+	CREATED=1010046828
+	VISITED=1096483477
+
+#URL
+	ID=371
+	NAME=Grammy.ru (mp3 Archive)
+	URL=http://mp3.grammy.ru/
+	CREATED=998029434
+	VISITED=1096483478
+
+#URL
+	ID=372
+	NAME=Indiemusic.Ru - сайт русской независимой музыки
+	URL=http://www.indiemusic.ru/
+	CREATED=1017731490
+	VISITED=1096483478
+
+#URL
+	ID=373
+	NAME=MP3 OCEAN
+	URL=http://www.mp3ocean.agava.ru/
+	CREATED=1015930946
+	VISITED=1096483478
+
+#URL
+	ID=374
+	NAME=MP3.KHARKOV.UA
+	URL=http://mp3.kharkov.ua/
+	CREATED=1015531908
+	VISITED=1096483478
+
+#URL
+	ID=375
+	NAME=Omen Музыка MP3(крупный архив, все стили, новое и старое, наше и зарубежное, прямой download с быстрого русского сервера, докач
+	URL=http://omen.ru/music/MP3&RA.HTM
+	CREATED=1005553160
+	VISITED=1096483478
+
+#URL
+	ID=376
+	NAME=RMP.RU - Музыкальный портал mp3, новости музыки
+	URL=http://rmp.ru/
+	CREATED=998731500
+	VISITED=1098865131
+	ICONFILE=rmp.ru.ico
+
+#URL
+	ID=377
+	NAME=Russian mp3 Архив --
+	URL=http://mp3.ps.msu.ru/
+	CREATED=997521822
+	VISITED=1096483478
+
+#URL
+	ID=378
+	NAME=simplemp3s.com
+	URL=http://www.simplemp3s.com/
+	CREATED=1021531446
+	VISITED=1096483478
+
+#URL
+	ID=379
+	NAME=Wav - Звуковая библиотека
+	URL=http://soundlib.narod.ru/
+	CREATED=1006244840
+	VISITED=1096483478
+
+#URL
+	ID=380
+	NAME=www.zvuki.ru 
+	URL=http://www.zvuki.ru/
+	CREATED=1010067744
+	VISITED=1098429765
+
+#URL
+	ID=381
+	NAME=zzz
+	URL=http://www.tequilajazzz.spb.ru/
+	CREATED=1019065274
+	VISITED=1096483478
+
+#URL
+	ID=382
+	NAME=Ракетобиль Место где лежат самые распоследние новости.
+	URL=http://raketobile.lib.ru/
+	CREATED=1012811200
+	VISITED=1098865136
+
+-
+
+#URL
+	ID=383
+	NAME=oldgames.km.ru
+	URL=http://oldgames.km.ru/
+	CREATED=1006761588
+	VISITED=1096483478
+
+#URL
+	ID=384
+	NAME=parusniki
+	URL=http://parus.hobby.ru/
+	CREATED=1017735962
+	VISITED=1098865401
+
+#FOLDER
+	ID=385
+	NAME=po4itat
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=386
+	NAME='Мужская половина' - правильный сайт для мужчин
+	URL=http://www.mhalf.newmail.ru/
+	CREATED=997456858
+	VISITED=1098865185
+
+#URL
+	ID=387
+	NAME=ArtReal [На грани иронии]-index
+	URL=http://artreal.hut.ru/
+	CREATED=998926010
+	VISITED=1096483478
+
+#URL
+	ID=388
+	NAME=lib  km  ru  - Электронная библиотека -= Сиди и Читай =-
+	URL=http://lib.km.ru/cgi-bin/library.cgi
+	CREATED=1002353034
+	VISITED=1096483478
+
+#URL
+	ID=389
+	NAME=Lib.Ru Библиотека Максима Мошкова
+	URL=http://www.kulichki.com/moshkow/
+	CREATED=1002355250
+	VISITED=1096483478
+
+#URL
+	ID=390
+	NAME=Litovkin - на флоте бабочек не ловят
+	URL=http://www.w-design.ru/litovkin/
+	CREATED=1006944966
+	VISITED=1096483478
+
+#URL
+	ID=391
+	NAME=Ляпики и злохвосты
+	URL=http://www.kinder.ru/zlohvost/
+	CREATED=1020670982
+	VISITED=1096483478
+
+#URL
+	ID=392
+	NAME=Новые литературные произведения - научная фантастика,фантастическая проза,фэнтези,сказки,литература,поэзия,проза,автор,издание,
+	URL=http://literature.times.lv/
+	CREATED=1004386434
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=393
+	NAME=Science
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=394
+	NAME=Solar System Simulator
+	URL=http://space.jpl.nasa.gov/
+	CREATED=1017392234
+	VISITED=1098865364
+
+#URL
+	ID=395
+	NAME=Звездочет - Главная страница
+	URL=http://www.astronomy.ru:8101/
+	CREATED=1004364016
+	VISITED=1096483478
+
+#URL
+	ID=396
+	NAME=Математика on-line. В помощь студенту.
+	URL=http://mathem.h1.ru/index.html
+	CREATED=1005811488
+	VISITED=1098865373
+
+#URL
+	ID=397
+	NAME=Наука и жизнь
+	URL=http://nauka.relis.ru/
+	CREATED=1007027374
+	VISITED=1098865376
+
+-
+
+#URL
+	ID=398
+	NAME=Welcome to OLD-COMPUTERS.COM !
+	URL=http://www.old-computers.com/news/default.asp
+	CREATED=1015324994
+	VISITED=1096483478
+
+#URL
+	ID=399
+	NAME=WIEM Wielka Internetowa Encyklopedia Multimedialna
+	URL=http://wiem.onet.pl/wiem/
+	CREATED=1018522806
+	VISITED=1096483478
+
+#URL
+	ID=400
+	NAME=www.locks.ru Руководство MIT по открыванию замков отмычкой
+	URL=http://www.locks.ru/win/informat/mit_lockpicking.htm#�����
+	CREATED=1012206536
+	VISITED=1096483478
+
+#URL
+	ID=401
+	NAME=Беспрецендентная коллекция восточной музыки и философии!
+	URL=http://bhakticd.by.ru/
+	CREATED=1008158110
+	VISITED=1098865416
+
+#URL
+	ID=402
+	NAME=Государственные награды России
+	URL=http://www.gov.ru/nagrad/index.htm
+	CREATED=1021014842
+	VISITED=1098865422
+
+#URL
+	ID=403
+	NAME=Зрительные иллюзии и феномены
+	URL=http://www.psy.msu.ru/illusion/
+	CREATED=1014887622
+	VISITED=1098865751
+
+#URL
+	ID=404
+	NAME=имена - Лаборатория личности
+	URL=http://yxo.by.ru/
+	CREATED=1007713332
+	VISITED=1096483478
+
+#URL
+	ID=405
+	NAME=Ислам и мусульмане. Аллах. Намаз, Хадж, Ният, Islam, muslims
+	URL=http://islam.r2.ru/
+	CREATED=1019134374
+	VISITED=1096483478
+
+#URL
+	ID=406
+	NAME=Основные правила грамматики русского языка
+	URL=http://www.ipmce.su/~igor/osn_prav.html
+	CREATED=1013449294
+	VISITED=1098865950
+
+#URL
+	ID=407
+	NAME=По латыни между прочим  ОБЪЯВА.ru
+	URL=http://www.obyava.ru/latin/?lang=lat&letter=84
+	CREATED=1009214250
+	VISITED=1098865969
+
+#URL
+	ID=408
+	NAME=СТРИЖКИ И ПРИЧЕСКИ ВСЕ О СТРИЖКАХ И ПРИЧЕСКАХ НОВЫЕ СТРИЖКИ И ПРИЧЕСКИ СТРИЖКИ И ПРИЧЕСКА МНОГО ЖЕНСКИХ СТРИЖЕК И ПРИЧЕСОК
+	URL=http://hairs.narod.ru/
+	CREATED=1005732476
+	VISITED=1096483478
+
+#URL
+	ID=409
+	NAME=Чайный клуб Сергея Калинина и Дениса Шумакова. Новости
+	URL=http://tea.volny.edu/
+	CREATED=1016144362
+	VISITED=1096483478
+
+#URL
+	ID=410
+	NAME=Этикет от А до Я
+	URL=http://etiket.net.ru/
+	CREATED=1011172532
+	VISITED=1098865986
+
+-
+
+#FOLDER
+	ID=411
+	NAME=!_Links
+	CREATED=1096483478
+	VISITED=1096483478
+
+#FOLDER
+	ID=412
+	NAME=computer
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=413
+	NAME=cooler @ emax
+	URL=http://cooler.emax.ru/
+	CREATED=998926468
+	VISITED=1096483478
+
+#URL
+	ID=414
+	NAME=PL-Computers.ru
+	URL=http://www.pl-computers.ru/
+	CREATED=1005296880
+	VISITED=1096483478
+
+#URL
+	ID=415
+	NAME=S U B M A R I N E . R U
+	URL=http://www.submarine.ru/
+	CREATED=997433560
+	VISITED=1098864911
+
+-
+
+#FOLDER
+	ID=416
+	NAME=news
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=417
+	NAME=4ac
+	URL=http://www.chas-daily.com/win/
+	CREATED=997281940
+	VISITED=1098864312
+	ICONFILE=www.chas-daily.com.ico
+
+#URL
+	ID=418
+	NAME=FCENTER.RU
+	URL=http://www.fcenter.ru/
+	CREATED=1002351074
+	VISITED=1096483478
+
+#URL
+	ID=419
+	NAME=LENTA.RU
+	URL=http://www.lenta.ru/
+	CREATED=998475066
+	VISITED=1096483478
+
+#URL
+	ID=420
+	NAME=Realty.lv - всё о недвижимости в Латвии
+	URL=http://www.realty.lv/rus/
+	CREATED=1003403498
+	VISITED=1096483478
+
+#URL
+	ID=421
+	NAME=rus.DELFI 
+	URL=http://rus.delfi.lv/
+	CREATED=997170002
+	VISITED=1101473787
+	ICONFILE=g.delfi.lv.ico
+
+#URL
+	ID=422
+	NAME=Вести сегодня, общественно-политическая газета Латвии
+	URL=http://www.cm.lv/index.php3
+	CREATED=997514536
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=423
+	NAME=POETRY WITHOUT WORDS
+	URL=http://www.poetrywithoutwords.com/
+	CREATED=1006337120
+	VISITED=1098864215
+
+#URL
+	ID=424
+	NAME=PORNO-GRAFICS August 2001
+	URL=http://www.porno-grafics.com/
+	CREATED=1005556212
+	VISITED=1098864234
+
+#URL
+	ID=425
+	NAME=The Reflex Tester
+	URL=http://www.happyhub.com/network/reflex/
+	CREATED=1021544202
+	VISITED=1098864289
+
+-
+
+#FOLDER
+	ID=426
+	NAME=Authors
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=427
+	NAME=Alex Dukal - Graphik Territory
+	URL=http://www.adukal.com/
+	CREATED=1006336066
+	VISITED=1098280995
+	ICONFILE=www.adukal.com.ico
+
+#FOLDER
+	ID=428
+	NAME=parody
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=429
+	NAME=Студия Удодова  Промдизайн  Artefekal  Дефекация
+	URL=http://artefekal.narod.ru/
+	CREATED=1014979698
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=430
+	NAME=Виктор ШЕНДЕРОВИЧ Заглавная
+	URL=http://www.shender.ru/
+	CREATED=1005990298
+	VISITED=1098865992
+
+-
+
+#FOLDER
+	ID=431
+	NAME=Blogg
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=432
+	NAME=Alexander's journal
+	URL=http://www.livejournal.com/users/dozhdik/
+	CREATED=1016110898
+	VISITED=1098866022
+
+#URL
+	ID=433
+	NAME=Linor Goralik's LiveJournal
+	URL=http://www.livejournal.com/users/lori_lo
+	CREATED=1014814766
+	VISITED=1096483478
+
+#URL
+	ID=434
+	NAME=miu mau's LiveJournal -- Entries
+	URL=http://www.livejournal.com/users/miumau/
+	CREATED=1017744526
+	VISITED=1098866030
+
+#URL
+	ID=435
+	NAME=Tema's LiveJournal
+	URL=http://www.livejournal.com/users/tema/
+	CREATED=1013768368
+	VISITED=1098866036
+
+#URL
+	ID=436
+	NAME=~~~miu~mau.org~~~
+	URL=http://www.miu-mau.org/
+	CREATED=1015085256
+	VISITED=1096483478
+
+#URL
+	ID=437
+	NAME=моська.ру стальные ножки буша!
+	URL=http://ricn.ru/blog/
+	CREATED=1016018634
+	VISITED=1098866048
+
+-
+
+#FOLDER
+	ID=438
+	NAME=Code and Programming
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=439
+	NAME=. Азбука Веб - Дизайна .
+	URL=http://www.fs-studio.net/
+	CREATED=1012997630
+	VISITED=1096483478
+
+#FOLDER
+	ID=440
+	NAME=JavaScript
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=441
+	NAME=Программирование на JavaScript - Документация, учебники
+	URL=http://javascript.fud.ru/docum_javascript/docum/
+	CREATED=1012996084
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=442
+	NAME=php
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=443
+	NAME=cgi.ru
+	URL=http://www.cgi.ru/
+	CREATED=996591394
+	VISITED=1096483478
+
+#URL
+	ID=444
+	NAME=Club of the developers PHP (Клуб разработчиков PHP)
+	URL=http://phpclub.unet.ru/index.php3?l=ru
+	CREATED=1001928230
+	VISITED=1096483478
+
+#URL
+	ID=445
+	NAME=CodeNet - все для программиста.
+	URL=http://codenet.ru/
+	CREATED=996765714
+	VISITED=1096483478
+
+#URL
+	ID=446
+	NAME=php на world.lv 
+	URL=http://www.world.lv/docs/
+	CREATED=996325254
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=447
+	NAME=Untitled.Zone
+	URL=http://www.untitled.r2.ru/
+	CREATED=1012298576
+	VISITED=1096483478
+
+#URL
+	ID=448
+	NAME=W3C HTML Validation Service
+	URL=http://validator.w3.org/
+	CREATED=1014132236
+	VISITED=1098281073
+
+-
+
+#FOLDER
+	ID=449
+	NAME=Creatiff
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=450
+	NAME=Iranian Boy Names
+	URL=http://cleo.lcs.psu.edu/boy_names.html
+	CREATED=1021119880
+	VISITED=1098281157
+
+#URL
+	ID=451
+	NAME=names (nicks)
+	URL=http://www.inf.upol.cz/%7Emullerr/theresa/names.html
+	CREATED=1015323670
+	VISITED=1096483478
+
+#URL
+	ID=452
+	NAME=the Creatures in my Head.
+	URL=http://www.creaturesinmyhead.com/
+	CREATED=1014885622
+	VISITED=1098281181
+	ICONFILE=www.creaturesinmyhead.com.ico
+
+-
+
+#FOLDER
+	ID=453
+	NAME=Design
+	CREATED=1096483478
+	VISITED=1096483478
+
+#FOLDER
+	ID=454
+	NAME=best
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=455
+	NAME=karlsson.ee, любимый хомяк капитана karlssonа
+	URL=http://www.karlsson.ee/
+	CREATED=1013154800
+	VISITED=1096483478
+
+#URL
+	ID=456
+	NAME=madness gone sane
+	URL=http://www.orcagirl.com/home.html
+	CREATED=1018420162
+	VISITED=1096483478
+
+#URL
+	ID=457
+	NAME=Prototype - horizontall scroll
+	URL=http://www.prototype.ru/
+	CREATED=1004604314
+	VISITED=1096483478
+
+#URL
+	ID=458
+	NAME=Requiem for a Dream
+	URL=http://www.requiemforadream.com/
+	CREATED=1014906668
+	VISITED=1096483478
+
+#URL
+	ID=459
+	NAME=The Official Ninja Webpage  REAL Ultimate Power!!!!
+	URL=http://www.realultimatepower.net/
+	CREATED=1020863194
+	VISITED=1098281371
+
+#URL
+	ID=460
+	NAME=www.abrahams.com.au
+	URL=http://www.abrahams.com.au/
+	CREATED=1014918570
+	VISITED=1098281421
+
+#URL
+	ID=461
+	NAME=ИЖ
+	URL=http://www.izh-auto.com/
+	CREATED=1013447892
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=462
+	NAME=Best Flash
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=463
+	NAME=-{DreamEFX}- version 4.0
+	URL=http://great-jones-street.com/DreamEFX/
+	CREATED=1006506208
+	VISITED=1096483478
+
+#URL
+	ID=464
+	NAME=..[ Out Of Target ]..
+	URL=http://www.outoftarget.com/main.html
+	CREATED=1015340954
+	VISITED=1096483478
+
+#URL
+	ID=465
+	NAME=atalier  graphic and webdesign  3d and animation  games and cartoons
+	URL=http://www.atalier.com/
+	CREATED=1011171078
+	VISITED=1096483478
+
+#URL
+	ID=466
+	NAME=conclave obscurum (cmart.design.ru)
+	URL=http://cmart.design.ru/
+	CREATED=997536370
+	VISITED=1096483478
+
+#URL
+	ID=467
+	NAME=FAKEPILOT INTRO
+	URL=http://www.fakepilot.com/frameset.htm
+	CREATED=1014368332
+	VISITED=1096483478
+
+#URL
+	ID=468
+	NAME=jump tomorrow
+	URL=http://www.jump-tomorrow.com/
+	CREATED=1014906148
+	VISITED=1096483478
+
+#URL
+	ID=469
+	NAME=mjau-mjau
+	URL=http://www.mjau-mjau.com/main.html
+	CREATED=1016042426
+	VISITED=1096483478
+
+#URL
+	ID=470
+	NAME=omie.ru - the strange city is open!
+	URL=http://omie.ru/
+	CREATED=1009118640
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=471
+	NAME=Jeffrey Zeldman Presents Ask Dr Web
+	URL=http://www.zeldman.com/askdrweb/
+	CREATED=1018086514
+	VISITED=1096483478
+
+#FOLDER
+	ID=472
+	NAME=Kontores LV
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=473
+	NAME=-- Nova Media (former Studio IN) --
+	URL=http://www.nova.lv/
+	CREATED=999937544
+	VISITED=1098281465
+	ICONFILE=www.nova.lv.ico
+
+#URL
+	ID=474
+	NAME=BULTERJERS
+	URL=http://www.bulterjers.lv/
+	CREATED=1015952320
+	VISITED=1098281500
+
+#URL
+	ID=475
+	NAME=Creative Design Concept
+	URL=http://www.ngds.yo.lv/
+	CREATED=1000889668
+	VISITED=1096483478
+
+#URL
+	ID=476
+	NAME=DEEP station (Dionis)
+	URL=http://deep.station.lv/
+	CREATED=1018075424
+	VISITED=1098281536
+
+#URL
+	ID=477
+	NAME=Internet Solutions Agency ALT RD
+	URL=http://www.alt.lv/
+	CREATED=1015951892
+	VISITED=1098281549
+
+#URL
+	ID=478
+	NAME=jeanmauris.com
+	URL=http://jeanmauris.com/
+	CREATED=999937508
+	VISITED=1098363977
+
+#URL
+	ID=479
+	NAME=Mediaparks
+	URL=http://www.vis.lv/rus/
+	CREATED=1012561684
+	VISITED=1096483478
+
+#URL
+	ID=480
+	NAME=Mвjaslapa Gandrs
+	URL=http://www.gandrs.lv/
+	CREATED=1012561586
+	VISITED=1096483478
+
+#URL
+	ID=481
+	NAME=studio eNteraCtive
+	URL=http://www.enteractive.lv/
+	CREATED=1012562108
+	VISITED=1096483478
+
+#URL
+	ID=482
+	NAME=Zimes Studija
+	URL=http://home.parks.lv/zimes/
+	CREATED=1012561462
+	VISITED=1098281580
+
+#URL
+	ID=483
+	NAME=      Brok~en{Lily}   .limitebrain.com                                                                                       
+	URL=http://www.limitebrain.com/
+	CREATED=1014370754
+	VISITED=1096483478
+
+#URL
+	ID=484
+	NAME=Студия Web дизайна BINFIKS
+	URL=http://www.binfiks.com/
+	CREATED=1015952198
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=485
+	NAME=Kontores RU
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=486
+	NAME=... Ссылки на Российские web-дизайнерские студии ...
+	URL=http://www.cherry-design.spb.ru/links/studio.htm
+	CREATED=1012560552
+	VISITED=1096483478
+
+#URL
+	ID=487
+	NAME=DEFACE.RU - студия интернет дизайна и программирования ... ... создаём оригинальный web дизайн, программирование cgi javasc
+	URL=http://deface.nop-esc.ru/
+	CREATED=1012991634
+	VISITED=1096483478
+
+#URL
+	ID=488
+	NAME=GRAF d'SIGN creative boutique
+	URL=http://www.gdscb.com/
+	CREATED=1006769100
+	VISITED=1096483478
+
+#URL
+	ID=489
+	NAME=www.gurashvili.ru
+	URL=http://www.gurashvili.ru/
+	CREATED=1013156000
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=490
+	NAME=kontoresBalt
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=491
+	NAME=amstudio - new media design
+	URL=http://www.amstudio.lt/
+	CREATED=1017087942
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=492
+	NAME=other
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=493
+	NAME=NOBR v.0.386a [NERVOUS OBJECTS BUILT RAPIDLY]
+	URL=http://nobr.rs-studio.com/index.php
+	CREATED=999843672
+	VISITED=1096483478
+
+#URL
+	ID=494
+	NAME=WDE    .    web designers experiments    .    
+	URL=http://www.webdesignersexperiments.net/home.html
+	CREATED=1006506562
+	VISITED=1096483478
+
+#URL
+	ID=495
+	NAME=_____+___factory512__+
+	URL=http://factory512.com/
+	CREATED=1001319184
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=496
+	NAME=Samples
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=497
+	NAME=computer.love - visual.culture  directory
+	URL=http://www.deskforce.net/
+	CREATED=1010052982
+	VISITED=1096483478
+
+#URL
+	ID=498
+	NAME=D E S I G N S T U D I O
+	URL=http://www.mefodiy.od.ua/index.html
+	CREATED=1005813194
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=499
+	NAME=valyard.ru {flash news}
+	URL=http://www.valyard.ru/
+	CREATED=1020750910
+	VISITED=1096483478
+
+#FOLDER
+	ID=500
+	NAME=Статьи
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=501
+	NAME= Полезные ссылки ... Cherry-Design 
+	URL=http://www.cherry-design.spb.ru/pages/links.htm
+	CREATED=999952660
+	VISITED=1096483478
+
+#URL
+	ID=502
+	NAME=AskTog First Principles
+	URL=http://www.asktog.com/basics/firstPrinciples.html#fitts's%20law
+	CREATED=1006344806
+	VISITED=1096483478
+
+#URL
+	ID=503
+	NAME=Dmitry Kirsanov's Top Ten Web Design Tips
+	URL=http://www.design.ru/ttt/
+	CREATED=1001663588
+	VISITED=1096483478
+
+#URL
+	ID=504
+	NAME=logo.spb.ru - все о логотипах и товарных знаках 
+	URL=http://logo.spb.ru/
+	CREATED=998038182
+	VISITED=1096483478
+
+#FOLDER
+	ID=505
+	NAME=usability
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=506
+	NAME=Дизайн для думающих  WebClub
+	URL=http://www.webclub.ru/content/design_usability/article-265.html
+	CREATED=999099136
+	VISITED=1096483478
+
+#URL
+	ID=507
+	NAME=Пять правил интерфейса Веб-сайта
+	URL=http://ddd.deusexmachina.ru:8101/web/5rules/index.shtml
+	CREATED=999098482
+	VISITED=1096483478
+
+-
+
+-
+
+-
+
+#FOLDER
+	ID=508
+	NAME=ENCIKLOPEDIA
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=509
+	NAME= Каталог Медицинских Ресурсов - Полная коллекция ссылок по медицине, здоровью, лечению, лекарствам,
+	URL=http://dir.rusmedserv.com/
+	CREATED=1012995942
+	VISITED=1096483478
+
+#URL
+	ID=510
+	NAME=CIA World Factbook 2001
+	URL=http://www.cia.gov/cia/publications/factbook/
+	CREATED=1015836740
+	VISITED=1096483478
+
+#URL
+	ID=511
+	NAME=Kama Sutra
+	URL=http://aikaramba.chomi.lv/kamasutra/
+	CREATED=1010413120
+	VISITED=1096483478
+
+#URL
+	ID=512
+	NAME=WWWRU~XC
+	URL=http://www.rubricon.ru/tr_1.asp
+	CREATED=1020749622
+	VISITED=1096483478
+
+#URL
+	ID=513
+	NAME=Айкидо и Путь самурая.
+	URL=http://www.aikidoka.ru/
+	CREATED=1015864992
+	VISITED=1096483478
+
+#URL
+	ID=514
+	NAME=БОЛЬШАЯ ЭНЦИКЛОПЕДИЯ МЕДИЦИНЫ.
+	URL=http://www.aibolit.h1.ru/index.htm
+	CREATED=1005732996
+	VISITED=1096483478
+
+#URL
+	ID=515
+	NAME=Геральдика (история, описание ...)
+	URL=http://www.excurs.ru/
+	CREATED=1005732346
+	VISITED=1096483478
+
+#URL
+	ID=516
+	NAME=ИСТОРИЯ ДРЕВНЕГО РИМА
+	URL=http://rome.webzone.ru/
+	CREATED=1015863900
+	VISITED=1096483478
+
+#URL
+	ID=517
+	NAME=Кники многих религий
+	URL=http://magicbooks.narod.ru/
+	CREATED=1010306894
+	VISITED=1096483478
+
+#URL
+	ID=518
+	NAME=Коды валют ISO 4217
+	URL=http://www.isv.ru/ISO4217.htm
+	CREATED=1021380546
+	VISITED=1096483478
+
+#URL
+	ID=519
+	NAME=МИР ВТОРОЙ МИРОВОЙ [ the world of second world war ]
+	URL=http://ww2.ee/
+	CREATED=1015585278
+	VISITED=1096483478
+
+#URL
+	ID=520
+	NAME=МИР КАРТ Интерактивные карты стран и городов. Карта Москвы, России, Мира, Афганистана, Чечни, Курортов Средиземноморья, Новоси
+	URL=http://www.mirkart.ru/
+	CREATED=1015489380
+	VISITED=1096483478
+
+#URL
+	ID=521
+	NAME=Редкие и исчезающие животные России (проект Экологического центра МГУ им М.В. Ломоносова.)
+	URL=http://nature.ok.ru/
+	CREATED=1014885898
+	VISITED=1096483478
+
+#URL
+	ID=522
+	NAME=Русский язык  Справочно-информационный портал  Словари, статьи, правила, новости, грамотность...
+	URL=http://www.gramota.ru/
+	CREATED=1005990008
+	VISITED=1101391348
+
+#URL
+	ID=523
+	NAME=Славянская традиция языческий портал
+	URL=http://www.patent-mcci.ru/new/
+	CREATED=1008839958
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=524
+	NAME=Fao - Липовая страница
+	URL=http://top.fao.lv/?id=1018290337
+	CREATED=1018292880
+	VISITED=1096483479
+
+#FOLDER
+	ID=525
+	NAME=From ICQ
+	CREATED=1096483478
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=526
+	NAME=Graph
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=527
+	NAME=(PM)pictomania - (ПМ)пиктомания
+	URL=http://picto.mania.ru/
+	CREATED=1015251352
+	VISITED=1096483478
+
+#FOLDER
+	ID=528
+	NAME=Autors Works
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=529
+	NAME=walkcycle  amalgamated  AG
+	URL=http://www.walkcycle.com/
+	CREATED=1020325972
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=530
+	NAME=Clipart(collect)
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=531
+	NAME=GIFS.RU Огромная коллекция картинок с удобным поиском
+	URL=http://www.gifs.ru/
+	CREATED=1008067458
+	VISITED=1096483478
+
+#URL
+	ID=532
+	NAME=smilies.nl  Het grootste smilies overzicht van nederland
+	URL=http://www.smilies.nl/
+	CREATED=1016184828
+	VISITED=1096483478
+
+#URL
+	ID=533
+	NAME=The Iconfactory 
+	URL=http://www.iconfactory.com/ware.asp
+	CREATED=1004694202
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=534
+	NAME=corel
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=535
+	NAME=Designer.com
+	URL=http://www.designer.com/index.htm
+	CREATED=1015928662
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=536
+	NAME=fonts
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=537
+	NAME=(ТМ)Типомания - Раздел ШРИФТЫ
+	URL=http://typo.mania.ru/faces/index.htm
+	CREATED=998911684
+	VISITED=1096483478
+
+#URL
+	ID=538
+	NAME=-- Шрифтовой проект 'ВЕДИ' --
+	URL=http://vedi.d-s.ru/news.htm
+	CREATED=998640496
+	VISITED=1096483478
+
+#URL
+	ID=539
+	NAME=Algo sobre Photoshop - tutorial trucos tips faq acciones estilos fuentes diseсo adobe graficos gif fotografia 4 5 6 gratis cast
+	URL=http://www.ciudadfutura.com/photoshop/fuentes/b_4.htm
+	CREATED=1016876400
+	VISITED=1096483478
+
+#URL
+	ID=540
+	NAME=Art21 - The Alphabet Synthesis Machine (Introduction)
+	URL=http://alphabet.tmema.org/index.html
+	CREATED=1013451014
+	VISITED=1096483478
+
+#URL
+	ID=541
+	NAME=Famous Fonts @ The Elite Entertainment Network
+	URL=http://www.eliteentertainment.net/famousfonts/
+	CREATED=1011267920
+	VISITED=1096483478
+
+#URL
+	ID=542
+	NAME=Font Paradise - your source for free fonts
+	URL=http://www.fontparadise.com/
+	CREATED=1015947256
+	VISITED=1096483478
+
+#URL
+	ID=543
+	NAME=MyFonts.com WhatTheFont
+	URL=http://www.myfonts.com/WhatTheFont/
+	CREATED=1016811818
+	VISITED=1098968609
+	ICONFILE=www.myfonts.com.ico
+
+#URL
+	ID=544
+	NAME=архив ру-шрифтов (по названию только)
+	URL=http://kuzm.chat.ru/
+	CREATED=998723030
+	VISITED=1096483478
+
+#URL
+	ID=545
+	NAME=Русское письмо
+	URL=http://character.webzone.ru/
+	CREATED=1018506946
+	VISITED=1096483478
+
+#URL
+	ID=546
+	NAME=Самая большая, бесплатная библиотека шрифтов  Biggest free fonts library
+	URL=http://fonts.by.ru/main.shtml
+	CREATED=998724090
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=547
+	NAME=Foto
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=548
+	NAME=Canon
+	URL=http://www.canon.ru/
+	CREATED=1010417110
+	VISITED=1096483478
+
+#URL
+	ID=549
+	NAME=fotoCLUB LV
+	URL=http://www.fotoklubs.lv/
+	CREATED=1010138778
+	VISITED=1096483478
+
+#URL
+	ID=550
+	NAME=Paul Webster Photography - Home
+	URL=http://www.paulsnap.dircon.co.uk/index.htm
+	CREATED=1021014866
+	VISITED=1096483478
+
+#URL
+	ID=551
+	NAME=Клуб Foto.ru
+	URL=http://www.fotoclub.ru/
+	CREATED=1006508192
+	VISITED=1096483478
+
+#URL
+	ID=552
+	NAME=Мир фотографии  Photographic.ru
+	URL=http://www.photographic.ru/
+	CREATED=1007714894
+	VISITED=1096483478
+
+#URL
+	ID=553
+	NAME=Фото.Сайт  Photo.Sight
+	URL=http://www.sight.ru/main.emax
+	CREATED=1010416944
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=554
+	NAME=FOTO(collect)
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=555
+	NAME=ARToffice Fine Art Nude and Erotic Photography
+	URL=http://www.artoffice.de/
+	CREATED=1017047718
+	VISITED=1096483478
+
+#URL
+	ID=556
+	NAME=Fallen Angel Studios  Angelgrinder.com - fine art nude photography & erotic digital imagery
+	URL=http://www.fallenangelstudios.com/galleries.html
+	CREATED=1021276372
+	VISITED=1096483478
+
+#URL
+	ID=557
+	NAME=GEMS AND GEMOLOGY IMAGE GALLERY
+	URL=http://www.geology.wisc.edu/%7Ejill/image.html
+	CREATED=1017988802
+	VISITED=1096483478
+
+#URL
+	ID=558
+	NAME=k$enia - девушки
+	URL=http://models.ksenia.com/
+	CREATED=1014802304
+	VISITED=1096483478
+
+#URL
+	ID=559
+	NAME=Models
+	URL=http://www.absolute.lv/new/
+	CREATED=1017672792
+	VISITED=1096483478
+
+#URL
+	ID=560
+	NAME=photodisk 10 000 superquality photos
+	URL=http://www.tests.lv/photodisk/
+	CREATED=1014799100
+	VISITED=1096483478
+
+#URL
+	ID=561
+	NAME=photoSIG (Photos)
+	URL=http://www.photosig.com/photos.php
+	CREATED=1021119808
+	VISITED=1096483478
+
+#URL
+	ID=562
+	NAME=Piggy Bank Thumbnail Pics
+	URL=http://www.flash.net/%7Egemoore/pig1.html
+	CREATED=1017986560
+	VISITED=1096483478
+
+#URL
+	ID=563
+	NAME=ФотоБанк на OKO.RU
+	URL=http://www.oko.ru/photo/index.php3
+	CREATED=1008327016
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=564
+	NAME=IMG
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=565
+	NAME=A50FTWS POSTERS - The belly of the beast!
+	URL=http://www.a50ftws.com/Posters/Posters.html
+	CREATED=1018418134
+	VISITED=1096483478
+
+#URL
+	ID=566
+	NAME=adflip.com ^ Архив рекламы!
+	URL=http://www.adflip.com/
+	CREATED=1009120518
+	VISITED=1096483478
+
+#URL
+	ID=567
+	NAME=broken cars
+	URL=http://www.wreckedexotics.com/index2.html
+	CREATED=1020868244
+	VISITED=1096483478
+
+#URL
+	ID=568
+	NAME=Chinese Propaganda Postes
+	URL=http://www.iisg.nl/%7Elandsberger/
+	CREATED=1020749832
+	VISITED=1096483478
+
+#URL
+	ID=569
+	NAME=Film Posters
+	URL=http://www.pitt.edu/~slavic/courses/russ1771/posters/film.html
+	CREATED=1016043206
+	VISITED=1096483478
+
+#URL
+	ID=570
+	NAME=Graphic Design from the 1920s and 1930s in Travel Ephemera
+	URL=http://www.travelbrochuregraphics.com/
+	CREATED=1015323522
+	VISITED=1096483478
+
+#FOLDER
+	ID=571
+	NAME=himor
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=572
+	NAME=Attrition Image Gallery
+	URL=http://www.attrition.org/gallery/
+	CREATED=1015342620
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=573
+	NAME=Luftwaffe-art.com
+	URL=http://www.luftwaffe-art.com/
+	CREATED=1018780204
+	VISITED=1096483478
+
+#URL
+	ID=574
+	NAME=New Russian Media
+	URL=http://www.pitt.edu/~slavic/courses/russ1771/index.html
+	CREATED=1016043834
+	VISITED=1096483478
+
+#URL
+	ID=575
+	NAME=PODGallery - the Future of Art
+	URL=http://www.podgallery.com/
+	CREATED=1016144120
+	VISITED=1096483478
+
+#URL
+	ID=576
+	NAME=World War II Posters Powers of Persuasion
+	URL=http://www.nara.gov/exhall/powers/powers.html
+	CREATED=1015251704
+	VISITED=1096483478
+
+#URL
+	ID=577
+	NAME=Галерея Леонардо да Винчи - 1
+	URL=http://history.rsuh.ru/historycd/HISTORY/HTML/Gallery/Leonardo/sod_gal_1.htm
+	CREATED=1017046574
+	VISITED=1096483478
+
+#URL
+	ID=578
+	NAME=Гербы губерний Российской империи
+	URL=http://heraldry.hobby.ru/gub1/heraldry.html
+	CREATED=1016100300
+	VISITED=1096483478
+
+#URL
+	ID=579
+	NAME=Клуб 3D графики Digital Light - Рейтинг ТОП 100
+	URL=http://dlight.ru/top/
+	CREATED=1016203588
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=580
+	NAME=MediaBuilder 3D Text Maker - Create Free 3D Banners for Your Web Pages!
+	URL=http://www.3dtextmaker.com/
+	CREATED=1014806688
+	VISITED=1096483478
+
+#FOLDER
+	ID=581
+	NAME=Photoshop - lessons
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=582
+	NAME=дизайн.и.графика.v3 - библиотека - советы - photoshop
+	URL=http://www.netdesigner.ru/library/tips/photoshop/
+	CREATED=1009119264
+	VISITED=1096483478
+
+-
+
+-
+
+#FOLDER
+	ID=583
+	NAME=Internet
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=584
+	NAME=!!!  Internet Archive
+	URL=http://web.archive.org/
+	CREATED=1005299822
+	VISITED=1096483478
+	ICONFILE=web.archive.org.ico
+
+#FOLDER
+	ID=585
+	NAME=counter
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=586
+	NAME=eXTReMe Tracking
+	URL=http://www.extreme-dm.com/tracking/?home
+	CREATED=1009188886
+	VISITED=1096483478
+
+#URL
+	ID=587
+	NAME=HotLog - интернет-статистика нового поколения
+	URL=http://www.hotlog.ru/
+	CREATED=1013448950
+	VISITED=1096483478
+	ICONFILE=www.hotlog.ru.ico
+
+#URL
+	ID=588
+	NAME=KMiNDEX.ru
+	URL=http://www.kmindex.ru/
+	CREATED=1003239396
+	VISITED=1096483478
+
+#URL
+	ID=589
+	NAME=on-line.lv
+	URL=http://www.on-line.lv/
+	CREATED=1005234664
+	VISITED=1096483478
+
+#URL
+	ID=590
+	NAME=SpyLOG
+	URL=http://www.spylog.com/
+	CREATED=1003921774
+	VISITED=1096483478
+
+#URL
+	ID=591
+	NAME=Рейтинговая система Top.Rus.lv
+	URL=http://top.rus.lv/
+	CREATED=1005234720
+	VISITED=1096483478
+
+#URL
+	ID=592
+	NAME=Система статистики 7x7
+	URL=http://top.7x7.lv/index.php?lang=ru
+	CREATED=1020672374
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=593
+	NAME=DEX!
+	URL=http://dex.lv/
+	CREATED=998909990
+	VISITED=1096483478
+
+#URL
+	ID=594
+	NAME=Google
+	URL=http://www.google.com/
+	CREATED=1000794582
+	VISITED=1096483478
+	ICONFILE=www.google.com.ico
+
+#URL
+	ID=595
+	NAME=INTERNET.lv  Search Engine
+	URL=http://internet.lv/
+	CREATED=998910218
+	VISITED=1096483478
+
+#URL
+	ID=596
+	NAME=ONE.lv
+	URL=http://www.one.lv/
+	CREATED=996245830
+	VISITED=1096483478
+
+#FOLDER
+	ID=597
+	NAME=Raskrutka
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=598
+	NAME=DELFI  Directory
+	URL=http://rus.delfi.lv/directory/
+	CREATED=1005233036
+	VISITED=1096483478
+	ICONFILE=g.delfi.lv.ico
+
+#URL
+	ID=599
+	NAME=DEN.LV - Каталог ссылок
+	URL=http://www.den.lv/links/
+	CREATED=1005233068
+	VISITED=1096483478
+
+#URL
+	ID=600
+	NAME=Leader.Lv
+	URL=http://ru.leader.lv/index.php?page=catalog
+	CREATED=1005233804
+	VISITED=1096483478
+
+#URL
+	ID=601
+	NAME=TVNET-Latnet Web katalogs
+	URL=http://www.tvnet.lv/directory/
+	CREATED=1005234790
+	VISITED=1096483478
+	ICONFILE=www.tvnet.lv.ico
+
+-
+
+#URL
+	ID=602
+	NAME=Search Bastard FAQ
+	URL=http://www.searchbastard.com/
+	CREATED=1018522402
+	VISITED=1096483478
+
+#URL
+	ID=603
+	NAME=Symantec Security Check
+	URL=http://security1.norton.com/ssc/vr_main.asp?j=1&langid=us&venid=sym&plfid=23&pkj=HFPRBRFNJSVSTIVVBEN
+	CREATED=1019284892
+	VISITED=1096483478
+
+#URL
+	ID=604
+	NAME=WiseNut
+	URL=http://www.wisenut.com/
+	CREATED=1000794546
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=605
+	NAME=Links
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=606
+	NAME=Customize Links
+	URL=http://www.microsoft.com/isapi/redir.dll?prd=ie&pver=6&ar=CLinks
+	CREATED=1000913778
+	VISITED=1096483478
+
+#URL
+	ID=607
+	NAME=fao- Best Latvian sites design gallery
+	URL=http://www.fao.lv/php/topdesign/top.php
+	CREATED=997196038
+	VISITED=1096483478
+
+#URL
+	ID=608
+	NAME=fotografii koshakov
+	URL=http://moer.narod.ru/gal4/gal.htm?page=1
+	CREATED=1006510442
+	VISITED=1096483478
+
+#URL
+	ID=609
+	NAME=Iranian Links
+	URL=http://www.sbu.ac.ir/links.htm
+	CREATED=1019286064
+	VISITED=1096483478
+
+#FOLDER
+	ID=610
+	NAME=lipa
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=611
+	NAME=LIPA Homepage
+	URL=http://www.lipa.org/
+	CREATED=1014284806
+	VISITED=1096483478
+
+#URL
+	ID=612
+	NAME=Lipa.hr
+	URL=http://www.lipa.hr/
+	CREATED=1014284618
+	VISITED=1096483478
+
+#URL
+	ID=613
+	NAME=LIPA.si
+	URL=http://www.lipa.si/
+	CREATED=1014284712
+	VISITED=1096483478
+
+#URL
+	ID=614
+	NAME=Long Island Power Authority- About LIPA
+	URL=http://www.lipower.org/company/index.html
+	CREATED=1014284356
+	VISITED=1096483478
+
+#URL
+	ID=615
+	NAME=peterlipa.com - official web page of Peter Lipa
+	URL=http://www.peterlipa.com/english.html
+	CREATED=1014285462
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=616
+	NAME=Virtual Mongol - Links
+	URL=http://www.kiku.com/electric_samurai/virtual_mongol/links.html
+	CREATED=1021380092
+	VISITED=1096483478
+
+#URL
+	ID=617
+	NAME=www.da.lv - top, forum, counter
+	URL=http://www.da.lv/
+	CREATED=997169214
+	VISITED=1096483478
+
+#URL
+	ID=618
+	NAME={КОШКИ В СЕТИ}
+	URL=http://kisik.times.lv/
+	CREATED=997270842
+	VISITED=1096483478
+
+#URL
+	ID=619
+	NAME=Липовая страница  links
+	URL=http://lipa.times.lv/links.html
+	CREATED=996660540
+	VISITED=1096483478
+
+#URL
+	ID=620
+	NAME=Полный Пи
+	URL=http://www.directdesign.ru/FullPi/main.html
+	CREATED=999271794
+	VISITED=1096483478
+
+#URL
+	ID=621
+	NAME=С днем рождения!
+	URL=http://www.postcard.ru/get.cgi?id=1334339132&x=13&y=22#
+	CREATED=1014639560
+	VISITED=1096483478
+
+#URL
+	ID=622
+	NAME=Ссылка
+	URL=http://link.afisha.ru/
+	CREATED=1000888174
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=623
+	NAME=nocMoTpeTb !!!
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=624
+	NAME=photoSIG (Photos)
+	URL=http://www.photosig.com/photos.php
+	CREATED=1021119818
+	VISITED=1096483478
+
+#URL
+	ID=625
+	NAME=YipYop.com
+	URL=http://www.yipyop.com/
+	CREATED=1020231612
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=626
+	NAME=poleznosti
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=627
+	NAME= Word HTML Cleaner
+	URL=http://www.textism.com/resources/cleanwordhtml/
+	CREATED=1020317514
+	VISITED=1096483478
+
+#URL
+	ID=628
+	NAME=.. СамоНовость - Делай новости Сам! ..
+	URL=http://www.intergroup.ru/news/
+	CREATED=1004453794
+	VISITED=1096483478
+
+#URL
+	ID=629
+	NAME=Art21 - The Alphabet Synthesis Machine (Introduction)
+	URL=http://alphabet.tmema.org/index.html
+	CREATED=1012040680
+	VISITED=1096483478
+
+#URL
+	ID=630
+	NAME=binary
+	URL=http://www.nickciske.com/binary/index.php
+	CREATED=1016100928
+	VISITED=1096483478
+
+#URL
+	ID=631
+	NAME=Color Vision - by Cal Henderson
+	URL=http://www.iamcal.com/toys/colors/
+	CREATED=1015864922
+	VISITED=1096483478
+
+#URL
+	ID=632
+	NAME=Domain name registration in TLD .lv
+	URL=http://www.nic.lv/DNS/
+	CREATED=997169498
+	VISITED=1096483478
+
+#URL
+	ID=633
+	NAME=Domain name registries around the world
+	URL=http://www.norid.no/domreg.html
+	CREATED=1018338726
+	VISITED=1096483478
+
+#FOLDER
+	ID=634
+	NAME=other
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=635
+	NAME=russia map
+	URL=http://www.lib.utexas.edu/maps/commonwealth/russia_rel94.jpg
+	CREATED=1014207436
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=636
+	NAME=PI=3.
+	URL=http://3.141592653589793238462643383279502884197169399375105820974944592.jp/
+	CREATED=1012207872
+	VISITED=1096483478
+
+#URL
+	ID=637
+	NAME=SYMBOLS.com Easy Graphic Search
+	URL=http://www.symbols.com/graphicsearch.html
+	CREATED=1015251316
+	VISITED=1096483478
+
+#URL
+	ID=638
+	NAME=translit
+	URL=http://anekdotov.net/form.html
+	CREATED=1001585142
+	VISITED=1096483478
+
+#URL
+	ID=639
+	NAME=Модуль Sorokin -- пакет для создания контент-сайтов
+	URL=http://outline.ru/sorokin/
+	CREATED=1017931132
+	VISITED=1096483478
+
+#URL
+	ID=640
+	NAME=Перевод текстов
+	URL=http://www.translate.ru/rus/text.asp
+	CREATED=1013449150
+	VISITED=1096483478
+
+#URL
+	ID=641
+	NAME=Философия от компьютера
+	URL=http://www.yandex.ru/vesna.html
+	CREATED=996590644
+	VISITED=1096483478
+	ICONFILE=img.yandex.ru.ico
+
+#URL
+	ID=642
+	NAME=Фоторобот Ultimate Flash Face
+	URL=http://flashface.flashmaster.ru/
+	CREATED=1015525252
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=643
+	NAME=porno
+	CREATED=1096483478
+	VISITED=1096483478
+
+#FOLDER
+	ID=644
+	NAME=classic
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=645
+	NAME=cut me off at the knees and call me tripod...
+	URL=http://orsm.net/priceless/
+	CREATED=1020252372
+	VISITED=1096483478
+
+#URL
+	ID=646
+	NAME=EasyPic Categorized Galleries and Movies
+	URL=http://www.easypic.com/main.html
+	CREATED=1020171896
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=647
+	NAME=Fanny Batter's World of Fun
+	URL=http://www.fannybatter.com/swearing.htm
+	CREATED=1020671334
+	VISITED=1096483478
+
+#URL
+	ID=648
+	NAME=nobscan.com - scanned pictures of male genitalia, flaccid and funny
+	URL=http://nobscan.com/gallery/index.html
+	CREATED=1020173774
+	VISITED=1096483478
+
+#URL
+	ID=649
+	NAME=Renderotica - 3d images
+	URL=http://www.renderotica.com/portal/modules.php?op=modload&name=Gallery&file=index
+	CREATED=1020172822
+	VISITED=1096483478
+
+#FOLDER
+	ID=650
+	NAME=unknown
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=651
+	NAME=N series
+	URL=http://filh.free.fr/N/index.htm
+	CREATED=1020173504
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=652
+	NAME=xix porn
+	URL=http://www.nudes.fanatik.ru/
+	CREATED=1015065580
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=653
+	NAME=Reklama
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=654
+	NAME=!!! adflip.com ^ Архив рекламы!
+	URL=http://www.adflip.com/
+	CREATED=1009120518
+	VISITED=1096483478
+
+#URL
+	ID=655
+	NAME=Advertising ideas - Yes!
+	URL=http://www.advi.ru/
+	CREATED=1015837098
+	VISITED=1096483478
+
+#URL
+	ID=656
+	NAME=Advertology - Наука о рекламе
+	URL=http://www.advertology.ru/
+	CREATED=1015343034
+	VISITED=1101238259
+
+#URL
+	ID=657
+	NAME=Creatiff.Ru
+	URL=http://www.creatiff.ru/
+	CREATED=1014403994
+	VISITED=1096483478
+
+#URL
+	ID=658
+	NAME=мифОдизайн рекламы
+	URL=http://www.allreklama.ru/md/article1.php
+	CREATED=1014389630
+	VISITED=1096483478
+
+#URL
+	ID=659
+	NAME=Рекламастер offline и online реклама в Украине
+	URL=http://www.reklamaster.com/
+	CREATED=1018976334
+	VISITED=1096483478
+
+#URL
+	ID=660
+	NAME=Черный PR
+	URL=http://black.pr-online.ru/
+	CREATED=1014389276
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=661
+	NAME=software
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=662
+	NAME=DOWNLOAD.RU - архив бесплатных и условно-бесплатных программ 
+	URL=http://www.download.ru/
+	CREATED=1003313366
+	VISITED=1096483478
+
+#URL
+	ID=663
+	NAME=Freeware downloads at WebAttack.com. 
+	URL=http://www.webattack.com/freeware/freeware.shtml
+	CREATED=1019811346
+	VISITED=1096483478
+
+#URL
+	ID=664
+	NAME=Freeware.ru - Программы для Windows
+	URL=http://freeware.ru/
+	CREATED=1003314482
+	VISITED=1096483478
+
+#URL
+	ID=665
+	NAME=KM.RU Софт. Программы. Download
+	URL=http://www.km.ru/pc/soft/
+	CREATED=1003390296
+	VISITED=1096483478
+
+#URL
+	ID=666
+	NAME=PL-Computers.ru - Download
+	URL=http://www.pl-computers.ru/download.cfm
+	CREATED=1003314972
+	VISITED=1096483478
+
+#URL
+	ID=667
+	NAME=Softbox.ru - сервер бесплатных программ, поиск, статьи, фоновые изображения для рабочего стола
+	URL=http://www.softbox.ru/
+	CREATED=1013528882
+	VISITED=1096483478
+
+#URL
+	ID=668
+	NAME=СофтЭлита - лучший каталог программ
+	URL=http://www.softelite.ru/index.php
+	CREATED=1010407480
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=669
+	NAME=Soliaris
+	URL=http://www.soliaris.com/soliaris/naujienos/index.html
+	CREATED=1017140004
+	VISITED=1096483479
+	ICONFILE=www.soliaris.com.ico
+
+#URL
+	ID=670
+	NAME=The Russian Avant-Garde Book 1910 - 1934  MoMA
+	URL=http://www.moma.org/russian/
+	CREATED=1018522098
+	VISITED=1096483479
+
+#URL
+	ID=671
+	NAME=Top.Rus.lv  -  Вход в систему
+	URL=http://top.rus.lv/?go=login
+	CREATED=1003839802
+	VISITED=1096483479
+
+#FOLDER
+	ID=672
+	NAME=wap
+	CREATED=1096483478
+	VISITED=1096483478
+
+#FOLDER
+	ID=673
+	NAME=info
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=674
+	NAME=WAP
+	URL=http://www.aboutphone.info/kunegin/wap/
+	CREATED=1019755504
+	VISITED=1096483478
+
+#URL
+	ID=675
+	NAME= Программирование  WML
+	URL=http://www.webdoc.ru/text.phtml?level=2&id=44&script_id=586&url=texts/501-600/586.html
+	CREATED=1019755858
+	VISITED=1096483478
+
+#URL
+	ID=676
+	NAME=Программируем WAP
+	URL=http://azbukavb.narod.ru/Aspdoc/asp4.html
+	CREATED=1019755998
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=677
+	NAME=WAPGATE.RU - ВАШ ПРОВОДНИК В МИР WAP
+	URL=http://www.wapgate.ru/
+	CREATED=1019754480
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=678
+	NAME=WebLog
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=679
+	NAME=anfrax.ru  новости
+	URL=http://anfrax.ru/
+	CREATED=1014885032
+	VISITED=1096483478
+
+#URL
+	ID=680
+	NAME=B3TA  WE LOVE THE WEB
+	URL=http://b3ta.com/
+	CREATED=1017161102
+	VISITED=1098863746
+
+#URL
+	ID=681
+	NAME=CREATIVE2C AT LAST !
+	URL=http://www.creative2c.com/
+	CREATED=1014286682
+	VISITED=1096483478
+
+#URL
+	ID=682
+	NAME=dirty.ru
+	URL=http://dirty.ru/
+	CREATED=1012039004
+	VISITED=1101477378
+
+#URL
+	ID=683
+	NAME=Log Вебпанеты
+	URL=http://log.webplanet.ru/
+	CREATED=1017236876
+	VISITED=1096483478
+
+#URL
+	ID=684
+	NAME=OGPOD
+	URL=http://orcagirl.com/pod.html
+	CREATED=1020318996
+	VISITED=1096483478
+
+#URL
+	ID=685
+	NAME=Pods.lv - Latvijas interneta pods  v0.4
+	URL=http://pods.lv/
+	CREATED=1014808702
+	VISITED=1096483478
+
+#URL
+	ID=686
+	NAME=[unit74 - v3.0 - mainpage]
+	URL=http://www.unit74.net/v3/
+	CREATED=1017217728
+	VISITED=1096483478
+
+#URL
+	ID=687
+	NAME=Записки бывшего ПостМастера
+	URL=http://postman.strana.de/
+	CREATED=1020174000
+	VISITED=1096483478
+
+-
+
+#FOLDER
+	ID=688
+	NAME=Развлечения
+	CREATED=1096483479
+	VISITED=1096483478
+
+#URL
+	ID=689
+	NAME= Премии Дарвина
+	URL=http://darwin.hut.ru/
+	CREATED=1013101550
+	VISITED=1096483479
+
+#URL
+	ID=690
+	NAME=anekdoti na немецком
+	URL=http://www.deut.by.ru/
+	CREATED=1008157622
+	VISITED=1096483479
+
+#URL
+	ID=691
+	NAME=eStart.Ru
+	URL=http://www.estart.ru/
+	CREATED=999856842
+	VISITED=1096483479
+
+#URL
+	ID=692
+	NAME=Flashtoons - МУЛЬТФИЛЬМЫ, игры, анимация на Flash
+	URL=http://www.kf.ee/flash/
+	CREATED=1021449906
+	VISITED=1096483479
+
+#FOLDER
+	ID=693
+	NAME=games
+	CREATED=1096483478
+	VISITED=1096483478
+
+#URL
+	ID=694
+	NAME= Mahjong II
+	URL=http://radio.gamehouse.com/cc/gamefrme.jsp?game=mjii&site=
+	CREATED=1017305886
+	VISITED=1096483478
+
+#URL
+	ID=695
+	NAME=BBC - Choice Games - Roadies
+	URL=http://www.bbc.co.uk/choice/games/roadies/
+	CREATED=1021203006
+	VISITED=1096483478
+
+#URL
+	ID=696
+	NAME=BigIdeaFUN.com - Penguins - Arcade - Spaced Penguin!
+	URL=http://www.bigideafun.com/penguins/arcade/spaced_penguin/
+	CREATED=1021120254
+	VISITED=1096483478
+
+#URL
+	ID=697
+	NAME=Flying Bear Entertainment
+	URL=http://www.freshpulp.com/fishtank/
+	CREATED=1020257732
+	VISITED=1096483478
+
+#URL
+	ID=698
+	NAME=golf 2
+	URL=http://www.fhmus.com/images/reporter/slacker/miniputt.swf
+	CREATED=1020251858
+	VISITED=1096483478
+
+#URL
+	ID=699
+	NAME=Mosquilla
+	URL=http://www.mosquilla.com/en/
+	CREATED=1021276542
+	VISITED=1096483478
+
+#URL
+	ID=700
+	NAME=Titoonic SNOWBOARD
+	URL=http://www.titoonic.dk/products/games/snowboard/default.html
+	CREATED=1020750866
+	VISITED=1096483478
+
+#URL
+	ID=701
+	NAME=футбол - штрафной
+	URL=http://www.beatbeckham.com/
+	CREATED=1020250426
+	VISITED=1096483478
+
+-
+
+#URL
+	ID=702
+	NAME=Netbaby, Fun!
+	URL=http://www.netbabyworld.com/
+	CREATED=1006505470
+	VISITED=1096483479
+
+#URL
+	ID=703
+	NAME=Newgrounds.com - The Problems of the Future, Today!
+	URL=http://www.newgrounds.com/
+	CREATED=1001415002
+	VISITED=1096483479
+
+#URL
+	ID=704
+	NAME=Otlichno.ru - юмор на отлично. Картинки, байки, анекдоты, приколы, смешные рассказы, самые лучшие рассылки, юмор по почте, кари
+	URL=http://www.otlichno.ru/
+	CREATED=1002285884
+	VISITED=1096483479
+
+#URL
+	ID=705
+	NAME=sexographicvalentines
+	URL=http://sexographic.net/valentines.html
+	CREATED=1014408470
+	VISITED=1096483479
+
+#URL
+	ID=706
+	NAME=shoot it!
+	URL=http://www.shoot-it.org/with_flash.html
+	CREATED=1014971104
+	VISITED=1096483479
+
+#URL
+	ID=707
+	NAME=Ultrashock.com
+	URL=http://www.ultrashock.com/ff.htm?http://www.flashvision.com/ultrashock/default.asp
+	CREATED=1014399946
+	VISITED=1096483479
+
+#FOLDER
+	ID=708
+	NAME=Vesjolie Saiti
+	CREATED=1096483479
+	VISITED=1096483478
+
+#URL
+	ID=709
+	NAME=BAKLANOV.NET
+	URL=http://www.baklanov.net/
+	CREATED=998304364
+	VISITED=1096483478
+
+#URL
+	ID=710
+	NAME=guelman.ru
+	URL=http://www.guelman.ru/
+	CREATED=997358600
+	VISITED=1096483479
+
+#URL
+	ID=711
+	NAME=KURILKA.ru
+	URL=http://www.kurilka.com/
+	CREATED=1002887732
+	VISITED=1096483479
+
+#URL
+	ID=712
+	NAME=Злобные Деды Морозы!!!
+	URL=http://humor.look.ru/
+	CREATED=999185216
+	VISITED=1096483479
+
+#URL
+	ID=713
+	NAME=Страница Артемия Webедева
+	URL=http://www.catboy.com/webedev/rus/index.htm
+	CREATED=1014884202
+	VISITED=1096483479
+
+-
+
+#URL
+	ID=714
+	NAME=wayofthestick
+	URL=http://www.evolver.co.uk/wayofthestick.html
+	CREATED=1013528690
+	VISITED=1096483479
+
+#URL
+	ID=715
+	NAME=Алкогольное Лото - Елки Моталки
+	URL=http://www.kakandokalo.ru/lalandolaloxxx/08.html
+	CREATED=1012203946
+	VISITED=1096483479
+
+#URL
+	ID=716
+	NAME=Анимапортреты Антона Ватмана. Анимированные фотографии знаменитостей.
+	URL=http://www.kam.ru/anima/glav.phtml?bn=846
+	CREATED=1013527712
+	VISITED=1096483479
+
+#URL
+	ID=717
+	NAME=Галерея виртуальных картинок
+	URL=http://3d.rin.ru/
+	CREATED=1008591310
+	VISITED=1096483479
+
+#URL
+	ID=718
+	NAME=Открытки по латвии
+	URL=http://cards.stop.lv/
+	CREATED=999175770
+	VISITED=1096483479
+
+#URL
+	ID=719
+	NAME=Петрович
+	URL=http://www.petrovich.ru:8080/main.html
+	CREATED=1001664376
+	VISITED=1096483479
+
+-
+
+-
+
+#URL
+	ID=720
+	NAME=Дорисовывалки-2 | Затеи | SERGELIN.RU
+	URL=http://www.sergelin.ru/inventions/006.asp
+	CREATED=1098868960
+	VISITED=1098869724
+
+#URL
+	ID=721
+	NAME=random lj images
+	URL=http://www.dreamwill.net/ljimages.php
+	CREATED=1098886462
+	VISITED=1100090818
+
+#URL
+	ID=722
+	NAME=WhatTheFont : MyFonts
+	URL=http://www.myfonts.com/WhatTheFont/
+	CREATED=1098968903
+	DESCRIPTION=Download fonts for Mac and PC at MyFonts, the world's largest collection of fonts online.
+	ICONFILE=www.myfonts.com.ico
+
+#URL
+	ID=723
+	NAME=Индоевропейский Диктант
+	URL=http://www.russianresources.lt/dictant/
+	CREATED=1099559076
+	DESCRIPTION=Индоевропейский Диктант
+
+#URL
+	ID=724
+	NAME=КАСТА: Мужской портал
+	URL=http://www.casta.ru/
+	CREATED=1099992181
+	VISITED=1101138551
+	DESCRIPTION=секс, приколы, анекдоты, фотоприколы, юмор, юмор, черный юмор, компьютерный юмор, фото юмор, анекдоты, флэш, флеш, игры
+
+#URL
+	ID=725
+	NAME=EUROSET — Vertu
+	URL=http://vertu.euroset.ru/
+	CREATED=1099999935
+
+#URL
+	ID=726
+	NAME=Dylan Snow
+	URL=http://www.dylan-snow.com/
+	CREATED=1100088543
+	VISITED=1100088600
+
+#URL
+	ID=727
+	NAME=Virtual Bartender
+	URL=http://www.virtualbartender.beer.com/beer_usa.htm
+	CREATED=1100338030
+	DESCRIPTION=Have Tammy, your very own Virtual Bartender, take your order. Ask her something, anything. If she likes your command...well, check it!
+
+#FOLDER
+	ID=728
+	NAME=Latvian pages
+	CREATED=1101111324
+	ACTIVE=YES
+
+#URL
+	ID=729
+	NAME=Pizza Jazz
+	URL=http://www.pj.lv/
+	CREATED=1101111339
+	VISITED=1101113913
+
+#FOLDER
+	ID=730
+	NAME=web contores
+	CREATED=1101111376
+
+#URL
+	ID=731
+	NAME=SIA "Digitālas tehnoloģijas"
+	URL=http://www.edot.lv/
+	CREATED=1101111388
+	DESCRIPTION=Digital Technologies - What Web can offer!
+
+-
+
+-
+
+#URL
+	ID=732
+	NAME=Variations
+	URL=http://www.oyonale.com/variations/index.php
+	CREATED=1101139255
+

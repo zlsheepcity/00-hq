@@ -1,0 +1,145 @@
+backup 12jan2017
+
+
+Calle 13
+https://www.youtube.com/watch?v=DkFJE8ZdeG8&ab_channel=elvecindariocalle13
+https://www.youtube.com/watch?v=EjSCy1GC6Sc
+
+=== SHEEP.TODAY ===
+https://developers.facebook.com/tools/debug/sharing/
+http://principleformac.com/
+=== SHEEP.TODAY ===
+
+
+=== LECTIONS ===
+http://cssreference.io/#background-color
+http://alistapart.com/article/javascript-for-web-designers
+http://goodui.org/
+http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship
+..
+https://habrahabr.ru/company/mailru/blog/315080/
+http://jlongster.com/Removing-User-Interface-Complexity,-or-Why-React-is-Awesome
+
+teory 
+https://medium.com/@pasql/transitional-interfaces-926eb80d64e3#.ocb2hjvwd
+http://jgthms.com/web-design-in-4-minutes/
+Agile description
+https://m.habrahabr.ru/company/edison/blog/313410/
+https://mkdev.me/posts/gayd-po-vakansiyam-v-veb-razrabotke
+
+https://medium.com/@gucol_lu/%D1%84%D1%80%D0%BE%D0%BD%D1%82%D0%B5%D0%BD%D0%B4-%D0%B4%D0%BB%D1%8F-%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%B0-%D0%BA%D1%83%D0%B4%D0%B0-%D0%B8%D0%B4%D1%82%D0%B8-%D0%B8-%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C-5397d1185a10#.tm6ew82k1
+
+=== LECTIONS ===
+
+=== PRODUCT ===
+http://miumau.livejournal.com/2308342.html?utm_source=fbsharing&utm_medium=social
+LunMarMerJeuVenSamDim
+=== PRODUCT ===
+
+=== FRONTEND ===
+https://medium.com/@marcmintel/you-are-too-lazy-to-write-markup-independent-css-1f3a60ba7ca#.hmr521kfy
+..
+http://bootsnipp.com/
+Technical debt : 
+https://24ways.org/2016/we-need-to-talk-about-technical-debt/
+
+SVG EDITOR
+https://boxy-svg.com/main.html
+
+Формы и проверка данных
+http://designpreppy.ru/interface/forms.html
+
+Best links
+
+http://jgthms.com/web-design-in-4-minutes/
+http://goodui.org/
+
+
+
+http://www.useronboard.com/how-tidal-onboards-new-users/?slide=68
+https://www.smashingmagazine.com/2016/07/an-svg-animation-case-study/
+
+
+
+localstorage
+https://habrahabr.ru/post/317586/.io.com.io
+
+console
+https://habrahabr.ru/company/ruvds/blog/316132/
+
+SASS LESS
+http://tutorialzine.com/2016/01/learn-sass-in-15-minutes/
+http://tutorialzine.com/2015/07/learn-less-in-10-minutes-or-less/
+
+http://rogerdudler.github.io/git-guide/
+https://css-tricks.com/gulp-for-beginners/
+http://tympanus.net/Development/Animocons/
+http://ianlunn.github.io/Hover/
+http://tympanus.net/Development/AnimatedGridLayout/
+http://tympanus.net/Development/LineMenuStyles/
+http://tympanus.net/Development/ElasticSVGElements/button.html
+http://dynamicsjs.com/
+
+
+-- ENV
+ConEmu cmder
+https://github.com/facebookincubator/create-react-app
+create-react-app dev1001
++ babel
+https://blog.madewithenvy.com/getting-started-with-webpack-2-ed2b86c68783#.m0k4pxugk
+https://blog.hellojs.org/setting-up-your-react-es6-development-environment-with-webpack-express-and-babel-e2a53994ade#.s9jaj3j1x
+
+--- SVG
+http://snapsvg.io/
+https://medium.com/bitmatica-lab/svg-line-animation-for-the-uninitiated-5a65d91c6044#.91kl7uslw
+https://htmlacademy.ru/blog/127-a-guide-to-svg-on-web
+https://manu.ninja/using-web-technologies-for-a-pull-to-refresh-animation
+https://css-tricks.com/high-performance-svgs/
+https://github.com/svg/svgo
+http://thenewcode.com/1154/Create-an-Interactive-Roadtrip-with-SVG-and-the-Web-Animation-API
+
+http://mediatemple.net/blog/tips/carousels-dont-have-to-be-complicated/
+https://habrahabr.ru/company/zfort/blog/313402/.io.com.io
+Формы и проверка данных
+http://designpreppy.ru/interface/forms.html
+http://www.useronboard.com/how-tidal-onboards-new-users/?slide=68
+https://www.smashingmagazine.com/2016/07/an-svg-animation-case-study/
+https://boxy-svg.com/main.html
+https://medium.com/etch-stories/front-end-architecture-part-1-file-structure-74bc2806fc4#.ag52u5gba
+http://necolas.github.io/normalize.css/
+https://medium.com/@inomdzhon/5c56d0eaabd0#.88e7pkbfn
+https://medium.com/@inomdzhon/webpack-gulp-331ad5d55fb0#.shng4sbop
+Backbone, React, Knockout
+http://desandro.com/
+https://www.sitepoint.com/10-npm-tips-and-tricks/
+
+-- UI
+http://semantic-ui.com/
+js ui libs - https://habrahabr.ru/post/313128/
+http://webix.com/demo/list/clipboard/
+https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TextAreaGrowing/preview
+http://stackoverflow.com/questions/200284/what-are-alternatives-to-extjs
+http://demos.wijmo.com/5/Angular/Explorer/Explorer/#/input/combo
+
+https://html5te.st/quiz/
+http://tympanus.net/Development/CubesAdventCalendar/
+=== FRONTEND ===
+
+
+== KEYWORDS ===
+kengaroo downspot
+Younger Brother - Your Friends Are Scary
+== KEYWORDS ===
+
+
+== READ LIST ==
+https://habrahabr.ru/post/312812/.io.com.io
+http://dongerlist.com/category/scary
+
+
+
+== READ LIST ==
+
+=== ALL TIME ===
+http://svalko.org/data/2016_10_28_10_16img_pr0gramm_com_2016_10_27_5fcc4877626aeefb.gif
+=== ALL TIME ===

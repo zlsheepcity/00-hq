@@ -1,0 +1,437 @@
+<!doctype html>
+<html>
+<head>
+	<title>HP «Sweet Home»</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+		html, body { margin:0; padding:0; height:100%; overflow:hidden; }
+		
+		@media screen and (max-width: 1400px) {
+			body { font-size:15px; font-family:'Bookman Old Style', Georgia, serif; }
+		}		
+		@media screen and (max-width: 1100px) {
+			body { font-size:13px; font-family:'Bookman Old Style', Georgia, serif; }
+		}	
+		@media screen and (max-width: 800px) {
+			body { font-size:10px; font-family:'Lucida Sans Unicode', tahoma, sans-serif; }
+		}
+		
+		div.collumn {
+			display:block;
+			position:absolute;
+			top:0;
+			height:100%;
+		}
+		
+		div.collumn1 { width:17%; left:0; }		
+		div.collumn2 { width:17%; left:17%; }
+		div.collumn3 { width:17%; left:34%; }
+		div.collumn4 { width:17%; left:51%; }
+		div.collumn5 { width:17%; left:68%; }
+		div.collumn6 { width:15%; left:85%; }
+		
+		a, div.a2, div.a23, div.a3, div.a0 {
+			display:block;
+			position:relative;
+			width:100%;
+			height:5%;
+			overflow:hidden;
+
+			-moz-transition: 0.2s background linear;
+			-webkit-transition: 0.2s background linear;
+			transition: 0.2s background linear;			
+		}
+		
+		a {
+			text-decoration:none;
+			line-height:1em;
+			white-space:nowrap;
+			color:#25E;
+		}
+		a i {
+			display:block;
+			position:relative;
+			top:50%;
+			margin-top:-.6em;
+			padding:0 2px 0 8px;
+			font-style:normal;
+		}
+		
+		a:hover { 
+			background:#BDB;
+			color:#046;
+		}
+		a:hover i {
+			padding-top:1px;
+			padding-left:10px;
+		}
+		
+		a.bold 					{ font-weight:bold; }
+		a.red 					{ color:#900; }
+		a.gray 					{ color:#999; }
+		a.gray:hover			{ color:#557; }
+		a.center				{ text-align:center; }
+		a.center i				{ padding-left:2px; }
+		a.center:hover i		{ padding-left:4px; }
+		a.right					{ text-align:right; }
+		a.right i				{ padding-left:2px; padding-right:8px; }
+		a.right:hover i			{ padding-left:4px; }
+		a.light					{ background-color:#EEE; }
+		a.marker				{ background-color:#BDB; color:#009; }
+		a.marker:hover			{ background-color:#DEB; }	
+		
+		
+		div.center a			{ text-align:center; }
+		div.center a i			{ padding-left:2px; }
+		div.center a:hover i	{ padding-left:4px; }				
+		div.gray a 				{ color:#CCC; }
+		
+		div.a2 a {
+			width:50%;
+			height:100%;
+			left:0%;
+			top:0;
+			border-right:1px #BDB solid;
+		}
+		div.a2 a+a { 
+			left:50%; 
+			width:51%;
+			top:-100%; 
+			border:0;
+		}
+		div.a23 a {
+			width:60%;
+			height:100%;
+			left:0%;
+			top:0;
+			border-right:1px #BDB solid;
+		}
+		div.a23 a+a { 
+			left:60%; 
+			width:41%;
+			top:-100%; 
+			border:0;
+		}		
+		div.a3 a {
+			width:34%;
+			height:100%;
+			top:-200%;
+			left:68%;
+		}
+		div.a3 a:first-child {
+			left:0;
+			top:0;
+			border-right:1px #BDB solid;
+		}
+		div.a3 a:first-child+a {	
+			left:34%;
+			top:-100%;
+			border-right:1px #BDB solid;
+		}
+		
+		div.a0 i {
+			display:block;
+			text-align:center;
+			position:relative;
+			width:100%;
+			top:50%;
+			font-size:1.4em;
+			margin-top:-.6em;
+			font-style:normal;
+			color:#EB7;
+		}
+		
+		div#setrows {
+			position:absolute;
+			width:100%;
+			height:100%;
+		}
+		div#setrows div.row {
+			position:relative;
+			width:100%;
+			height:5%;
+			border-bottom:#BDB 1px solid;
+			margin-bottom:-1px;
+		}
+		
+		div#setcolls div.collumn {
+			border-right:#BDB 1px solid;
+		}
+		
+		img#yetilogo {
+			display:block;
+			position:absolute;
+			width:100%;
+			height:100%;
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+<div id="setrows">
+<div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div>
+<div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div>
+<div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div>
+<div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div><div class="row"></div>
+</div>
+<div id="setcolls">
+<div class="collumn collumn1"></div>
+<div class="collumn collumn2"></div>
+<div class="collumn collumn3"></div>
+<div class="collumn collumn4"></div>
+<div class="collumn collumn5"></div>
+<div class="collumn collumn6"></div>
+</div>
+
+<div class="collumn collumn1">
+	
+	
+	<div class="a23">
+		<a href="http://www.google.com/intl/ru/" class="bold"><i>Google</i></a>
+		<a href="http://www.google.com/imghp?hl=ru&tab=wi&q=" class="center"><i>IMG</i></a>
+	</div>
+	<a href="http://www.tineye.com/"><i>TineEye img search</i></a>
+	
+	
+	<div class="a2">
+		<a href="http://maps.google.com/maps?f=q&source=s_q&hl=ru&geocode=&q=Latvia"><i>G Maps</i></a>
+		<a href="http://gmail.com/"><i>G Mail</i></a>
+	</div>	
+	<div class="a2">
+		<a href="http://docs.google.com/"><i>G Docs</i></a>
+		<a href="http://picasaweb.google.com/home"><i>G Pics</i></a>
+	</div>
+	<div class="a23">
+		<a href="http://odnorazovoe.ru/" class="red right"><i>Trash Mail</i></a>
+		<a href="http://10minutemail.com/" class="light"><i>10min</i></a>	
+	</div>
+	
+	<div class="a0"></div>
+	
+	<a href="http://www.gramota.ru/slovari/dic/?word=&all=x"><i>Gramota.ru</i></a>
+	<a href="http://multitran.ru/"><i>Multi Tran</i></a>
+	<a href="http://translate.google.com/#en|ru"><i>Google Translate</i></a>
+	<div class="a3 center">
+		<a href="http://translate.google.com/#en|de"><i>en·de</i></a>
+		<a href="http://translate.google.com/#en|lt"><i>en·lt</i></a>
+		<a href="http://translate.google.com/#ru|lv"><i>ru·lv</i></a>
+	</div>
+	
+	<div class="a0"></div>
+
+	<a href="http://thepiratebay.org/"><i>pirate bay</i></a>
+	<a href="http://tfile.ru/"><i>tfile.ru</i></a>
+  <a href="http://vpleer.ru/?q=Fdel"><i>vpleer.ru</i></a>
+	<div class="a3">
+    <a href="http://www.zaycev.net/"><i>mp3.1</i></a>	
+    <a href="http://www.myzuka.ru/"><i>mp3.2</i></a>
+  </div>
+	
+	<div class="a0"></div>
+	
+	<a href="http://www.rigamap.lv/"><i>rigamap.lv</i></a>
+	<a href="http://www.gismeteo.ru/city/daily/4136/" class="bold"><i>gismeteo [Rīga]</i></a>
+	<a href="http://www.swackett.com/app/web.php"><i>weather in Riga</i></a>
+	
+		
+</div>
+
+<div class="collumn collumn2">
+
+  <div class="a23">
+    <a href="http://www.youtube.com/"><i>You Tube</i></a>
+    <a href="http://www.youtube-mp3.org/"><i>→mp3</i></a>
+  </div>
+	<div class="a23">
+		<a href="http://ru.wikipedia.org/wiki/Служебная:Random"><i>Wikipedia·ru</i></a>
+		<a href="http://en.wikipedia.org/wiki/Special:Random"><i>·en</i></a>
+	</div>
+	<a href="http://lurkmore.ru/%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F:Random"><i>lurkmore</i></a>	
+	
+	<div class="a0"></div>
+	
+	<a href="http://pixdaus.com/"><i>pizdaus.com</i></a>
+	<a href="http://ffffound.com/"><i>FFFFOUND!</i></a>
+	<a href="http://z0r.de/"><i>ZOMG ZUFALL</i></a>
+  <div class="a3">
+    <a href="http://z0r.de/37"><i>37</i></a>
+    <a href="http://z0r.de/11"><i>11</i></a>
+    <a href="http://z0r.de/1462"><i>1462</i></a>
+  </div>
+	<a href="http://antwrp.gsfc.nasa.gov/apod/archivepix.html"><i>Astronomy Pic of the Day</i></a>
+  <a href="http://www.sharesomecandy.com/"><i>Share Some Candy<i></a>
+  <a href="http://seesawmagazine.com/current_issue.html"><i>SEE SAW magazine</i></a>
+	
+	<div class="a0"></div>
+	
+	<a href="http://jayisgames.com/"><i>jayisgames.com</i></a>	
+	<a href="http://www.musicplasma.com/"><i>musicplasma</i></a>
+	<a href="http://www.archive.org/"><i>Internet Archieve</i></a>
+  
+  <div class="a0"></div>
+  
+  <a href="http://www.stereomood.com/mood/elegant"><i>Stereo Mood</i></a>
+
+	
+
+</div>
+
+<div class="collumn collumn3">
+	
+	<a href="http://eafangames.com/stream_all.php"><i>eafangames</i></a>
+	<a href="http://livetv.ru/" class="red bold"><i>Live TV ru</i></a>
+  <a href="http://www.leichtathletik.tv/"><i>leichtathletik</i></a>
+		
+	<a href="http://www.sport-express.ru/" class="bold"><i>Спорт-Экспресс</i></a>
+	<div class="a2">
+		<a href="http://winter.sport-express.ru/biathlon/"><i>› биатлон</i></a>
+		<a href="http://summer.sport-express.ru/athletics/"><i>› легкая</i></a>
+	</div>
+	<div class="a2">
+		<a href="http://volleyball.sport-express.ru/"><i>› волейбол</i></a>
+		<a href="http://basketball.sport-express.ru/"><i>› басктч</i></a>
+	</div>
+	<div class="a2">
+		<a href="http://extreme.sport-express.ru/"><i>› экстрим</i></a>
+		<a href="http://others.sport-express.ru/"><i>› другие</i></a>
+	</div>	
+	
+	<a href="http://www.sports.ru/"><i>Sports.ru</i></a>
+  <a href="http://www.kommersant.ru/rubric/9"><i>Kommersantъ</i></a>
+	<div class="a2">
+		<a href="http://ru.uefa.com/"><i>uefa.com</i></a>
+		<a href="http://www.biathlonworld.com/en/events.html"><i>IBU Events</i></a>
+	</div>
+  <a href="http://www.all-athletics.com/en-us/node"><i>all-athletics.com</i></a>
+	
+	<div class="a0"></div>
+  
+	<a href="http://www.kommersant.ru/rubric/5"><i>Kommersant.ru</i></a>
+  <a href="http://www.gazeta.ru/infographics/"><i>Инфорграфика</i></a>
+  <a href="http://www.snob.ru/"><i>Snob.ru</i></a>
+	<a href="http://vip.lenta.ru/"><i>vip.lenta</i></a>
+  
+	
+	
+
+</div>
+
+<div class="collumn collumn4">
+
+	<div class="a3 center">
+    <a href="http://mail.yandex.com/neo2/#inbox"><i>YM</i></a>
+    <a href="http://facebook.com/"><i>FB</i></a>
+	</div>
+
+	<div class="a3 center">
+		<a href="http://www.hattrick.org/"><i>HT</i></a>
+		<a href="http://gameknot.com/play-chess.pl"><i>CH</i></a>
+		<a href="http://mediamass.livejournal.com/friends"><i>LJ</i></a>    
+	</div>
+	
+	<a href="http://www.habrahabr.ru/" class="bold"><i>Habrahabr</i></a>
+  <a href="http://dump.iof.ru/"><i>Свалка</i></a>
+  <div class="a2">
+    <a href="http://leprosorium.ru/"><i>Lepra</i></a>	
+    <a href="http://dirty.ru/"><i>Dirty</i></a>
+  </div>
+  <a href="http://experiment.ru/"><i>experiment.ru</i></a>
+	<a href="http://ezhe.ru/ib/"><i>еже бум</i></a>		
+	<a href="http://b3ta.com/"><i>b3ta</i></a>	
+  <a href="http://www.56stuff.com/"><i>56stuff</i></a>
+	<a href="http://elementy.ru/" class="red"><i>elementy.ru</i></a>
+	<a href="http://www.astronet.ru/"><i>Astronet</i></a>
+	
+	<div class="a0"></div>
+	<div class="a0"></div>
+	
+
+	
+</div>
+
+<div class="collumn collumn5">
+
+	<a href="http://yetinews.com/"><img src="yeti.gif" id="yetilogo"/></a>
+	<a href="http://yetinews.com/zinoviy/" class="center"><i>Zinoviy</i></a>
+	<div class="a2">
+		<a href="http://yetinews.com/godmode/"><i>GOD mode</i></a>
+		<a href="http://yetinews.com/zpic/images.php"><i>img store</i></a>
+	</div>
+	<div class="a2">
+		<a href="http://iron.hosting.lv/phpmyadmin/"><i>myAdmin</i></a>
+		<a href="http://webmail.yetinews.com/"><i>web mail</i></a>
+	</div>
+	<div class="a23">
+		<a href="https://www.google.com/analytics/settings/home#scid=16711292" class="bold"><i>Analytics</i></a>
+		<a href="https://www.google.com/webmasters/tools/siteoverview?hl=ru&pli=1"><i>G Tools</i></a>
+	</div>	
+
+	<div class="a0"></div>
+	
+	<div class="a2">
+		<a href="http://localhost/"><i>localhost</i></a>
+		<a href="http://localhost/Tools/phpMyAdmin/"><i>myAdmin</i></a>
+	</div>
+	<a href="http://switter.me2/" class="gray"><i>switter.me2</i></a>
+	<a href="http://yeti1.com/" class="gray"><i>yeti1.com</i></a>
+  
+  <div class="a0"></div>
+
+  <a href="http://media-squat.com/" class="bold"><i>media-squat</i></a>
+		
+</div>
+	
+	
+<div class="collumn collumn6">	
+
+	<div class="a3 center">
+		<a href="http://www.w3schools.com/cssref/default.asp"><i>CSS</i></a>
+		<a href="http://www.w3schools.com/html/default.asp"><i>HTML</i></a>
+		<a href="http://www.w3schools.com/html5/html5_reference.asp"><i>5</i></a>
+	</div>
+	<div class="a3 center">
+		<a href="http://www.w3schools.com/jquery/jquery_ref_events.asp"><i>jQ</i></a>
+		<a href="http://www.w3schools.com/js/default.asp"><i>JS</i></a>
+		<a href="http://www.w3schools.com/php/default.asp"><i>PHP</i></a>
+	</div>
+
+	<a href="http://www.digitalmediaminute.com/reference/entity/index.php"><i>Chårαct€r Maρ</i></a>
+	<div class="a0"><i>♥§€©™←→ &nbsp;</i></div>
+	<a href="http://www.typetester.org/"><i>Type Tester</i></a>
+	<a href="spellcheck.html" class="bold"><i>Grand Area</i></a>
+	<a href="http://validator.w3.org/"><i>Validator</i></a>
+  <a href="http://mattkersley.com/responsive/"><i>240/320/480...</i></a>
+  <a href="http://www.fontsquirrel.com/fontface/generator"><i>Font Face Gen</i></a>
+  <a href="http://www.google.com/webfonts" class="bold"><i>Gogle Web Fonts</i><a>
+
+	<div class="a0"></div>
+	
+		
+	<a href="http://alistapart.com/"><i>A List Apart</i></a>
+	<a href="http://www.artlebedev.ru/"><i>Art Lebedev</i></a>
+  <a href="http://artgorbunov.ru/bb/soviet/"><i>Art Gorbunov</i></a>  
+	<a href="http://www.webdesignerwall.com/"><i>Web Designer Wall</i></a>
+	<a href="http://www.typeforyou.org/"><i>Type For You</i></a>
+  <div class="a2">
+    <a href="http://www.splashnology.com/"><i>Some1</i></a>
+    <a href="http://designwoop.com/"><i>Some2</i></a>
+  </div>
+  
+  <div class="a0"></div>
+  
+  <a href="http://css-tricks.com/"><i>css-tricks.com</i></a>
+  <a href="http://www.splashnology.com/"><i></i></a>
+	
+</div>
+
+<!--
+
+<a href="http://uncyclopedia.org/wiki/Special:Random"><i>Uncyclopedia</i></a>
+
+-->
+		
+</body>
+</html>	
