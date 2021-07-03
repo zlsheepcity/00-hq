@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Palīgs lauksaimniekam finanšu plānošanā</title>
+  
+  <!-- š -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+  <link rel="stylesheet" href="i/css/screen.css" media="screen">
+  <link rel="stylesheet" href="i/css/screen-forms.css" media="screen">
+  <!--[if lt IE 8]> <link rel="stylesheet" href="i/css/ie7.css" media="screen"> <![endif]--> 
+  <!--[if IE 8]> <link rel="stylesheet" href="i/css/ie8.css" media="screen"> <![endif]-->
+
+  <!-- JQUERY FRAMEWORK -->  
+    <script src="i/lib/jquery-1.7.2.min.js"></script>
+    <script src="i/lib/jquery.json.js"></script>
+    <script src="i/lib/webtoolkit.base64.js"></script>
+  
+  <!-- CHARTS LIBRARY Flotr2 -->
+    <!--[if IE]>
+    <script type="text/javascript" src="i/lib/flashcanvas/flashcanvas.js"></script>
+    <![endif]-->    
+    <script type="text/javascript" src="i/lib/flotr2.pdf.fix.js"></script>
+    <script type="text/javascript" src="i/lib/flotr2.pdf.js"></script> 
+  
+
+   
+  <script src="i/labels_ienemumi.js"></script>
+  <script src="i/labels_izdevumi.js"></script>
+  <script src="i/labels_rentabilitate.js"></script>
+  <script src="i/labels_investicijas.js"></script>
+  <script src="i/labels_analize.js"></script>
+  <script src="i/labels_aprekini.js"></script>
+  <script src="i/cenas_piens.js"></script>
+  <script src="i/cenas_augi.js"></script>
+
+  <script src="i/formula_ienemumi.js"></script>
+  <script src="i/formula_izdevumi.js"></script>  
+  <script src="i/formula_rentabilitate.js"></script>
+  <script src="i/formula_investicijas.js"></script>
+  <script src="i/formula_analize.js"></script>
+  
+  <script src="i/draw_forms.js"></script>
+  <script src="i/draw_charts.js"></script>
+  <script src="i/draw_pdf.js"></script>
+  <!-- script src="i/draw_charts_data.js"></script -->
+  <script src="i/interface.js"></script>
+
+  
+</head>
+<body>
+<div id="Clc-Calculator">
+
+  <h1>Palīgs lauksaimniekam finanšu plānošanā</h1>
+
+  <fieldset id="Clc-Toolbar">
+    <fieldset class="Clc-toolbar-nozare">
+      <h4>Augkopība</h4>
+      <label><input type="checkbox" id="Clc-checkbox-augkopiba1" checked /> Kvieši</label>
+      <label><input type="checkbox" id="Clc-checkbox-augkopiba2" /> Rapsis</label>
+      <label><input type="checkbox" id="Clc-checkbox-augkopiba3" /> Citi</label>
+    </fieldset>
+    <fieldset class="Clc-toolbar-nozare">
+      <h4>Lopkopība</h4>
+      <label><input type="checkbox" id="Clc-checkbox-lopkopiba" name="Clc-checkbox-lopkopiba" checked /> Piena lopkopība</label>
+    </fieldset>    
+    <fieldset class="Clc-toolbar-gadi">
+      <h4>Gadi</h4>
+      <!-- Place for checkboxes with year range -->
+    </fieldset>     
+  </fieldset>
+  
+  <ul id="Clc-Tables-Navigation">
+    <li id="Clc-Tables-Nav-Start" class="active"><span>1</span><a href="Start">Sākums</a></li>
+    <li id="Clc-Tables-Nav-Ienemumi" class="disabled"><span>2</span><a href="Ienemumi">Ieņēmumi</a></li>
+    <li id="Clc-Tables-Nav-Izdevumi" class="disabled"><span>3</span><a href="Izdevumi">Izdevumi</a></li>
+    <li id="Clc-Tables-Nav-Rentabilitate" class="disabled"><span>4</span><a href="Rentabilitate">Rentabilitāte</a></li>
+    <li id="Clc-Tables-Nav-Investicijas" class="disabled"><span>5</span><a href="Investicijas">Investīcijas</a></li>
+    <li id="Clc-Tables-Nav-Analize" class="disabled"><span>6</span><a href="Analize">Analīze</a></li>
+  </ul>
+
+  <div id="Clc-Tables-Start" class="Clc-TAB">
+  
+    <h3>Palīgs lauksaimniekam finanšu plānošanā</h3>
+    <div id="Clc-IntroText">
+      Katra biznesa veiksmīgas darbības pamatā ir sakārtotas un labi pārvaldītas finanses. Lai uzņēmums varētu attīstīties ilgtermiņā, ir svarīgi sekot līdzi finanšu situācijai un vismaz reizi gadā veikt padziļinātu analīzi.<br/><br/>
+      Lai sniegtu savu atbalstu, Swedbank Uzņēmējdarbības kompetences centrs ir sagatavojis ērtu un vienkārši lietojamu palīgu <b>finanšu plānošanā tieši lauksaimniekiem.</b> 
+    </div>
+    
+    <h3>Tas palīdzēs:</h3>
+    <ul id="Clc-IntroList">
+      <li> Noteikt, cik efektīvi strādā jūsu saimniecība
+      <li> Plānot saimniecības turpmāko darbību un modelēt iespējamo attīstību
+      <li> Noteikt darbības stiprās un uzlabojamās puses
+      <li> Saņemt ieteikumus par to, ko vajadzētu uzlabot
+      <li> Iegūt ienākumu un izdevumu struktūras pārskatu
+    </ul>
+
+  
+        
+    <div id="Clc-IntroButtons">
+      <span class="label">
+		<input type="checkbox" id="Clc-piekritu-nosacijumiem" name="Clc-piekritu-nosacijumiem"/>
+		— piekrītu <span id="Clc-nosacijumi-text">nosacījumiem</span>
+	  </span>
+      <input type="button" id="Clc-piekritu-nosacijumiem-button" name="Clc-piekritu-nosacijumiem-button" value="Sākt" disabled />
+    </div>
+
+  <div id="Clc-Coolbar" style="display:none;">
+  <h3 style="padding-left:0;">Lietošanas noteikumi</h3>
+	Tiek izmantoti tikai tie dati, kurus ievadāt pakalpojuma izmantošanas laikā, – finanšu plānošanas palīgs neizmanto Swedbank rīcībā esošos datus. Jūsu ievadītie dati tiks izmantoti tikai šī pakalpojuma vajadzībām, kā arī statistikas veidošanai. Šie dati netiks atklāti trešajām personām – tām būs pieejama tikai statistika, kas iegūta, apkopojot visu pakalpojuma izmantotāju ievadītos datus.<br/><br/>
+  Pakalpojuma laikā izteiktie padomi balstās uz jūsu ievadīto datu analīzi (Swedbank nepārbauda to pareizību) un ir vispārīgi – tiem ir vienīgi ieteikuma raksturs, un to izmantošana ir tikai jūsu atbildība. 
+  </div>  	
+    
+  </div>
+  
+  <div id="Clc-Tables-Ienemumi" class="Clc-TAB" style="display:none">
+    <div class="Clc-insert-form"></div>
+    <div class="clc-talak-area"><input type="button" value="Tālāk"/></div>
+  </div>
+  <div id="Clc-Tables-Izdevumi" class="Clc-TAB" style="display:none">
+    <div class="Clc-insert-form"></div>
+    <div class="clc-talak-area"><input type="button" value="Tālāk"/></div>
+  </div>
+  <div id="Clc-Tables-Rentabilitate" class="Clc-TAB" style="display:none">
+    <div class="Clc-insert-form"></div>
+    <div class="clc-talak-area"><input type="button" value="Tālāk"/></div>
+  </div>
+  <div id="Clc-Tables-Investicijas" class="Clc-TAB" style="display:none">
+    <div class="Clc-insert-form"></div>
+    <div class="clc-talak-area"><input type="button" value="Tālāk"/></div>
+  </div>
+  
+  <div id="Clc-Tables-Analize" class="Clc-TAB" style="display:none">
+  
+    <div id="Clc-Analize-Intro">
+         
+      <h3>Analīze</h3>
+      Pamatojoties uz jūsu ievadītajiem datiem, ir veikta analīze. Tālāk varat redzēt pārskatu par jūsu saimniecības darbības efektivitāti, kā arī saimniecības darbības stiprajām pusēm un rādītājiem, kurus būtu ieteicams uzlabot.<br/><br/>
+      Lai pārrunātu iegūtos rezultātus, aicinām pieteikties uz konsultāciju pie sava uzņēmuma menedžera vai jebkurā Swedbank filiālē, zvanot pa tālruni <nobr>67 444 444</nobr> vai <a href="http://www.swedbank.lv/pakalp/jp_1_8.php">šeit</a>.
+      <div id="Clc-Analize-IntroButtons">
+        <form id="Clc-PDF-Data" action="./pdf/" method="post" accept-charset="UTF-8" enctype="multipart/form-data">
+          <input type="hidden" id="Clc-PDF-DataValues" name="values" value=''>
+          <input type="hidden" id="Clc-PDF-DataParams" name="params" value=''>
+          <input type="hidden" id="Clc-PDF-DataImages" name="images" value=''> <!--ssneg: send image data to php, too-->
+        </form>
+        
+        <a href="./pdf" id="Clc-btn-PDF" class="Clc-btn">Saglabāt/drukāt (PDF, 0.8 Mb)</a> 
+
+      </div>
+      
+    </div>
+	
+    <div id="Clc-Analize-Charts">
+   
+      
+      <div id="Clc-Chart-Cenas-hideme">
+        <h5>Jūsu produkcijas vidējā cena salīdzinājumā ar tirgus vidējo cenu.</h5>
+        <div style="margin-left:9px;"><img src="i/graph_header.png" alt=""></div>
+        
+		  
+			  <div id="Clc-Chart-Piens-BLOCK" class="Clc-charts">
+          <h5>Cenas: Piens, (Ls/l)</h5>
+          <div id="Clc-Chart-Piens" class="Clc-chart"></div>
+          <div id="Clc-Chart-Piens-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+			  </div>
+        
+			  <div id="Clc-Chart-Augi1-BLOCK" class="Clc-charts">
+          <h5>Cenas: Kvieši, (Ls/t)</h5>
+          <div id="Clc-Chart-Augi1" class="Clc-chart"></div>
+          <div id="Clc-Chart-Augi1-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+        </div>
+        
+        <div id="Clc-Chart-Augi2-BLOCK" class="Clc-charts">
+          <h5>Cenas: Rapsis, (Ls/t)</h5>
+          <div id="Clc-Chart-Augi2" class="Clc-chart"></div>
+          <div id="Clc-Chart-Augi2-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+			  </div>			  
+      </div>
+    
+      
+      <h5>Ieņēmumu un izdevumu struktūra, %YEAR%</h5>
+      
+        <div class="Clc-charts">
+          <h5>Ieņēmumi</h5>
+          <div id="Clc-Chart-Ienakumi" class="Clc-chart-aplis"></div>
+          
+          <h5>Izdevumi</h5>
+          <div id="Clc-Chart-Izdevumi" class="Clc-chart-aplis"></div>
+        </div>    
+        
+            
+      <h5>Jūsu saimniecības rādītāji (analītiskie komentāri attiecas uz %YEAR% gada rādītājiem)</h5>
+      
+        <div class="Clc-charts">
+          <h5>Peļņa no pamatdarbības (EBITDA pamat.), Ls</h5>
+          <div id="Clc-Chart-EBITDA1" class="Clc-chart"></div>
+          <div id="Clc-Chart-EBITDA1-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+        </div>
+        
+        <div class="Clc-charts">
+          <h5>Peļņa kopā (EBITDA), Ls</h5>
+          <div id="Clc-Chart-EBITDA2" class="Clc-chart"></div>
+          <div id="Clc-Chart-EBITDA2-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>			
+        </div> 
+        <div class="Clc-charts">  
+          <h5>Spēja apkalpot saistības (DSCR)</h5>
+          <div id="Clc-Chart-DSCR2" class="Clc-chart"></div>
+          <div id="Clc-Chart-DSCR2-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+        </div>  
+        
+        <div class="Clc-charts">  
+          <h5>Saistību apjoms, gadi (Debt/EBITDA)</h5>        
+          <div id="Clc-Chart-DeptEBITDA2" class="Clc-chart"></div>
+          <div id="Clc-Chart-DeptEBITDA2-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+        </div> 
+        
+          
+      <h5>Papildu saimniecības rādītāji</h5>
+      
+        <div class="Clc-charts Clc-charts-papildais-piens">  
+          <h5>Vidējais izslaukums, kg</h5>
+          <div id="Clc-Chart-Izlaukims" class="Clc-chart"></div>
+          <div id="Clc-Chart-Izlaukims-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+        </div>          
+        
+        <div class="Clc-charts Clc-charts-papildais-piens">  
+          <h5>Piena pašpatēriņš, %</h5>
+          <div id="Clc-Chart-Paspaterins" class="Clc-chart"></div>
+          <div id="Clc-Chart-Paspaterins-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+        </div>         
+        
+        <div class="Clc-charts">  
+          <h5>Naudas plūsma kopā, Ls</h5>
+          <div id="Clc-Chart-Plusma" class="Clc-chart"></div>
+          <div id="Clc-Chart-Plusma-Tips" class="Clc-chart Clc-insert-chartTips Clc-tips-side"></div>
+        </div>            
+          
+    </div>
+    
+    
+    <h5>Finanšu rādītāju koeficenti</h5>
+    
+    <div id="Clc-Analize-Formulas">
+      <div class="Clc-insert-form"></div>
+      <div class="Clc-insert-tips" style="display:none"></div>
+    </div>    
+    
+
+    
+  </div>
+
+  <!-- charts for export to pdf -->
+  <div id="Clc-Charts-for-PDF" style="width:1px;height:1px;overflow:hidden;">
+    <div id="Clc-Chart-Ienakumi-PDF"    class="Clc-chart-aplis Clc-chart-PDF"></div>
+    <div id="Clc-Chart-Izdevumi-PDF"    class="Clc-chart-aplis Clc-chart-PDF"></div>
+    
+    <div id="Clc-Chart-EBITDA1-PDF"     class="Clc-chart Clc-chart-PDF"></div>
+    <div id="Clc-Chart-EBITDA2-PDF"     class="Clc-chart Clc-chart-PDF"></div>
+    <div id="Clc-Chart-DSCR2-PDF"       class="Clc-chart Clc-chart-PDF"></div>
+    <div id="Clc-Chart-DeptEBITDA2-PDF" class="Clc-chart Clc-chart-PDF"></div>
+    <div id="Clc-Chart-Izlaukims-PDF"   class="Clc-chart Clc-chart-PDF"></div>
+    <div id="Clc-Chart-Paspaterins-PDF" class="Clc-chart Clc-chart-PDF"></div>
+    <div id="Clc-Chart-Plusma-PDF"      class="Clc-chart Clc-chart-PDF"></div>
+    
+    <div id="Clc-Chart-Piens-PDF"       class="Clc-chart Clc-chart-PDF"></div>
+    <div id="Clc-Chart-Augi1-PDF"       class="Clc-chart Clc-chart-PDF"></div>
+    <div id="Clc-Chart-Augi2-PDF"       class="Clc-chart Clc-chart-PDF"></div>
+    <style>
+      @font-face {
+        font-family: 'clcpdf';
+        src: url('pdf/font/swedbanksans-medium.eot');
+        src: url('pdf/font/swedbanksans-medium.eot?#iefix') format('embedded-opentype'),
+             url('pdf/font/swedbanksans-medium.woff') format('woff'),
+             url('pdf/font/swedbanksans-medium.ttf') format('truetype'),
+             url('pdf/font/swedbanksans-medium.svg#swedbanksans-medium') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }   
+    </style>
+    <div style="font-family:clcpdf;">Necessary DIV for using font</div>
+  </div>
+ 
+</div>
+
+
+<!--
+<div id="testcanvas" style="width:300px;height:200px;"></div>
+-->
+<script>
+/*
+      (function () {
+
+        var
+          container = document.getElementById('testcanvas');
+
+
+var graph = Flotr.draw(
+  container,
+  
+ [{
+    data: [[2011,1.123]],
+    bars: 
+    {
+      show : true,
+      shadowSize : 0,
+      barWidth : 0.95,
+      lineWidth: 0,
+      fillColor: '#FF6600',
+      fillOpacity: 1.0
+    }
+ },
+ {
+    data: [[2012, 2.567]],
+    bars : 
+    {
+      show : true,
+      shadowSize : 0,
+      barWidth : 0.95,
+      lineWidth: 0,
+      fillColor: '#D1D0CE',
+      fillOpacity: 1.0
+    }
+  }]  
+  , 
+ {
+      HtmlText: false,
+      resolution: 1, 
+      fontColor: '#000000',
+      color: '#111111',      
+      markers: {
+        show: true,
+        position: 'ca',
+        labelFormatter: function (o) { return o.y+''; },
+        //labelFormatter:  function(obj){   return obj.y+''; },
+      fontSize: 9,
+      verticalMargin: 4
+      },
+     xaxis: {
+      showLabels: true,
+      tickDecimals: 0,
+      color: '#000000'
+      },
+     yaxis: {
+      showLabels: false,
+      autoscale: true, 
+      autoscaleMargin: 1,
+      ticks: [0]
+      },
+     grid : {
+      color: '#D2D0CE',
+      tickColor: '#D2D0CE',
+      outline : 's',
+      verticalLines: false,
+      horizontalLines: true,
+      labelMargin: 6 
+     }
+    }
+);       
+
+      var testcanvas = document.getElementById('testcanvas').getElementsByTagName('canvas');
+      console.log('testing canvas toDataURL --------------------------------------');
+      console.log('data = ' + testcanvas[0].toDataURL('image/png'));  
+        
+      })();
+*/      
+</script>
+
+<script src="i/onload.js"></script>
+
+
+</body>
+</html>

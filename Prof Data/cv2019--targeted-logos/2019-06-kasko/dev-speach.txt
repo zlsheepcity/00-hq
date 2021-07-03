@@ -1,0 +1,39 @@
+Some quick facts for teamleads.
+Dev first, teamwork next.
+
+ANGULAR — don't like deep mixing of content/maintenance. But it works and cheap in development.
+
+VUE — happy about combined html/scss/any-js in one-file template. But something always goes wrong with this framework — cool ideas could be unreachable. I'll wait for better solution. Could be Svetle...
+
+PHP — it's all about wordpress themes*. Means, I can't even imagine what the other php-programmers do. Was checking some PHP-digest a week ago — looks boring for me.
+* including custom SELECTs, custom views logic, API integration e.t.c
+
+JAVASCRIPT — fits my natural language of thinking. After an ages, browsers become my good friends. And the «browsers» means: js-engines, css-parsers, paint-processes e.t.c.
+
+CODING SPEED is not high. Step by step as it's first time, even if task is common. Reason in cleaning all the names/terms from head after the Task is done. Example case:
+
+If code logic has to apply any function, I will google something like "js split string", and will check trusted resources for correct syntax and usage. This strategy works great — gives ability to catch important markers like «Deprecated» or «There is a better solution» — keeps me modern.
+
+MARKUP/CSS — part of a content in 2019. Must be controlled by Content Department rather than Development. It's still unusual case in business, but i'm the one who may be responsible from both sides. My «Holy War» is here.
+
+Example of markup/css/js + own content/illustrations:
+https://sheeptoday.github.io/appking/src/main.html
+https://github.com/sheeptoday/appking/tree/master/src
+
+ANY OTHER tech/workflow never was a problem.
+
+* * *
+
+TEAMWORK
+
+Developing interfaces over 20 years, become an interface myself. Just using the best practicles from Human-Web within conversations Human-Human. Both spoken and written. Like, SIMPLE TITLES inside this plain text or short summary in the second row.
+
+TEAM LEADING, PROJECT MANAGEMENT — it's each time unique experience. Nothing to aggregate.
+
+SIDE SKILLS (by developers side)
+— in design, to remove any pain with icons/colors/etc
+— in bussiness, to catch some alerts when profit is under question
+— in education, to explain IT logic for people without education in IT
+— in marketing, to creatively fix their ideas in favor for simple dev
+
+SPEAK LESS — usualy don't have anything to speak. Have to do something instead. I really hope, this text will reduce our conversation into five minutes of easy-talking.

@@ -1,0 +1,334 @@
+body {
+  background: #fff;
+  color: #000;
+}
+
+/* ---------------------------------------------------------------- */
+
+#Clc-Calculator {
+  width:600px;
+  font-family: arial, sans-serif;
+  font-size: 11px;
+  color: #000;
+}
+#Clc-Calculator * {
+  margin: 0;
+  padding: 0;
+}
+
+#Clc-Calculator h1 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#Clc-Calculator h5 {
+  font-size:1.2em;
+  font-weight:bold;
+  padding:2px 9px;
+  margin-bottom:8px;
+}
+
+#Clc-Calculator input {
+  vertical-align: middle;
+  font-size:11px;
+}
+
+#Clc-Calculator .orange {
+  color: #F60;
+}
+
+/* TOOLBAR */
+#Clc-Calculator fieldset {
+  border:0;
+  display:block;
+  white-space: nowrap;
+  line-height: 1.5em;
+  padding-bottom: 4px;
+}
+#Clc-Calculator #Clc-Toolbar label,
+#Clc-Calculator #Clc-Coolbar label {
+  display: inline-block;
+  font-size: 1.2em;
+  padding-right: 1em;
+}
+#Clc-Calculator #Clc-Toolbar h4,
+#Clc-Calculator #Clc-Coolbar h4 {
+  color: #FF841D;
+  font-weight: bold;
+  width: 90px;  
+  display: inline-block;
+  font-size: 1.2em;
+  
+}
+
+#Clc-Calculator #Clc-Coolbar { margin:0 19px 19px 19px; }
+#Clc-Calculator #Clc-Coolbar h4 { width:300px; }
+#Clc-Calculator #Clc-Coolbar input { width:240px; }
+#Clc-Calculator #Clc-Coolbar input.nm { width:60px; text-align:right; }
+
+
+/* SCREENS */
+#Clc-Calculator .Clc-TAB {
+  border: #CECECE 1px solid;
+  background: #F0F0F0;
+}
+#Clc-Calculator .Clc-TAB h3 {
+  background: #F90;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 4px 9px 4px 9px;
+}
+
+/* TAB BUTTONS */
+
+#Clc-Calculator #Clc-Tables-Navigation {
+  list-style: none;
+  white-space: nowrap;
+  margin: 20px 0 20px 3px;
+}
+#Clc-Calculator #Clc-Tables-Navigation li {
+  display: inline-block;
+  margin-right: 4px;
+}
+#Clc-Calculator #Clc-Tables-Navigation li a {
+  display: inline-block;
+  vertical-align: top;
+  height: 31px;
+  line-height: 31px;
+  background: url(tabarr.gif) 100% 0 no-repeat transparent;
+  padding: 0 22px 0 4px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+#Clc-Calculator #Clc-Tables-Navigation li:last-of-type a {
+  background-image: none;
+}
+#Clc-Calculator #Clc-Tables-Navigation li span {
+  display: none;
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  vertical-align: top;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #000;  
+  background: url(tabnum.gif) 100% 0 no-repeat transparent;
+}
+#Clc-Calculator #Clc-Tables-Navigation li.active a,
+#Clc-Calculator #Clc-Tables-Navigation li.active:last-of-type a {
+  background-image: url(tabcap.gif);
+}
+#Clc-Calculator #Clc-Tables-Navigation li.active span {
+  display: inline-block;
+}
+#Clc-Calculator #Clc-Tables-Navigation li.disabled a {
+  color: #aaa;
+}
+
+
+
+/* ANALIZE */
+#Clc-Calculator #Clc-Tables-Analize.Clc-TAB {
+  background: transparent;
+  border: 0;
+}
+#Clc-Calculator #Clc-Tables-Analize.Clc-TAB #Clc-Analize-Intro {
+  background:#EFEEED;
+  padding:19px;
+  margin-bottom:18px;
+  font-size:1.2em;
+}
+#Clc-Calculator #Clc-Tables-Analize.Clc-TAB #Clc-Analize-Intro h3 {
+  background:none;
+  padding-top:0;
+  padding-left:0;
+  padding-right:0;
+}
+#Clc-Calculator #Clc-Analize-IntroButtons {
+  padding-top:8px;
+  text-align:right;
+}
+#Clc-Calculator #Clc-Analize-IntroButtons .Clc-btn {
+  display: inline-block;
+  line-height: 18px;
+  background: 0 0 no-repeat;
+  padding-left: 22px;
+  margin-left: 20px;
+  color:#000;
+  text-decoration:none;
+}
+#Clc-Calculator #Clc-Analize-IntroButtons .Clc-btn:hover {
+  text-decoration:underline;
+}
+#Clc-Calculator #Clc-Analize-IntroButtons #Clc-btn-PDF.Clc-btn { background-image: url(icon_pdf.gif); }
+#Clc-Calculator #Clc-Analize-IntroButtons #Clc-btn-Print.Clc-btn { background-image: url(icon_print.gif); }
+
+
+#Clc-Calculator #Clc-Analize-Charts {
+  margin-bottom:18px;
+}
+
+#Clc-Calculator #Clc-Analize-Formulas {
+  border: #CECECE 1px solid;
+  background: #F0F0F0;
+  margin-bottom:18px;
+}
+
+
+
+#Clc-Calculator .Clc-insert-tips {
+  padding-bottom: 20px;
+}
+#Clc-Calculator .Clc-insert-tips h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em 18px 4px 18px;
+}
+#Clc-Calculator .Clc-insert-tips p {
+  margin: 0 0 0 18px;
+}
+#Clc-Calculator .Clc-insert-tips ol {
+  margin: 4px 0 0 32px;
+  padding:0;
+}
+#Clc-Calculator .Clc-insert-tips ol li {
+	padding-bottom:4px;
+}
+#Clc-Calculator .Clc-insert-tips h4 span {
+  color: #F60;
+}
+
+#Clc-Calculator .Clc-insert-chartTips h4 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 12px 4px 18px;
+}
+#Clc-Calculator .Clc-tips-side.Clc-insert-chartTips h4 { margin-top:2.2em; }
+#Clc-Calculator .Clc-insert-chartTips p {
+  margin: 0 12px 0 18px;
+}
+#Clc-Calculator .Clc-insert-chartTips ol {
+  margin: 4px 0 0 32px;
+  padding:0;
+}
+#Clc-Calculator .Clc-insert-chartTips ol li {
+	padding-bottom:4px;
+}
+#Clc-Calculator .Clc-insert-chartTips h4 span {
+  color: #F60;
+}
+
+
+/* INTRO TEXT */
+
+#Clc-Calculator #Clc-Tables-Start.Clc-TAB {
+  background: transparent;
+}
+#Clc-Calculator #Clc-Tables-Start.Clc-TAB h3 {
+  background: transparent;
+  padding-top: 18px;
+}
+#Clc-Calculator #Clc-IntroText {
+  padding: 8px 18px 18px 18px;
+  font-size: 1.2em;
+}
+#Clc-Calculator #Clc-IntroList {
+  padding: 8px 18px 18px 18px;
+  margin: 0;
+  list-style: none;
+  font-size: 1.2em;
+}
+#Clc-Calculator #Clc-IntroList li {
+  background: url(marker.gif) 0 6px no-repeat;
+  padding-left: 16px;
+  line-height: 1.6em;
+}
+#Clc-Calculator #Clc-IntroButtons {
+  padding: 18px;
+}
+#Clc-Calculator #Clc-IntroButtons span.label {
+  display: inline-block;
+  padding-right: 20px;
+}
+#Clc-Calculator #Clc-IntroButtons input[type="button"] {
+  font-weight: bold;
+  padding: 1px 8px;
+  font-size: 1em;  
+}
+#Clc-nosacijumi-text {
+  display: inline-block;
+  border-bottom: 1px #930 dashed;
+  color: #930;
+  cursor:pointer;
+}
+
+/* CHARTS */
+
+#Clc-Calculator .Clc-charts {
+  width:100%;
+  overflow:hidden;
+  margin-bottom:18px;
+}
+#Clc-Calculator .Clc-chart {
+  width:278px;
+  height:200px;
+  margin:10px;
+  float:left;
+}
+#Clc-Calculator .Clc-charts h5 {
+  font-weight:normal;
+  font-size:11pt;
+  margin-top:1em;
+}
+#Clc-Calculator .Clc-chart.Clc-insert-chartTips {
+  height:auto;
+  margin-top:0;
+  font-size:11pt;
+}
+#Clc-Calculator .Clc-chart.Clc-insert-chartTips h4 {
+  font-size:11pt;
+}
+#Clc-Calculator .Clc-chart-aplis {
+  width:800px;
+  height:220px;
+  margin:4px;
+}
+#Clc-Calculator .Clc-chart-izdevumi {
+  width:auto;
+  height:220px;
+  margin:10px;
+}
+
+/* CHARTS FOR EXPORT TO PDF */
+#Clc-Calculator #Clc-Charts-for-PDF .Clc-chart
+{
+  width:1600px;
+  height:1200px;
+  float:none;
+  margin:0;
+}
+#Clc-Calculator #Clc-Charts-for-PDF .Clc-chart-aplis
+{
+  width:3600px;
+  height:1600px;
+  float:none;
+  margin:0;
+}
+
+/* talak button */
+
+#Clc-Calculator .clc-talak-area
+{
+  padding:9px;
+  text-align:right;
+}
+#Clc-Calculator .clc-talak-area input[type="button"]
+{
+  padding:2px 8px;
+  font-weight:bold;
+}

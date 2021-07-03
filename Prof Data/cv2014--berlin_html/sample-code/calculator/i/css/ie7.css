@@ -1,0 +1,37 @@
+#Clc-Calculator #Clc-Toolbar h4, 
+#Clc-Calculator #Clc-Coolbar h4 {
+  display: inline;
+}
+#Clc-Calculator #Clc-Tables-Navigation {
+  zoom:1;
+}
+#Clc-Calculator #Clc-Tables-Navigation li {
+  display: block;
+  float:left;
+}
+#Clc-Calculator #Clc-Tables-Navigation li a {
+  display: block;
+}
+#Clc-Calculator #Clc-Tables-Navigation li.active span {
+  display: block;
+  float:left;
+}
+#Clc-Calculator #Clc-Coolbar input.nm { padding-right:4px; }
+
+#Clc-Charts-for-PDF { display:none; }
+
+/* CHARTS FOR EXPORT TO PDF */
+#Clc-Calculator #Clc-Charts-for-PDF .Clc-chart
+{
+  width:1600px;
+  height:1200px;
+  float:none;
+  margin:0;
+}
+#Clc-Calculator #Clc-Charts-for-PDF .Clc-chart-aplis
+{
+  width:2700px;
+  height:1200px;
+  float:none;
+  margin:0;
+}

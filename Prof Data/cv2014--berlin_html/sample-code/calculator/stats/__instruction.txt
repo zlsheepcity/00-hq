@@ -1,0 +1,10 @@
+db_connect.php
+set connection to database and define the mySql table name
+
+commit.php
+recieve 2 strings from post and insert it in database
+
+get.php
+read all values from database and generate javascript code
+ 
+ 

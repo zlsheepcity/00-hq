@@ -1,0 +1,122 @@
+/* GENERAL */
+#Clc-Calculator table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#Clc-Calculator table td,
+#Clc-Calculator table th {
+  padding: 2px 0;
+  vertical-align: middle;
+}
+
+
+/* CAPTIONS - YEARS */
+#Clc-Calculator table thead th {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 4px;
+}
+
+
+/* CAPTIONS - FIELDS */
+#Clc-Calculator table tbody th {
+  font-weight: normal;
+  text-align: left;
+  width: 100%;
+}
+#Clc-Calculator table tbody th div {
+  padding-left: 9px;
+}
+#Clc-Calculator table tbody th div.calc {
+  font-weight: bold;
+}
+#Clc-Calculator table tbody th input[type="text"] {
+  width:95%;
+  text-align:left;
+  margin: 0;
+}
+#Clc-Calculator table tr.orange th {
+  color: #F60;
+  font-weight: bold;
+  font-size:1.2em;
+}
+
+/* CAPTIONS - FOOTER */
+#Clc-Calculator table tfoot th {
+  font-weight: bold;
+  color: #F60;
+  font-size: 1.2em;
+  text-align: left;
+  width: 100%;
+}
+#Clc-Calculator table tfoot th div {
+  padding-left: 9px;
+}
+#Clc-Calculator table tfoot td,
+#Clc-Calculator table tfoot th {
+  border-top: 1px solid #ccc;
+  padding-top: 8px;
+}
+
+
+/* FIELDS */
+#Clc-Calculator table input {
+  width: 60px;
+  text-align: right;
+  font-size: 1em;
+  font-weight: normal;
+  padding: 2px;
+  margin: 0 2px;
+}
+#Clc-Calculator table input.input {
+  border: #aaa 1px solid;
+  box-shadow: 5px 5px 5px #ddd inset;
+  background: #fff;
+}
+
+#Clc-Calculator table input.calc {
+  border: transparent 1px solid;
+  background: transparent;
+  font-weight: bold;
+}
+
+
+/* INTERFACE */
+#Clc-Calculator table tbody tr:hover {
+  background: #e0e0e0;
+}
+#Clc-Calculator table thead th.Clc-hidden-year {
+  color: #999999;
+}
+#Clc-Calculator table tbody td.Clc-hidden-year *,
+#Clc-Calculator table tfoot td.Clc-hidden-year * {
+  visibility:hidden;
+}
+#Clc-Calculator table .Clc-YearCollumn span {
+  display: inline-block;
+  border-bottom: #ccc 1px dashed;
+  padding: 0 0 0 2px;
+  cursor: pointer;
+}
+
+/* SPECIAL */
+#Clc-Calculator #Clc-ienem_platiba_inputcaption { 
+  width:60px;
+  text-align:right;
+}
+
+#Clc-Calculator .Clc-inform-tip {
+  color:red;
+  text-align:center;
+  display:none;
+  background:#F26E35 !important;
+  color:#fff;
+}
+#Clc-Calculator .Clc-inform-tip td {
+  padding-bottom:10px !important;  
+}
+#Clc-Calculator .Clc-fieldNote {
+  color:red;
+  border-color:#F26E35 !important;
+}

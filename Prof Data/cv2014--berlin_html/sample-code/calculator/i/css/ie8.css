@@ -1,0 +1,32 @@
+/* */
+
+#Clc-Calculator #Clc-Tables-Navigation li a {
+display:block;
+float:left;
+background: url(tabarr.gif) 100% 0 no-repeat transparent;
+}
+#Clc-Calculator #Clc-Tables-Navigation li span {
+float:left;
+}
+#Clc-Calculator #Clc-Tables-Navigation li.active span {
+display:block;
+}
+#Clc-Calculator #Clc-Tables-Navigation li.active a {
+background-image: url(tabcap.gif);
+}
+
+/* CHARTS FOR EXPORT TO PDF */
+#Clc-Calculator #Clc-Charts-for-PDF .Clc-chart
+{
+  width:1600px;
+  height:1200px;
+  float:none;
+  margin:0;
+}
+#Clc-Calculator #Clc-Charts-for-PDF .Clc-chart-aplis
+{
+  width:2700px;
+  height:1200px;
+  float:none;
+  margin:0;
+}
